@@ -1,6 +1,5 @@
 import Navbar from './navbar'
 
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
