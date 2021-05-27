@@ -1,11 +1,13 @@
 import Head from 'next/head'
+import Page from '../components/page'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <Page>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet"></link>
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
@@ -77,6 +79,6 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
         </a>
       </footer>
-    </div>
+    </Page>
   )
 }
