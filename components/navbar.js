@@ -8,7 +8,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-white shadow wf-notosansjapanese">
+    <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -31,25 +31,25 @@ export default function Navbar() {
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   <a
                     href="#"
-                    className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium"
+                    className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
                   >
                     Playfulな人
                   </a>
                   <a
                     href="#"
-                    className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium"
+                    className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
                   >
                     研究プロジェクト
                   </a>
                   <a
                     href="#"
-                    className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium"
+                    className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
                   >
                     発表文献
                   </a>
                   <a
                     href="#"
-                    className="border-indigo-300 text-indigo-700 hover:border-indigo-900 hover:text-indigo-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium"
+                    className="border-indigo-300 text-indigo-700 hover:border-indigo-900 hover:text-indigo-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
                   >
                     研究室公開
                   </a>

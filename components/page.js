@@ -9,6 +9,14 @@ export default function Page({ children }) {
     <div>
       <Navbar />
       {children}
+      <footer className="flex items-center justify-center w-full h-24 border-t">
+        <img
+          className="hidden lg:block h-4 w-auto"
+          src="/playful.svg"
+          alt="Playful Laboratory"
+        />
+        {' '} Playful Laboratory, Ritsumeikan University
+      </footer>
     </div>
   )
 }
