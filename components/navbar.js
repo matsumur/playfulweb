@@ -15,41 +15,43 @@ export default function Navbar() {
             <div className="flex justify-between h-16">
               <div className="flex">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                    alt="Workflow"
-                  />
-                  <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
-                    alt="Workflow"
-                  />
+                  <a href="/">
+                    <img
+                      className="block lg:hidden h-8 w-auto"
+                      src="/playful.svg"
+                      alt="Playful Laboratory"
+                    />
+                    <img
+                      className="hidden lg:block h-8 w-auto"
+                      src="/playful_text.svg"
+                      alt="Playful Laboratory"
+                    />
+                  </a>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   <a
                     href="#"
                     className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium"
                   >
-                    People
+                    Playfulな人
                   </a>
                   <a
                     href="#"
                     className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium"
                   >
-                    Research
+                    研究プロジェクト
                   </a>
                   <a
                     href="#"
                     className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium"
                   >
-                    Publications
+                    発表文献
                   </a>
                   <a
                     href="#"
-                    className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium"
+                    className="border-indigo-300 text-indigo-700 hover:border-indigo-900 hover:text-indigo-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium"
                   >
-                    Open Lab
+                    研究室公開
                   </a>
                 </div>
               </div>
