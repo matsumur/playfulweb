@@ -30,7 +30,7 @@ export default function Navbar() {
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   <a
-                    href="#"
+                    href="/people"
                     className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
                   >
                     Playfulな人
