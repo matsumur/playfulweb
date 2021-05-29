@@ -9,7 +9,7 @@ export default function Page({ children }) {
     <div>
       <Navbar />
       {children}
-      <footer className="flex items-center justify-center w-full h-24 border-t">
+      <footer className="flex items-center justify-center w-full h-24 border-t mt-10">
         <img
           className="hidden lg:block h-4 w-auto mr-2"
           src="/playful.svg"

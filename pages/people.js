@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Page from '../components/page'
 import About from '../components/about'
-import Faculty from '../components/faculty'
+import {Faculty, Bachelor, Master} from '../components/people'
 import Divider from '../components/divider'
 
 export default function People() {
@@ -21,15 +21,12 @@ export default function People() {
         </About>
 
         <Divider>教員</Divider>
-        <Faculty name="松村 耕平 准教授">
-
-          <p></p>
-        </Faculty>
-        <Faculty name="岡藤 勇希 助教">aafdsfsdafasda</Faculty>
+          <Faculty />
 
         <Divider>博士前期課程</Divider>
-
+          <Master />
         <Divider>学部</Divider>
+          <Bachelor />
       </main>
     </Page>
   )
