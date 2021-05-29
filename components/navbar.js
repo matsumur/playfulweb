@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import Link from 'next/link'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -15,44 +16,46 @@ export default function Navbar() {
             <div className="flex justify-between h-16">
               <div className="flex">
                 <div className="flex-shrink-0 flex items-center">
-                  <a href="/">
-                    <img
-                      className="block lg:hidden h-8 w-auto"
-                      src="/playful.svg"
-                      alt="Playful Laboratory"
-                    />
-                    <img
-                      className="hidden lg:block h-8 w-auto"
-                      src="/playful_text.svg"
-                      alt="Playful Laboratory"
-                    />
+                  <Link href="/">
+                    <a>
+                      <img
+                        className="block lg:hidden h-8 w-auto"
+                        src="/playful.svg"
+                        alt="Playful Laboratory"
+                      />
+                      <img
+                        className="hidden lg:block h-8 w-auto"
+                        src="/playful_text.svg"
+                        alt="Playful Laboratory"
+                      />
                   </a>
+                  </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                  <a
-                    href="/people"
-                    className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
-                  >
-                    Playfulな人
-                  </a>
-                  <a
-                    href="#"
-                    className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
-                  >
-                    研究プロジェクト
-                  </a>
-                  <a
-                    href="#"
-                    className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
-                  >
+                  <Link href="/people">
+                    <a className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
+                    >
+                      Playfulな人
+                    </a>
+                  </Link>
+                  <Link href="#">
+                    <a className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
+                    >
+                      研究プロジェクト
+                    </a>
+                  </Link>
+                  <Link href="#">
+                    <a className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
+                    >
                     発表文献
-                  </a>
-                  <a
-                    href="#"
-                    className="border-indigo-300 text-indigo-700 hover:border-indigo-900 hover:text-indigo-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
-                  >
-                    研究室公開
-                  </a>
+                    </a>
+                  </Link>
+                  <Link href="#">
+                    <a className="border-indigo-300 text-indigo-700 hover:border-indigo-900 hover:text-indigo-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
+                    >
+                      研究室公開
+                    </a>
+                  </Link>
                 </div>
               </div>
 
@@ -72,30 +75,30 @@ export default function Navbar() {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="pt-2 pb-3 space-y-1">
-              <a
-                href="#"
-                className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              >
-                People
-              </a>
-              <a
-                href="#"
-                className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              >
-                Research
-              </a>
-              <a
-                href="#"
-                className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              >
-                Publications
-              </a>
-              <a
-                href="#"
-                className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              >
-                Open Lab
-              </a>
+              <Link href="/people">
+                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                >
+                  Playfulな人
+                </a>
+              </Link>
+              <Link href="#">
+                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                >
+                  研究プロジェクト
+                </a>
+              </Link>
+              <Link href="#">
+                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                >
+                  Publications
+                </a>
+              </Link>
+              <Link href="#">
+                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                >
+                  Open Lab
+                </a>
+              </Link>
             </div>
           </Disclosure.Panel>
         </>
