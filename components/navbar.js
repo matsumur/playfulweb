@@ -50,7 +50,7 @@ export default function Navbar() {
                     発表文献
                     </a>
                   </Link>
-                  <Link href="#">
+                  <Link href="/openlab2021">
                     <a className="border-indigo-300 text-indigo-700 hover:border-indigo-900 hover:text-indigo-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
                     >
                       研究室公開
@@ -90,13 +90,13 @@ export default function Navbar() {
               <Link href="#">
                 <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                 >
-                  Publications
+                  発表文献
                 </a>
               </Link>
-              <Link href="#">
+              <Link href="/openlab2021">
                 <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                 >
-                  Open Lab
+                  研究室公開
                 </a>
               </Link>
             </div>

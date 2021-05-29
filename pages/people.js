@@ -4,11 +4,11 @@ import About from '../components/about'
 import Faculty from '../components/faculty'
 import Divider from '../components/divider'
 
-export default function Home() {
+export default function People() {
   return (
     <Page>
       <Head>
-        <title>Create Next App</title>
+        <title>Playfulな人</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet"></link>
       </Head>
@@ -22,7 +22,8 @@ export default function Home() {
 
         <Divider>教員</Divider>
         <Faculty name="松村 耕平 准教授">
-          研究室の主宰です
+
+          <p></p>
         </Faculty>
         <Faculty name="岡藤 勇希 助教">aafdsfsdafasda</Faculty>
 

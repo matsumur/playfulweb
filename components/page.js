@@ -11,7 +11,7 @@ export default function Page({ children }) {
       {children}
       <footer className="flex items-center justify-center w-full h-24 border-t">
         <img
-          className="hidden lg:block h-4 w-auto"
+          className="hidden lg:block h-4 w-auto mr-2"
           src="/playful.svg"
           alt="Playful Laboratory"
         />

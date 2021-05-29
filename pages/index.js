@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Page>
       <Head>
-        <title>Create Next App</title>
+        <title>Playful Laboratory</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet"></link>
       </Head>
