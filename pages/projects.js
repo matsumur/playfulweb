@@ -18,10 +18,8 @@ export default function Projects() {
               研究内容を紹介します。
             </p>
         </About>
-
         <ResearchProject />
-
-        </main>
-  </Page>
+      </main>
+    </Page>
   );
 }
