@@ -5,7 +5,7 @@ export default function Research() {
   return (
     <>
       <Page>
-        <ResearchProject></ResearchProject>
+        <ResearchProject />
       </Page>
     </>
   );

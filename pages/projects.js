@@ -19,7 +19,7 @@ export default function Projects() {
             </p>
         </About>
 
-        <ResearchProject></ResearchProject>
+        <ResearchProject />
 
         </main>
   </Page>
