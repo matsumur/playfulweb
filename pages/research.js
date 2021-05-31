@@ -3,10 +3,8 @@ import ResearchProject from "../components/researchProject";
 
 export default function Research() {
   return (
-    <>
-      <Page>
-        <ResearchProject />
-      </Page>
-    </>
+    <Page>
+      <ResearchProject />
+    </Page>
   );
 }

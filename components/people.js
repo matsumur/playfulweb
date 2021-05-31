@@ -85,7 +85,7 @@ const postgraduate = [
     id: '9',
     theme: '',
     imageUrl:
-      '',
+      '/images/amada.jpg',
   },
   {
     name: '伊藤 智樹',
@@ -106,7 +106,7 @@ const postgraduate = [
     id: '12',
     theme: '',
     imageUrl:
-      '',
+      '/images/yang.jpg',
   },
   {
     name: '河野 隼一郎',
@@ -166,7 +166,7 @@ const bachelor = [
     id: '3',
     theme: '',
     imageUrl:
-      '',
+      '/images/kato.jpg',
   },
   {
     name: '渡邊 将太',
@@ -208,7 +208,7 @@ const bachelor = [
     id: '9',
     theme: '',
     imageUrl:
-      '',
+      '/images/makida.jpg',
   },
   // More people...
 ]
