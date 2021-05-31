@@ -1,23 +1,23 @@
 /* This example requires Tailwind CSS v2.0+ */
 const posts = [
   {
-    title: "Boost your conversion rate",
+    title: "顔アイコンの研究",
     href: "#",
-    category: { name: "Article", href: "#" },
+    category: { name: "キーワード:　顔アイコン, オンラインレビュー", href: "#" },
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+    imageUrl: "/project-images/faceicon.png",
     readingTime: "6 min",
     author: {
-      name: "Roel Aufderehar",
+      name: "川上雄大"+" & "+"渡邊将太",
       href: "#",
       imageUrl:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
+
   {
     title: "How to use search engine optimization to drive sales",
     href: "#",
@@ -54,7 +54,26 @@ const posts = [
         "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
+  {
+    title: "顔アイコンの研究",
+    href: "#",
+    category: { name: "キーワード:　顔アイコン, オンラインレビュー", href: "#" },
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    imageUrl: "/project-images/faceicon.png",
+    readingTime: "6 min",
+    author: {
+      name: "川上雄大"+" & "+"渡邊将太",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
 ];
+
+
 export default function Research() {
   return (
     <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
@@ -64,14 +83,15 @@ export default function Research() {
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center">
           <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-            Example
+            Projects
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-            libero labore natus atque, ducimus sed.
+            {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+            libero labore natus atque, ducimus sed. */}
           </p>
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+          
           {posts.map((post) => (
             <div
               key={post.title}
@@ -79,7 +99,8 @@ export default function Research() {
             >
               <div className="flex-shrink-0">
                 <img
-                  className="h-48 w-full object-cover"
+                  // className="h-48 w-full object-cover"
+                  className="h-49 w-full object-cover"
                   src={post.imageUrl}
                   alt=""
                 />
@@ -117,11 +138,11 @@ export default function Research() {
                         {post.author.name}
                       </a>
                     </p>
-                    <div className="flex space-x-1 text-sm text-gray-500">
+                    {/* <div className="flex space-x-1 text-sm text-gray-500">
                       <time dateTime={post.datetime}>{post.date}</time>
                       <span aria-hidden="true">&middot;</span>
                       <span>{post.readingTime} read</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
