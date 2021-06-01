@@ -1,4 +1,4 @@
-import { Fragment } from 'react'
+import { Fragment, useCallback, useState } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
@@ -7,7 +7,35 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+function styleChange(page, id, name) {
+  var d1 = document.getElementById(id);
+  if(!page){
+    return d1.insertAdjacentHTML('afterend', '<a className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"> name </a>');
+    
+  }else{
+    return d1.insertAdjacentHTML('afterend', '<a className="border-indigo-300 text-indigo-700 hover:border-indigo-900 hover:text-indigo-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"> name </a>');
+  }
+}
+
 export default function Navbar() {
+  var [state, setState] = useState({
+    tab: 'home',
+  });
+
+  // クリックしたときのイベントハンドラーです。
+  const handleClick = useCallback((event) => {
+    // イベント発生源の要素を取得
+    const element = event.currentTarget;
+
+    // aria-controls 属性の値を取得
+    const tabState = element.getAttribute('aria-controls');
+
+    // プロパティーを更新
+    setState({
+      tab: tabState,
+    });
+  }, []);
+  
   return (
     <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (
@@ -17,7 +45,7 @@ export default function Navbar() {
               <div className="flex">
                 <div className="flex-shrink-0 flex items-center">
                   <Link href="/">
-                    <a>
+                    <a role="tab" aria-controls="home" onClick={handleClick}>
                       <img
                         className="block lg:hidden h-8 w-auto"
                         src="/playful.svg"
@@ -32,29 +60,33 @@ export default function Navbar() {
                   </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                  <Link href="/people">
-                    <a className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
-                    >
-                      Playfulな人
-                    </a>
+                   <Link href="/people">
+                   <div id="people" role="tab" aria-controls="people" onClick={handleClick}>
+                   <script>
+                     styleChange = {state.tab === 'people', "people", "Playfulな人"}
+        </script>
+          </div>
                   </Link>
                   <Link href="/projects">
-                    <a className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
-                    >
-                      研究プロジェクト
-                    </a>
+                    <div id="research" role="tab" aria-controls="research" onClick={handleClick}> 
+                   <script>
+                     styleChange = {state.tab === 'research', "research", "研究プロジェクト"}
+        </script>
+           </div>
                   </Link>
                   <Link href="/papers">
-                    <a className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
-                    >
-                    発表文献
-                    </a>
+          <div id="papers" role="tab" aria-controls="papers" onClick={handleClick}>
+                   <script>
+                     styleChange = {state.tab === 'papers', "papers", "発表文献"}
+        </script>
+          </div>
                   </Link>
                   <Link href="/openlab2021">
-                    <a className="border-indigo-300 text-indigo-700 hover:border-indigo-900 hover:text-indigo-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
-                    >
-                      研究室公開
-                    </a>
+          <div id="openlab" role="tab" aria-controls="openlab" onClick={handleClick}>
+                   <script>
+                     styleChange = {state.tab === 'openlab', "openlab", "研究室公開"}
+        </script>
+          </div>
                   </Link>
                 </div>
               </div>
