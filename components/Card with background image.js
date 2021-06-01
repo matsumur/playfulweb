@@ -235,7 +235,7 @@ export default function TopImage() {
       </header>*/}
 
         <div>
-          {/* Hero card className="h-full w-full object-cover"*/}
+          {/* Hero card*/}
           <div className="relative">
             <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -258,7 +258,7 @@ export default function TopImage() {
                       width="auto"
                       alt="Playful Laboratory"
                     />
-                    <span className="block text-green-500">Playful</span>
+                    <span className="block text-yellow-500">Playful</span>
                     <span className="block text-white">Laboratory</span>
                   </h1>
                   {/*<p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
