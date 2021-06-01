@@ -28,6 +28,7 @@ export default function ResearchProjects() {
                   height={400} 
                   width={600} 
                   //layout="responsive"
+                  objectFit = "cover"
                   alt=""
                 />
               </div>
