@@ -238,7 +238,7 @@ export default function TopImage() {
           {/* Hero card*/}
           <div className="relative">
             <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
-            <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto">
               <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
                 <div className="absolute inset-0">
                   <Image
@@ -288,12 +288,12 @@ export default function TopImage() {
 
           {/* Logo cloud */}
           <div className="bg-gray-100">
-            <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-              <About name="私たちについて">
+            <div className="max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
+              {/* <About name="私たちについて">
                 <p>
                   私たち、立命館大学情報理工学部プレイフルインタラクション研究室は、Human-Centred Designの手法を用いて実世界の問題をプレイフルに解決する集団です。研究者として、エンジニアとして、デザイナーとして、実践者として、アーティストとして、あるいはオタクとして、新しいデジタル技術を創造し、それがもたらす社会的価値や科学的価値を発見・発信します。これによって社会問題を解決することや未来の生活を楽しくすることを目指します。
                 </p>
-              </About>
+              </About> */}
               {/*<p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
                 Trusted by over 5 very average small businesses
               </p>
