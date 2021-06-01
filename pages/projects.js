@@ -14,8 +14,8 @@ export default function Projects() {
 
       <main className="flex flex-col justify-center w-full flex-1 px-20">
         <About name="研究プロジェクト">
-            <p>
-              研究内容を紹介します。
+          <p>
+            研究内容を紹介します。
             </p>
         </About>
         <ResearchProject />

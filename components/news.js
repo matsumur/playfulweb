@@ -13,7 +13,7 @@ const announcements = [
   {
     id: 3,
     title: "2021/5/10",
-    preview: "プレイフルインタラクションHPを公開しました．是非見てね",
+    preview: "プレイフルインタラクション研究室のWebpageを公開しました。",
   },
 ];
 
