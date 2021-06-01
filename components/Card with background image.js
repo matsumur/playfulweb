@@ -247,7 +247,7 @@ export default function TopImage() {
                     layout="fill"
                     alt="People working on laptops"
                   />
-                  <div className="absolute inset-0 bg-gray-500 mix-blend-multiply" />
+                  <div className="absolute inset-0 bg-gray-400 mix-blend-multiply" />
                 </div>
                 <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                   <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
@@ -258,8 +258,8 @@ export default function TopImage() {
                       width="auto"
                       alt="Playful Laboratory"
                     />
-                    <span className="block text-white">Playful</span>
-                    <span className="block text-gray-700">Laboratory</span>
+                    <span className="block text-green-500">Playful</span>
+                    <span className="block text-white">Laboratory</span>
                   </h1>
                   {/*<p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
                     Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
