@@ -7,45 +7,38 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-function styleChange(page, id, name) {
-  var d1 = document.getElementById(id);
-  if(!page){
-    return d1.insertAdjacentHTML('afterend', '<a className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"> name </a>');
-    
-  }else{
-    return d1.insertAdjacentHTML('afterend', '<a className="border-indigo-300 text-indigo-700 hover:border-indigo-900 hover:text-indigo-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"> name </a>');
-  }
-}
-
 export default function Navbar() {
-  var [state, setState] = useState({
-    tab: 'home',
-  });
+  if(process.browser){
+    var pathname = window.location.pathname;
 
-  // クリックしたときのイベントハンドラーです。
-  const handleClick = useCallback((event) => {
-    // イベント発生源の要素を取得
-    const element = event.currentTarget;
+    pathname = pathname.replace('/', '');
 
-    // aria-controls 属性の値を取得
-    const tabState = element.getAttribute('aria-controls');
+    if(pathname.indexOf('/') !== -1){
+      pathname = pathname.slice(0, pathname.indexOf('/'));
+    }
+  } else { 
+    var pathname = "/home";
+  }
+  const [count, setCount] = useState(pathname);
 
-    // プロパティーを更新
-    setState({
-      tab: tabState,
-    });
-  }, []);
+  function styleChange(style) {
+    if (style) {
+      return "font-extrabold border-indigo-700 text-black-700 hover:border-indigo-900 hover:text-black-900 "
+    } else {
+      return "font-medium border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900"
+    }
+  }
   
   return (
     <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (
-        <>
+          <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
               <div className="flex">
                 <div className="flex-shrink-0 flex items-center">
                   <Link href="/">
-                    <a role="tab" aria-controls="home" onClick={handleClick}>
+                    <a role="tab" aria-controls="home" onClick={() => setCount("home")}>
                       <img
                         className="block lg:hidden h-8 w-auto"
                         src="/playful.svg"
@@ -56,37 +49,29 @@ export default function Navbar() {
                         src="/playful_text.svg"
                         alt="Playful Laboratory"
                       />
-                  </a>
+                    </a>
                   </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                    <Link href="/people">
-                   <div id="people" role="tab" aria-controls="people" onClick={handleClick}>
-                   <script>
-                     styleChange = {state.tab === 'people', "people", "Playfulな人"}
-        </script>
-          </div>
+                   <a onClick={() => setCount("people")} className={['inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm  wf-notosansjapanese ', styleChange(count === "people")].join(' ').trim()}>
+                      Playfulな人
+                  </a>
                   </Link>
-                  <Link href="/projects">
-                    <div id="research" role="tab" aria-controls="research" onClick={handleClick}> 
-                   <script>
-                     styleChange = {state.tab === 'research', "research", "研究プロジェクト"}
-        </script>
-           </div>
+          <Link href="/projects">          
+                  <a onClick={() => setCount("projects")}  className={['inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm wf-notosansjapanese', styleChange(count ==="projects")].join(' ').trim()}>
+                      研究プロジェクト
+                  </a>
                   </Link>
                   <Link href="/papers">
-          <div id="papers" role="tab" aria-controls="papers" onClick={handleClick}>
-                   <script>
-                     styleChange = {state.tab === 'papers', "papers", "発表文献"}
-        </script>
-          </div>
+                  <a onClick={() => setCount("papers")}  className={['inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm wf-notosansjapanese', styleChange(count ==="papers")].join(' ').trim()}>
+                      発表文献
+                  </a>
                   </Link>
                   <Link href="/openlab2021">
-          <div id="openlab" role="tab" aria-controls="openlab" onClick={handleClick}>
-                   <script>
-                     styleChange = {state.tab === 'openlab', "openlab", "研究室公開"}
-        </script>
-          </div>
+                  <a onClick={() => setCount("openlab2021")}  className={['inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm wf-notosansjapanese', styleChange(count ==="openlab2021")].join(' ').trim()}>
+                      研究室公開
+                  </a>
                   </Link>
                 </div>
               </div>
