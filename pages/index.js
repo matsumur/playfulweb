@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className="flex flex-col justify-center w-full px-20 py-5">
         <div className="flex-1">
-          <Banner/>
+          <Banner />
         </div>
       </main> 
     </Page>
