@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import Image from 'next/image'
 import About from './about'
-import News from './news'
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -13,7 +13,7 @@ export default function Banner() {
         <div>
           {/* Hero card*/}
           <div className="relative">
-            <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
+            <div className="absolute inset-x-0 bottom-0 h-1/2" />
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
               <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
                 <div className="absolute inset-0">
@@ -42,7 +42,7 @@ export default function Banner() {
             </div>
           </div>
 
-          <div className="bg-gray-100">
+          <div>
             <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
               <div className="py-16">
                 <About name="私たちについて">
@@ -51,7 +51,6 @@ export default function Banner() {
                   </p>
                 </About>
               </div>
-              <News />
             </div>
           </div>
         </div>
