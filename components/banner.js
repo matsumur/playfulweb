@@ -17,12 +17,12 @@ export default function Banner() {
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
               <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
                 <div className="absolute inset-0">
-                <Image
-                  className="h-full w-full object-cover"
-                  src="/images/top/home1.png"
-                  layout="fill"
-                  alt="People working on laptops"
-                />
+                  <Image
+                    className="h-full w-full object-cover"
+                    src="/images/top/home1.png"
+                    layout="fill"
+                    alt="People working on laptops"
+                  />
                 <div className="absolute inset-0 bg-gray-400 mix-blend-multiply" />
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
@@ -49,10 +49,10 @@ export default function Banner() {
                     私たち、立命館大学情報理工学部プレイフルインタラクション研究室は、Human-Centred Designの手法を用いて実世界の問題をプレイフルに解決する集団です。研究者として、エンジニアとして、デザイナーとして、実践者として、アーティストとして、あるいはオタクとして、新しいデジタル技術を創造し、それがもたらす社会的価値や科学的価値を発見・発信します。これによって社会問題を解決することや未来の生活を楽しくすることを目指します。
                   </p>
                 </About>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   )
 }
