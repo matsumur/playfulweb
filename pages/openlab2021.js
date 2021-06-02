@@ -13,7 +13,7 @@ export default function Openlab() {
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet"></link>
       </Head>
 
-      <main className="flex flex-col justify-center w-full flex-1 px-20">
+      <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
         <About name="研究室公開2021">
           <p>
             2021年度の研究室公開はオンラインで実施します。こちらのページで公開の実施方法や、みなさんがプレイフルインタラクション研究室について理解するためのリソースを公開します。
@@ -76,16 +76,16 @@ export function Faq() {
   return (
     <div className="bg-white">
       <Divider>疑問と回答</Divider>
-        <div className="mt-4 px-10">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
-            {faqs.map((faq) => (
-              <div key={faq.id}>
-                <dt className="text-lg leading-6 font-medium text-gray-900">{faq.question}</dt>
-                <dd className="mt-2 text-base text-gray-500">{faq.answer}</dd>
-              </div>
-            ))}
-          </dl>
-        </div>
+      <div className="mt-4 px-10">
+        <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
+          {faqs.map((faq) => (
+            <div key={faq.id}>
+              <dt className="text-lg leading-6 font-medium text-gray-900">{faq.question}</dt>
+              <dd className="mt-2 text-base text-gray-500">{faq.answer}</dd>
+            </div>
+          ))}
+        </dl>
       </div>
+    </div>
   )
 }
