@@ -17,31 +17,30 @@ export default function Banner() {
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
               <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
                 <div className="absolute inset-0">
+                <Image
+                  className="h-full w-full object-cover"
+                  src="/images/top/home1.png"
+                  layout="fill"
+                  alt="People working on laptops"
+                />
+                <div className="absolute inset-0 bg-gray-400 mix-blend-multiply" />
+              </div>
+              <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+                <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
                   <Image
-                    className="h-full w-full object-cover"
-                    src="/images/top/home1.png"
-                    layout="fill"
-                    alt="People working on laptops"
+                    className="block lg:hidden h-8 w-auto"
+                    src="/playful.svg"
+                    height="80"
+                    width="auto"
+                    alt="Playful Laboratory"
                   />
-                  <div className="absolute inset-0 bg-gray-400 mix-blend-multiply" />
-                </div>
-                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-                  <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-                    <Image
-                      className="block lg:hidden h-8 w-auto"
-                      src="/playful.svg"
-                      height="80"
-                      width="auto"
-                      alt="Playful Laboratory"
-                    />
-                    <span className="block text-yellow-500">Playful</span>
-                    <span className="block text-white">Laboratory</span>
-                  </h1>
-                </div>
+                  <span className="block text-yellow-500">Playful</span>
+                  <span className="block text-white">Laboratory</span>
+                </h1>
               </div>
             </div>
           </div>
-
+        </div>
           <div>
             <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
               <div className="py-16">
@@ -54,6 +53,7 @@ export default function Banner() {
             </div>
           </div>
         </div>
+      </div>
     </div>
   )
 }
