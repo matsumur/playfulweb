@@ -1,22 +1,3 @@
-const posts = [
-  "研究室のHPができました",
-  "6/18日に研究室公開します",
-  "〇〇くんがCHI2024に採択されました",
-];
-
-// export default function News(props) {
-//   const reversedArr = posts.reverse();
-
-//   return (
-//     <div className="p-8 mt-8 text-left w-full rounded-xl">
-//       News
-//       {reversedArr.map((post, i) => (
-//         <li key={i}>{post}</li>
-//       ))}
-//     </div>
-//   );
-// }
-
 const announcements = [
   {
     id: 1,
@@ -36,10 +17,10 @@ const announcements = [
   },
 ];
 
-export default function Example() {
+export default function News() {
   return (
     <div className="h-full flex flex-col justify-between">
-      <h1 className="pb-5">News</h1>
+      <h1 className="pb-5 text-2xl font-bold">News</h1>
       <div className="flow-root">
         <ul className="-my-5 divide-y divide-gray-200">
           {announcements.map((announcement) => (
