@@ -5,7 +5,7 @@ function classNames(...classes) {
 }
 
 export default function Page({ children }) {
-  return(
+  return (
     <div>
       <Navbar />
       {children}

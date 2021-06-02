@@ -76,16 +76,16 @@ export function Faq() {
   return (
     <div className="bg-white">
       <Divider>疑問と回答</Divider>
-        <div className="mt-4 px-10">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
-            {faqs.map((faq) => (
-              <div key={faq.id}>
-                <dt className="text-lg leading-6 font-medium text-gray-900">{faq.question}</dt>
-                <dd className="mt-2 text-base text-gray-500">{faq.answer}</dd>
-              </div>
-            ))}
-          </dl>
-        </div>
+      <div className="mt-4 px-10">
+        <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
+          {faqs.map((faq) => (
+            <div key={faq.id}>
+              <dt className="text-lg leading-6 font-medium text-gray-900">{faq.question}</dt>
+              <dd className="mt-2 text-base text-gray-500">{faq.answer}</dd>
+            </div>
+          ))}
+        </dl>
       </div>
+    </div>
   )
 }
