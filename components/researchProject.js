@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function ResearchProjects() {
   return (
@@ -7,69 +7,43 @@ export default function ResearchProjects() {
         <div className="bg-white h-1/3 sm:h-2/3" />
       </div>
       <div className="relative max-w-7xl mx-auto">
-        {/* <div className="text-center">
-          <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-            Projects
-          </h2>
-          <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-            libero labore natus atque, ducimus sed.
-          </p>
-        </div> */}
         <div className="mt-0 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-          {posts.map((post) => (
+          {projects.map((project) => (
             <div
-              key={post.title}
+              key={project.title}
               className="flex flex-col rounded-lg shadow-lg overflow-hidden"
             >
               <div className="flex-shrink-0">
                 <Image
-                  src={post.imageUrl} 
-                  height={400} 
-                  width={600} 
-                  //layout="responsive"
-                  objectFit = "cover"
+                  src={project.imageUrl}
+                  height={400}
+                  width={600}
+                  objectFit="cover"
                   alt=""
                 />
               </div>
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
-                    <a href={post.category.href} className="hover:underline">
-                      {post.category.name}
-                    </a>
+                    {project.keyword}
                   </p>
-                  <a href={post.href} className="block mt-2">
+                  <a href={project.href} className="block mt-2">
                     <p className="text-xl font-semibold text-gray-900">
-                      {post.title}
+                      {project.title}
                     </p>
                     <p className="mt-3 text-base text-gray-500">
-                      {post.description}
+                      {project.description}
                     </p>
                   </a>
                 </div>
                 <div className="mt-6 flex items-center">
                   <div className="flex-shrink-0">
-                    <a href={post.author.href}>
-                      <span className="sr-only">{post.author.name}</span>
-                      <img
-                        className="h-10 w-10 rounded-full"
-                        src={post.author.imageUrl}
-                        alt=""
-                      />
-                    </a>
+                    <span className="sr-only">{project.name}</span>
                   </div>
                   <div className="ml-3">
                     <p className="text-sm font-medium text-gray-900">
-                      <a href={post.author.href} className="hover:underline">
-                        {post.author.name}
-                      </a>
+                      {project.name}
                     </p>
-                    {/* <div className="flex space-x-1 text-sm text-gray-500">
-                      <time dateTime={post.datetime}>{post.date}</time>
-                      <span aria-hidden="true">&middot;</span>
-                      <span>{post.readingTime} read</span>
-                    </div> */}
                   </div>
                 </div>
               </div>
@@ -81,65 +55,62 @@ export default function ResearchProjects() {
   );
 }
 
-/* This example requires Tailwind CSS v2.0+ */
-const posts = [
+const projects = [
   {
+    name: "川上雄大 & 渡邊将太 ",
     title: "顔アイコンの研究",
-    href: "#",
-    category: {
-      name: "キーワード:　顔アイコン, オンラインレビュー",
-      href: "#",
-    },
+    kayword: "顔アイコン、感情",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
+      "顔アイコンを用いた全く新しい感情表現方法について研究しています。アニメーションする顔アイコンを自分で作成して、悲しい気持ちから楽しい気持ちになったなどの感情の変化や、感情の強調が簡単に表現できるシステムを作っています。",
     imageUrl: "/project-images/faceicon.png",
-    readingTime: "6 min",
-    author: {
-      name: "川上雄大" + " & " + "渡邊将太",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
-  },
-
-  {
-    title: "How to use search engine optimization to drive sales",
-    href: "#",
-    category: { name: "Video", href: "#" },
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.",
-    date: "Mar 10, 2020",
-    datetime: "2020-03-10",
-    imageUrl: "/project-images/faceicon.png",
-    // imageUrl:
-      // "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "4 min",
-    author: {
-      name: "Brenna Goyette",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
   },
   {
-    title: "Improve your customer experience",
-    href: "#",
-    category: { name: "Case Study", href: "#" },
+    name: "天田穣一朗 & 牧田昌大",
+    title: "公共の場のロボットインタラクション",
+    kayword: "公共の場のロボットインタラクション",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.",
-    date: "Feb 12, 2020",
-    datetime: "2020-02-12",
-    imageUrl: "/project-images/faceicon.png",
-    // imageUrl:
-      // "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
-    readingTime: "11 min",
-    author: {
-      name: "Daniela Metz",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
+      "会話をしたり感情を表現したりする社会的なロボットは，商業において接客や広告を行う新たな媒体として期待されています。この研究では、特に公共の場においてどのようなロボットが人に注目されるか、人に使われるのか、どういう印象を与えるか調査します。",
+    imageUrl: "/project-images/amada.png",
+  },
+  {
+    name: "YANG Guang",
+    title: "VRライブステージのインタラクション",
+    kayword: "VR、心理学、アバタ",
+    description:
+      "アバタの表現に関連する研究を従事しています。主にバーチャル空間内のアバタが発話者に対する注意喚起やVRライブステージの参加者同士のインタラクションによる体験の向上など、VR環境の表現が人間に心理的な影響をどのように与えて改善できるかを研究しています。",
+    imageUrl: "/project-images/YANG Guang VRライブステージの表現(一例).png",
+  },
+  {
+    name: "坂口太一",
+    title: "通行人の滞留時間延長に関する研究",
+    kayword: "ロボット，機械学習，社会心理学",
+    description:
+      "対話ロボットの前に滞留させる行動生成を可能にするための研究を行っています．そこで本研究では機械学習を用いて，対象者が立ち去り傾向にあるかを識別し，滞留させるための行動生成を可能にするための方法を研究しています．",
+    imageUrl: "/project-images/noImage.png",
+  },
+  {
+    name: "Zhang Sicheng & 加藤祐樹",
+    title: "アニメと漫画のメディアミックス",
+    kayword: "アニメ、マンガ、メディアミックス",
+    description:
+      "アニメや漫画に関する研究をしています。この研究では、同じストーリー・キャラクター等のシーン描写をしているアニメと漫画に着目し、アニメと漫画のマッチング・アニメ中のシーンの探索速度の向上等、ユーザに新たな視聴体験を与えることを目指しています。",
+    imageUrl: "/project-images/anime.png",
+  },
+  {
+    name: "石川拓海",
+    title: "購入促進ロボット間対話システム",
+    kayword: "ロボット，心理学",
+    description:
+      "ロボットの対話システムを用いた商品推薦に関する研究をしています．ロボット同士に推薦する商品に関する内容で対話をさせ，それをユーザに聞かせることによって行動変容を促し，商品の購入を促進可能かどうかについて調査しています．",
+    imageUrl: "/project-images/noImage.png",
+  },
+  {
+    name: "浮田凌佑",
+    title:
+      "ニューラルネットワーク構造の探索アルゴリズムを用いた運転行動の数理モデルの構築",
+    kayword: "ドライバモデル, 機械学習",
+    description:
+      "自動運転が普及する現代だからこそ、そもそも人間はなぜ運転できるのかを理解することは非常に重要です。運転の基本ループである知覚・認知・判断・操作の一貫した運転行動を心理学実験・機械学習を通して理解し、自動運転への応用することを目指しています。",
+    imageUrl: "/project-images/ukita.png",
   },
 ];
