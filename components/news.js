@@ -3,31 +3,34 @@ const announcements = [
     id: 1,
     title: "2021/5/12 ",
     preview:
-      "2021/5/12研究室公開をします．3Fプレイフルインタラクションにて待ってます",
+      "研究室公開をします．3Fプレイフルインタラクションにて待ってます",
+    href: "/openlab2021",
   },
   {
     id: 2,
     title: "2021/5/11",
     preview: "CHI2021に〇〇君の論文が採択されました．",
+    href: "#",
   },
   {
     id: 3,
     title: "2021/5/10",
-    preview: "プレイフルインタラクションHPを公開しました．是非見てね",
+    preview: "プレイフルインタラクション研究室のWebpageを公開しました。",
+    href: "#",
   },
 ];
 
 export default function News() {
   return (
     <div className="h-full flex flex-col justify-between">
-      <h1 className="pb-5">News</h1>
+      <h1 className="pb-5 text-2xl font-bold">News</h1>
       <div className="flow-root">
         <ul className="-my-5 divide-y divide-gray-200">
           {announcements.map((announcement) => (
             <li key={announcement.id} className="py-5">
               <div className="relative focus-within:ring-2 focus-within:ring-indigo-500">
                 <h3 className="text-sm font-semibold text-gray-800">
-                  <a href="#" className="hover:underline focus:outline-none">
+                  <a href={announcement.href} className="hover:underline focus:outline-none">
                     {/* Extend touch target to entire panel */}
                     <span className="absolute inset-0" aria-hidden="true" />
                     {announcement.title}
