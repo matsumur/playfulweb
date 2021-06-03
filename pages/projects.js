@@ -12,7 +12,7 @@ export default function Projects() {
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet"></link>
       </Head>
 
-      <main className="flex flex-col justify-center w-full flex-1 px-20">
+      <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
         <About name="研究プロジェクト">
           <p>
             研究内容を紹介します。

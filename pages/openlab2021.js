@@ -13,7 +13,7 @@ export default function Openlab() {
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet"></link>
       </Head>
 
-      <main className="flex flex-col justify-center w-full flex-1 px-20">
+      <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
         <About name="研究室公開2021">
           <p>
             2021年度の研究室公開はオンラインで実施します。こちらのページで公開の実施方法や、みなさんがプレイフルインタラクション研究室について理解するためのリソースを公開します。

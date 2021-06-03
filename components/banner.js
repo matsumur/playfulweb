@@ -3,16 +3,12 @@ import Image from 'next/image'
 import About from './about'
 import Slider from './slider'
 
-
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Banner() {
   return (
-    <div className="h-full bg-white">
-      <div>
-        {/* Hero card*/}
         <div className="relative">
           <div className="absolute inset-x-0 bottom-0 h-1/2" />
           <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -34,7 +30,7 @@ export default function Banner() {
                     src="/playful.svg"
                     height="80"
                     width="auto"
-                    alt="Playful Laboratory"
+                    alt="Playful Laboratory Logo"
                   />
                   <span className="block text-yellow-500">Playful</span>
                   <span className="block text-white">Laboratory</span>
@@ -56,5 +52,5 @@ export default function Banner() {
         </div>
       </div>
     </div>
-  )
+  );
 }
