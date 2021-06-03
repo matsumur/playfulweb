@@ -24,10 +24,16 @@ export default function Navbar() {
   }, [count]);
 
   function ariaChange(style) {
+    // if (style) {
+    //   return "aria-current='page' font-extrabold border-indigo-700 text-black-700 hover:border-indigo-700 hover:text-black-900 ";
+    // } else {
+    //   return "border-b-2 hover:border-b-4 font-medium border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 ";
+    // }
+
     if (style) {
-      return "border-b-4 hover:border-b-4aria-current='page' font-extrabold border-indigo-700 text-black-700 hover:border-indigo-700 hover:text-black-900 ";
+      return "aria-current='page' UnderlineNav-item-this-page";
     } else {
-      return "border-b-2 hover:border-b-4 font-medium border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 ";
+      return "UnderlineNav-item";
     }
   }
   
@@ -56,22 +62,22 @@ export default function Navbar() {
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   <Link href="/people">
-          <a onClick={() => setCount("people")} className={[ariaChange(count === "people"), 'inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese UnderlineNav-item'].join(' ').trim()} >
+          <a onClick={() => setCount("people")} className={[ariaChange(count === "people"), 'inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese'].join(' ').trim()} >
                       Playfulな人
                   </a>
                   </Link>
           <Link href="/projects">          
-          <a onClick={() => setCount("projects")} className={[ariaChange(count === "projects"), 'inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese UnderlineNav-item'].join(' ').trim()}>
+          <a onClick={() => setCount("projects")} className={[ariaChange(count === "projects"), 'inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese'].join(' ').trim()}>
                       研究プロジェクト
                   </a>
                   </Link>
                   <Link href="/papers">
-                  <a onClick={() => setCount("papers")} className={[ariaChange(count === "papers"), 'inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese UnderlineNav-item'].join(' ').trim()}>
+                  <a onClick={() => setCount("papers")} className={[ariaChange(count === "papers"), 'inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese'].join(' ').trim()}>
                       発表文献
                   </a>
                   </Link>
                   <Link href="/openlab2021">
-                  <a onClick={() => setCount("openlab2021")} className={[ariaChange(count === "openlab2021"), 'inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese UnderlineNav-item'].join(' ').trim()}>
+                  <a onClick={() => setCount("openlab2021")} className={[ariaChange(count === "openlab2021"), 'inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese'].join(' ').trim()}>
                       研究室公開
                   </a>
                   </Link>
