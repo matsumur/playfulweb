@@ -2,10 +2,7 @@ import Image from "next/image";
 
 export default function ResearchProjects() {
   return (
-    <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
-      <div className="absolute inset-0">
-        <div className="bg-white h-1/3 sm:h-2/3" />
-      </div>
+    <div className="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
       <div className="relative max-w-7xl mx-auto">
         <div className="mt-0 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           {projects.map((project) => (
@@ -130,10 +127,10 @@ const projects = [
   },
   {
     name: "福西誠樹",
-    title: "DSを用いたスポーツ走行の運転学習の評価",
+    title: "ドライビングシミュレータを用いたスポーツ走行の運転学習の評価",
     keyword: "ドライビングシミュレータ",
     description:
-      "近年，DSがスポーツ走行の練習に使われることが多くなっています．\nしかし，DSを用いたドライバの訓練方法は確立されておらず，個々の指導法によって様々な訓練法がなされています．\n様々な訓練方法を検討することにより，より効率的に学習できる訓練方法を探しています．",
+      "近年，ドライビングシミュレータがスポーツ走行の練習に使われることが多くなっています．しかし，ドライビングシミュレータを用いたドライバの訓練方法は確立されておらず，個々の指導法によって様々な訓練法がなされています．様々な訓練方法を検討することにより，より効率的に学習できる訓練方法を探しています．",
     imageUrl: "/project-images/fukunishi.png",
   },
   {
