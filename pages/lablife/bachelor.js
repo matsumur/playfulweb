@@ -1,3 +1,5 @@
+import Page from "../../components/page";
+import Head from "next/head";
 import {
   AcademicCapIcon,
   ChatAlt2Icon,
@@ -52,97 +54,110 @@ const faqs = [
 
 export default function Bachelor() {
   return (
-    <div className="bg-white overflow-hidden">
-      <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
-        <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
-          <div>
-            <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
-              プレイフルインタラクション研究室の1日
-            </h2>
-            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              ある学部生の場合
-            </h3>
-          </div>
-        </div>
-        <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
-          <div className="relative lg:row-start-1 lg:col-start-2">
-            <svg
-              className="hidden lg:block absolute top-0 right-0 -mt-20 -mr-20"
-              width={404}
-              height={384}
-              fill="none"
-              viewBox="0 0 404 384"
-              aria-hidden="true"
-            >
-              <defs>
-                <pattern
-                  id="de316486-4a29-4312-bdfc-fbce2132a2c1"
-                  x={0}
-                  y={0}
-                  width={20}
-                  height={20}
-                  patternUnits="userSpaceOnUse"
-                >
-                  <rect
-                    x={0}
-                    y={0}
-                    width={4}
-                    height={4}
-                    className="text-gray-200"
-                    fill="currentColor"
-                  />
-                </pattern>
-              </defs>
-              <rect
-                width={404}
-                height={384}
-                fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)"
-              />
-            </svg>
-            <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
-              <figure>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <Image
-                    className="rounded-lg shadow-lg object-cover object-center"
-                    src="/images/lablife/scheduleb.png"
-                    alt="Whitney leaning against a railing on a downtown street"
-                    width={600}
-                    height={600}
-                  />
-                </div>
-                <Timetable />
-              </figure>
-            </div>
-          </div>
+    <Page>
+      <Head>
+        <title>プレイフルインタラクション研究室の1日</title>
+        <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Noto+Sans+JP"
+          rel="stylesheet"
+        ></link>
+      </Head>
 
-          <div className="mt-8 lg:mt-0">
-            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-              <h3 className="py-3 mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">
-                答える人
-              </h3>
-              <Student />
+      <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
+        <div className="bg-white overflow-hidden">
+          <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
+            <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
+              <div>
+                <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+                  プレイフルインタラクション研究室の1日
+                </h2>
+                <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                  ある学部生の場合
+                </h3>
+              </div>
             </div>
-            <div className="py-6 mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-              <div className="mt-12 lg:mt-0 lg:col-span-2">
-                <dl className="space-y-12">
-                  {faqs.map((faq) => (
-                    <div key={faq.question}>
-                      <dt className="text-lg leading-6 font-medium text-gray-900">
-                        {faq.question}
-                      </dt>
-                      <dd className="mt-2 text-base text-gray-500">
-                        {faq.answer}
-                      </dd>
+            <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
+              <div className="relative lg:row-start-1 lg:col-start-2">
+                <svg
+                  className="hidden lg:block absolute top-0 right-0 -mt-20 -mr-20"
+                  width={404}
+                  height={384}
+                  fill="none"
+                  viewBox="0 0 404 384"
+                  aria-hidden="true"
+                >
+                  <defs>
+                    <pattern
+                      id="de316486-4a29-4312-bdfc-fbce2132a2c1"
+                      x={0}
+                      y={0}
+                      width={20}
+                      height={20}
+                      patternUnits="userSpaceOnUse"
+                    >
+                      <rect
+                        x={0}
+                        y={0}
+                        width={4}
+                        height={4}
+                        className="text-gray-200"
+                        fill="currentColor"
+                      />
+                    </pattern>
+                  </defs>
+                  <rect
+                    width={404}
+                    height={384}
+                    fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)"
+                  />
+                </svg>
+                <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
+                  <figure>
+                    <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                      <Image
+                        className="rounded-lg shadow-lg object-cover object-center"
+                        src="/images/lablife/scheduleb.png"
+                        alt="Whitney leaning against a railing on a downtown street"
+                        width={600}
+                        height={600}
+                      />
                     </div>
-                  ))}
-                </dl>
+                    <Timetable />
+                  </figure>
+                </div>
+              </div>
+
+              <div className="mt-8 lg:mt-0">
+                <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+                  <h3 className="py-3 mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">
+                    答える人
+                  </h3>
+                  <Student />
+                </div>
+                <div className="py-6 mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+                  <div className="mt-12 lg:mt-0 lg:col-span-2">
+                    <dl className="space-y-12">
+                      {faqs.map((faq) => (
+                        <div key={faq.question}>
+                          <dt className="text-lg leading-6 font-medium text-gray-900">
+                            {faq.question}
+                          </dt>
+                          <dd className="mt-2 text-base text-gray-500">
+                            {faq.answer}
+                          </dd>
+                        </div>
+                      ))}
+                    </dl>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </main>
+    </Page>
   );
 }
 
