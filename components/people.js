@@ -222,26 +222,26 @@ export function Faculty() {
           className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200"
         >
           <div className="flex-1 flex flex-col p-8">
-              <Image
-                className="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
-                width="400"
-                height="400"
-                src={person.imageUrl}
-                alt="Profile image"
-              />
+            <Image
+              className="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
+              width="400"
+              height="400"
+              src={person.imageUrl}
+              alt="Profile image"
+            />
             <h3 className="mt-6 text-gray-900 text-sm font-medium">{person.name}</h3>
             <dl className="mt-1 flex-grow flex flex-col justify-between">
               <dt className="sr-only">Title</dt>
               <dd className="text-gray-500 text-sm">{person.title}</dd>
-              {person.role && 
-              <>
-              <dt className="sr-only">Role</dt>
-              <dd className="mt-3">
-                <span className="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">
-                  {person.role}
-                </span>
-              </dd>
-              </>
+              {person.role &&
+                <>
+                  <dt className="sr-only">Role</dt>
+                  <dd className="mt-3">
+                    <span className="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">
+                      {person.role}
+                    </span>
+                  </dd>
+                </>
               }
             </dl>
           </div>
@@ -283,15 +283,15 @@ export function Bachelor() {
         >
           <div className="flex-shrink-0">
             {person.imageUrl &&
-                <img className="h-10 w-10 rounded-full" src={person.imageUrl} alt="" />
-              }
-              {!person.imageUrl &&
-                <span className="inline-block h-10 w-10 rounded-full overflow-hidden bg-gray-100">
-                  <svg className="h-full w-full text-gray-300" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" />
-                  </svg>
-                </span>
-              }
+              <img className="h-10 w-10 rounded-full" src={person.imageUrl} alt="" />
+            }
+            {!person.imageUrl &&
+              <span className="inline-block h-10 w-10 rounded-full overflow-hidden bg-gray-100">
+                <svg className="h-full w-full text-gray-300" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+              </span>
+            }
           </div>
           <div className="flex-1 min-w-0">
             <a href="#" className="focus:outline-none">

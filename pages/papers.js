@@ -13,10 +13,10 @@ export default function Papers() {
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet"></link>
       </Head>
 
-      <main className="flex flex-col justify-center w-full flex-1 px-20">
+      <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
         <About name="発表文献">
           <p>
-           近日公開予定
+            近日公開予定
           </p>
         </About>
       </main>
