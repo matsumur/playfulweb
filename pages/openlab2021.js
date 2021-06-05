@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Page from '../components/page'
-import About from '../components/about'
-import Faculty from '../components/faculty'
-import Divider from '../components/divider'
+import Head from "next/head";
+import Page from "../components/page";
+import About from "../components/about";
+import Faculty from "../components/faculty";
+import Divider from "../components/divider";
 
 export default function Openlab() {
   return (
@@ -10,7 +10,10 @@ export default function Openlab() {
       <Head>
         <title>2021年度研究室公開</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet"></link>
+        <link
+          href="https://fonts.googleapis.com/css?family=Noto+Sans+JP"
+          rel="stylesheet"
+        ></link>
       </Head>
 
       <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
@@ -30,7 +33,7 @@ export default function Openlab() {
         <Faq />
       </main>
     </Page>
-  )
+  );
 }
 
 const faqs = [
@@ -67,10 +70,9 @@ const faqs = [
   {
     id: 6,
     question: "就活したいんですけど",
-    answer:
-      "どうぞっ！",
+    answer: "どうぞっ！",
   },
-]
+];
 
 export function Faq() {
   return (
@@ -80,12 +82,14 @@ export function Faq() {
         <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
           {faqs.map((faq) => (
             <div key={faq.id}>
-              <dt className="text-lg leading-6 font-medium text-gray-900">{faq.question}</dt>
+              <dt className="text-lg leading-6 font-medium text-gray-900">
+                {faq.question}
+              </dt>
               <dd className="mt-2 text-base text-gray-500">{faq.answer}</dd>
             </div>
           ))}
         </dl>
       </div>
     </div>
-  )
+  );
 }

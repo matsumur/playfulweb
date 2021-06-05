@@ -2,8 +2,7 @@ const announcements = [
   {
     id: 1,
     title: "2021/5/12 ",
-    preview:
-      "研究室公開をします．3Fプレイフルインタラクションにて待ってます",
+    preview: "研究室公開をします．3Fプレイフルインタラクションにて待ってます",
     href: "/openlab2021",
   },
   {
@@ -30,7 +29,10 @@ export default function News() {
             <li key={announcement.id} className="py-5">
               <div className="relative focus-within:ring-2 focus-within:ring-indigo-500">
                 <h3 className="text-sm font-semibold text-gray-800">
-                  <a href={announcement.href} className="hover:underline focus:outline-none">
+                  <a
+                    href={announcement.href}
+                    className="hover:underline focus:outline-none"
+                  >
                     {/* Extend touch target to entire panel */}
                     <span className="absolute inset-0" aria-hidden="true" />
                     {announcement.title}
