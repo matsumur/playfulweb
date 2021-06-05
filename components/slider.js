@@ -19,21 +19,25 @@ const swipeImages = [
     id: 1,
     src: "/images/top/home1.png",
     alt: "People working on laptops",
+    href: "/openlab2021",
   },
   {
     id: 2,
     src: "/images/top/home1.png",
     alt: "People working on laptops",
+    href: "/people",
   },
   {
     id: 3,
     src: "/images/top/home1.png",
     alt: "People working on laptops",
+    href: "/",
   },
   {
     id: 4,
     src: "/images/top/home1.png",
     alt: "People working on laptops",
+    href: "",
   },
 ];
 
@@ -54,13 +58,23 @@ export default function App() {
     >
       {swipeImages.map((swipeImage) => (
         <SwiperSlide key={swipeImage.id}>
-          <Image
-            className="h-full w-full object-cover"
-            src={swipeImage.src}
-            layout="fill"
-            alt={swipeImage.alt}
-            href="/openlab2021"
-          />
+          {swipeImage.href ? (
+            <a href={swipeImage.href}>
+              <Image
+                className="h-full w-full object-cover"
+                src={swipeImage.src}
+                layout="fill"
+                alt={swipeImage.alt}
+              />
+            </a>
+          ) : (
+            <Image
+              className="h-full w-full object-cover"
+              src={swipeImage.src}
+              layout="fill"
+              alt={swipeImage.alt}
+            />
+          )}
         </SwiperSlide>
       ))}
     </Swiper>
