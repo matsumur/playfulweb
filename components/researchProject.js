@@ -40,7 +40,7 @@ export default function ResearchProjects() {
                   <div className="flex-shrink-0">
                     <span className="sr-only">{project.name}</span>
                   </div>
-                  <div className="ml-2">
+                  <div className="ml-1">
                     <p className="text-sm font-medium text-gray-900">
                       {project.name}
                     </p>
@@ -62,12 +62,12 @@ const projects = [
     keyword: "顔アイコン、感情",
     description:
       "顔アイコンを用いた全く新しい感情表現方法について研究しています。アニメーションする顔アイコンを自分で作成して、悲しい気持ちから楽しい気持ちになったなどの感情の変化や、感情の強調が簡単に表現できるシステムを作っています。",
-    imageUrl: "/project-images/faceicon.png",
+    imageUrl: "/project-images/Faceicon.png",
   },
   {
     name: "天田穣一朗 & 牧田昌大",
-    title: "公共の場のロボットインタラクション",
-    keyword: "公共の場のロボットインタラクション",
+    title: "天田穣一朗＆牧田昌大",
+    keyword: "ロボット、社会心理学、広告",
     description:
       "会話をしたり感情を表現したりする社会的なロボットは，商業において接客や広告を行う新たな媒体として期待されています。この研究では、特に公共の場においてどのようなロボットが人に注目されるか、人に使われるのか、どういう印象を与えるか調査します。",
     imageUrl: "/project-images/amada.png",
@@ -86,7 +86,7 @@ const projects = [
     keyword: "ロボット，機械学習，社会心理学",
     description:
       "対話ロボットの前に滞留させる行動生成を可能にするための研究を行っています．そこで本研究では機械学習を用いて，対象者が立ち去り傾向にあるかを識別し，滞留させるための行動生成を可能にするための方法を研究しています．",
-    imageUrl: "/project-images/noImage.png",
+    imageUrl: "/project-images/sakaguchi.png",
   },
   {
     name: "Zhang Sicheng & 加藤祐樹",
@@ -106,11 +106,42 @@ const projects = [
   },
   {
     name: "浮田凌佑",
-    title:
-      "ニューラルネットワーク構造の探索アルゴリズムを用いた運転行動の数理モデルの構築",
+    title: "運転行動の数理モデルの構築",
     keyword: "ドライバモデル, 機械学習",
     description:
       "自動運転が普及する現代だからこそ、そもそも人間はなぜ運転できるのかを理解することは非常に重要です。運転の基本ループである知覚・認知・判断・操作の一貫した運転行動を心理学実験・機械学習を通して理解し、自動運転への応用することを目指しています。",
     imageUrl: "/project-images/ukita.png",
+  },
+  {
+    name: "岸本和大",
+    title: "六面ロボット",
+    keyword: "ロボット，コミュニケーション",
+    description:
+      "このシステムを用いる環境は，美術館や博物館などの公共の場を想定した複数人同士(オンラインとオフライン側)の会話である．解決したい課題は，一面では会話相手が明確ではないということ．これを解決するために，ディスプレイを増やして一対一で会話をできる状態を作った．",
+    imageUrl: "/project-images/kisimoto六面.png",
+  },
+  {
+    name: "恩村城伊",
+    title: "自然音が音楽に与える効果",
+    keyword: "音楽、心理学",
+    description:
+      "音楽と自然音を組み合わせることで得られる相乗効果の検証をしています。コロナ渦が広がり、外で音楽を聴く機会はとても減ってしまいました。そこで、音楽と自然音を組み合わせることで、普通に音楽を室内で聴くよりも何か効果を得られるのではないかと考えています。",
+    imageUrl: "/project-images/Natural sound.JPG",
+  },
+  {
+    name: "福西誠樹",
+    title: "DSを用いたスポーツ走行の運転学習の評価",
+    keyword: "ドライビングシミュレータ",
+    description:
+      "近年，DSがスポーツ走行の練習に使われることが多くなっています．\nしかし，DSを用いたドライバの訓練方法は確立されておらず，個々の指導法によって様々な訓練法がなされています．\n様々な訓練方法を検討することにより，より効率的に学習できる訓練方法を探しています．",
+    imageUrl: "/project-images/fukunishi.png",
+  },
+  {
+    name: "ZHANG Chenkai",
+    title: "End-to-End自動運転モデルの信頼度の評価",
+    keyword: "ドライバモデル、機械学習",
+    description:
+      "人間の運転行動理解を用いて、End-to-End深層学習自動運転モデルの信頼度を客観的な評価を行っています。運転手が信頼できるようなEnd-to-End深層学習自動運転モデルの構築を目指しています。",
+    imageUrl: "/project-images/ZHANG Chenkai.jpg",
   },
 ];
