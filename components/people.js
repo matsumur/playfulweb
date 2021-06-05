@@ -56,7 +56,7 @@ const postgraduate = [
     name: "山本 聖",
     id: "6",
     theme: "",
-    imageUrl: "",
+    imageUrl: "/images/yamamoto.jpg",
   },
   {
     name: "江見 太一朗",
@@ -98,7 +98,7 @@ const postgraduate = [
     name: "河野 隼一郎",
     id: "13",
     theme: "",
-    imageUrl: "",
+    imageUrl: "/images/kawano.jpg",
   },
   {
     name: "石川 拓海",
@@ -150,13 +150,13 @@ const bachelor = [
     name: "渡邊 将太",
     id: "4",
     theme: "",
-    imageUrl: "",
+    imageUrl: "/images/watanabe.jpg",
   },
   {
     name: "岸本 和大",
     id: "5",
     theme: "",
-    imageUrl: "",
+    imageUrl: "/images/kishimoto.jpg",
   },
   {
     name: "藤本 遼太",

@@ -1,4 +1,5 @@
 import Divider from "./divider";
+import Link from "next/link";
 
 const faqs = [
   {
@@ -29,7 +30,8 @@ const faqs = [
     id: 5,
     question: "どのような研究生活ですか？",
     answer:
-      "研究ガチ勢とそうでない人によって大きく異なると思いますが、比較的ガチ勢の例を挙げます（つづく）。",
+      "研究ガチ勢とそうでない人によって大きく異なると思いますが、比較的ガチ勢の例を示しました。この回答をクリックしてください。",
+    href: "/lablife/bachelor",
   },
   {
     id: 6,
@@ -49,7 +51,13 @@ export default function Faq() {
               <dt className="text-lg leading-6 font-medium text-gray-900">
                 {faq.question}
               </dt>
-              <dd className="mt-2 text-base text-gray-500">{faq.answer}</dd>
+              <dd className="mt-2 text-base text-gray-500">
+                {faq.href ? (
+                  <Link href={faq.href}>{faq.answer}</Link>
+                ) : (
+                  <>{faq.answer}</>
+                )}
+              </dd>
             </div>
           ))}
         </dl>
