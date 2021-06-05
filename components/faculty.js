@@ -1,4 +1,3 @@
-
 export default function Faculty(props) {
   return (
     <div className="sm:flex mt-4">
@@ -11,7 +10,11 @@ export default function Faculty(props) {
           viewBox="0 0 200 200"
           aria-hidden="true"
         >
-          <path vectorEffect="non-scaling-stroke" strokeWidth={1} d="M0 0l200 200M0 200L200 0" />
+          <path
+            vectorEffect="non-scaling-stroke"
+            strokeWidth={1}
+            d="M0 0l200 200M0 200L200 0"
+          />
         </svg>
       </div>
       <div>
@@ -19,5 +22,5 @@ export default function Faculty(props) {
         {props.children}
       </div>
     </div>
-  )
+  );
 }

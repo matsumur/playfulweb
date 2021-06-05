@@ -1,13 +1,41 @@
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
-import Link from 'next/link'
+import { Fragment, useCallback, useState, useEffect } from "react";
+import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+import Link from "next/link";
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
+const KEY = "navbar";
+
 export default function Navbar() {
+  var State;
+  const [count, setCount] = useState("");
+
+  useEffect(() => {
+    State = State === "" ? "" : localStorage.getItem(KEY);
+    setCount(State);
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem(KEY, count);
+  }, [count]);
+
+  function ariaChange(style) {
+    // if (style) {
+    //   return "aria-current='page' font-extrabold border-indigo-700 text-black-700 hover:border-indigo-700 hover:text-black-900 ";
+    // } else {
+    //   return "border-b-2 hover:border-b-4 font-medium border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 ";
+    // }
+
+    if (style) {
+      return "aria-current='page' UnderlineNav-item-this-page";
+    } else {
+      return "UnderlineNav-item";
+    }
+  }
+
   return (
     <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (
@@ -17,7 +45,7 @@ export default function Navbar() {
               <div className="flex">
                 <div className="flex-shrink-0 flex items-center">
                   <Link href="/">
-                    <a>
+                    <a onClick={() => setCount("home")}>
                       <img
                         className="block lg:hidden h-8 w-auto"
                         src="/playful.svg"
@@ -28,30 +56,58 @@ export default function Navbar() {
                         src="/playful_text.svg"
                         alt="Playful Laboratory"
                       />
-                  </a>
+                    </a>
                   </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   <Link href="/people">
-                    <a className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
+                    <a
+                      onClick={() => setCount("people")}
+                      className={[
+                        ariaChange(count === "people"),
+                        "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
+                      ]
+                        .join(" ")
+                        .trim()}
                     >
                       Playfulな人
                     </a>
                   </Link>
                   <Link href="/projects">
-                    <a className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
+                    <a
+                      onClick={() => setCount("projects")}
+                      className={[
+                        ariaChange(count === "projects"),
+                        "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
+                      ]
+                        .join(" ")
+                        .trim()}
                     >
                       研究プロジェクト
                     </a>
                   </Link>
                   <Link href="/papers">
-                    <a className="border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
+                    <a
+                      onClick={() => setCount("papers")}
+                      className={[
+                        ariaChange(count === "papers"),
+                        "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
+                      ]
+                        .join(" ")
+                        .trim()}
                     >
-                    発表文献
+                      発表文献
                     </a>
                   </Link>
                   <Link href="/openlab2021">
-                    <a className="border-indigo-300 text-indigo-700 hover:border-indigo-900 hover:text-indigo-900 inline-flex items-center px-1 pt-1 border-b-2 hover:border-b-4 text-sm font-medium wf-notosansjapanese"
+                    <a
+                      onClick={() => setCount("openlab2021")}
+                      className={[
+                        ariaChange(count === "openlab2021"),
+                        "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
+                      ]
+                        .join(" ")
+                        .trim()}
                     >
                       研究室公開
                     </a>
@@ -76,26 +132,22 @@ export default function Navbar() {
           <Disclosure.Panel className="sm:hidden">
             <div className="pt-2 pb-3 space-y-1">
               <Link href="/people">
-                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-                >
+                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                   Playfulな人
                 </a>
               </Link>
               <Link href="/projects">
-                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-                >
+                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                   研究プロジェクト
                 </a>
               </Link>
               <Link href="/papers">
-                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-                >
+                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                   発表文献
                 </a>
               </Link>
               <Link href="/openlab2021">
-                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-                >
+                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                   研究室公開
                 </a>
               </Link>
@@ -104,5 +156,5 @@ export default function Navbar() {
         </>
       )}
     </Disclosure>
-  )
+  );
 }
