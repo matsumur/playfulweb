@@ -17,26 +17,32 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 const swipeImages = [
   {
     id: 1,
-    src: "/images/top/home1.png",
-    alt: "People working on laptops",
+    src: "/images/top/home0.png",
+    alt: "Makida",
     href: "/openlab2021",
   },
   {
     id: 2,
     src: "/images/top/home1.png",
-    alt: "People working on laptops",
+    alt: "Experiment on driving simulator",
     href: "/people",
   },
   {
     id: 3,
-    src: "/images/top/home1.png",
-    alt: "People working on laptops",
+    src: "/images/top/home2.png",
+    alt: "Working with nao",
     href: "/",
   },
   {
     id: 4,
-    src: "/images/top/home1.png",
-    alt: "People working on laptops",
+    src: "/images/top/home3.png",
+    alt: "Many Sota standing in front of people",
+    href: "",
+  },
+  {
+    id: 5,
+    src: "/images/top/home4.png",
+    alt: "VR environment",
     href: "",
   },
 ];
