@@ -99,7 +99,7 @@ const projects = [
     keyword: "ロボット，心理学",
     description:
       "ロボットの対話システムを用いた商品推薦に関する研究をしています。ロボット同士に推薦する商品に関する内容で対話をさせ、それをユーザに聞かせることによって行動変容を促し、商品の購入を促進可能かどうかについて調査しています。",
-    imageUrl: "/project-images/noImage.png",
+    imageUrl: "/project-images/IMG_9698.JPG",
   },
   {
     name: "浮田凌佑",
@@ -140,5 +140,13 @@ const projects = [
     description:
       "人間の運転行動理解を用いて、End-to-End深層学習自動運転モデルの信頼度を客観的な評価を行っています。運転手が信頼できるようなEnd-to-End深層学習自動運転モデルの構築を目指しています。",
     imageUrl: "/project-images/drivermodel.jpg",
+  },
+  {
+    name: "藤本遼太",
+    title: "自動車インタラクション",
+    keyword: "自動車",
+    description:
+      "今後、私たちの生活において自動運転車が主流になってくると思われる。しかし、現状のレベル3やレベル4において、完全に人の手を離れるわけではなく、緊急時には自動運転から人への運転への移行が必要になってくる。そのためのインタラクションの研究です。",
+    imageUrl: "/project-images/noImage.png",
   },
 ];
