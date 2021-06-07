@@ -12,7 +12,11 @@ export default function ResearchProjects() {
             >
               <div className="flex-shrink-0">
                 <Image
-                  src={project.imageUrl}
+                  src={
+                    project.imageUrl
+                      ? project.imageUrl
+                      : "/project-images/noImage.png"
+                  }
                   height={400}
                   width={600}
                   objectFit="cover"
@@ -147,6 +151,5 @@ const projects = [
     keyword: "自動車",
     description:
       "今後、私たちの生活において自動運転車が主流になってくると思われる。しかし、現状のレベル3やレベル4において、完全に人の手を離れるわけではなく、緊急時には自動運転から人への運転への移行が必要になってくる。そのためのインタラクションの研究です。",
-    imageUrl: "/project-images/noImage.png",
   },
 ];

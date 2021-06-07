@@ -116,7 +116,7 @@ const postgraduate = [
     name: "山口 遊",
     id: "16",
     theme: "",
-    imageUrl: "",
+    imageUrl: "/images/lovotyamaguchi.png",
   },
   {
     name: "諏訪 司",
