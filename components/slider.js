@@ -35,7 +35,7 @@ const swipeImages = [
   },
   {
     id: 4,
-    src: "/images/top/home3.png",
+    src: "/images/top/home3.jpg",
     alt: "Many Sota standing in front of people",
     href: "",
   },
