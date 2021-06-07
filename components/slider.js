@@ -37,7 +37,7 @@ export default function App(){
         <SwiperSlide>
             <Image
                 className="h-full w-full object-cover"
-                src="/images/top/home1.png"
+                src="/images/top/home2.jpg"
                 layout="fill"
                 alt="People working on laptops"
             />
@@ -45,7 +45,15 @@ export default function App(){
         <SwiperSlide>
             <Image
                 className="h-full w-full object-cover"
-                src="/images/top/home1.png"
+                src="/images/top/home3.png"
+                layout="fill"
+                alt="People working on laptops"
+            />
+        </SwiperSlide>
+        <SwiperSlide>
+            <Image
+                className="h-full w-full object-cover"
+                src="/images/top/home4.png"
                 layout="fill"
                 alt="People working on laptops"
             />
