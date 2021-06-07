@@ -1,148 +1,157 @@
+import Page from "../../components/page";
+import Head from "next/head";
 import {
   AcademicCapIcon,
   ChatAlt2Icon,
-  CheckIcon,
   ThumbUpIcon,
   UserIcon,
+  BookOpenIcon,
 } from "@heroicons/react/solid";
 import Image from "next/image";
-
 const faqs = [
   {
     question: "どのような研究をしていますか?",
     answer:
-      "顔アイコンの研究です。顔アイコンをアニメーションさせることで感情の変化や強調が簡単に表現できるシステムを作ってます。",
+      "学部では路面描画の研究をしていました．路面描画とは，歩行者の警告やナビゲーション情報など，安全運転に役立つ情報を道路環境中に表示する技術のことです．「路面描画によってドライバの視線がどのように動くか」などを研究していました．修士ではペットロボットについて，どうしたらペットロボットが使い続けられるようになるか？ペットロボットが人と触れ合う適切なタイミングはいつか？を研究する予定です．",
   },
   {
     question: "どのような観点から研究室を選びましたか?",
-    answer: "研究内容と教員です。",
+    answer:
+      "研究室の雰囲気を見て決めました．わからないことを相談しやすい環境か？を重視しました．",
   },
   {
     question: "アルバイトをしていたらどんなことをしているか教えてください",
     answer:
-      "幼稚園～中学生の子が通うロボットプログラミング教室で講師をしています。",
+      "現在はしていませんが，学部時代に飲食でバイトをしていました．学業・習い事・サークルとの両立が厳しくなってきたので，1年半くらいでやめてしまいました．",
   },
   {
     question: "研究室で楽しいと思えることを教えてください",
     answer:
-      "研究です。自分のしたいことができる環境なので自然と楽しくなります。研究以外でも休憩時に研究室の人と話したり、ミーティングの時に使う机で卓球したりするのが楽しいです笑。",
+      "休憩の時に，研究室内にいる人と話すときが楽しいです．研究のことでも研究以外のことでも気軽に相談できるので感謝しています．後は，実験結果が順調に出ている時はとても楽しいです．ニコニコです．",
   },
   {
     question: "研究室でつらいなーと思うことを教えてください",
     answer:
-      "研究の進め方やプログラムで分からないことがあります…。そうゆう時は、先輩に質問したり、教員とミーティングをすると解決します。",
+      "実験をするときに，なにかトラブルがあると冷や冷やします．あとは，文章を書くのが苦手なので論文を書くときはしんどいなーと思います．この研究室特有のつらい出来事はとくに思いあたらないです．",
   },
   {
     question: "研究室の教員に対する印象を教えてください",
     answer:
-      "お二人（松村、岡藤）とも学生の目線で話してくれるのでとても話しやすいです。人としても技術者としても尊敬できる方です。",
+      "相談や指導の時間をたくさん取ってもらえて相談しやすいです．やりたいこと・考えていること・意見を尊重して頂いていて，対等（な立場ではないのですが）に扱ってくれているなと感じます．あとはお茶目だなと思います．",
   },
   {
     question: "最後に3回生に向けて、なにか一言お願いします",
     answer:
-      "研究を本気でしたい方、研究を楽しみたい方、研究がしんどいなと思っている方、みなさん大歓迎です。ぜひ私たちと一緒にPlayfulしましょう。",
+      "研究室を選ぶ基準や価値観は様々だと思うので，いろいろな人の話を聞いて選ぶのがいいと思います．後悔しないように，ちょっとでも気になったことは質問して，研究室選びの材料にしてください！私の個人的な研究室のアピールポイントは，研究の議論や相談がしやすいことや雰囲気がおちつくことです．",
   },
-  /*
-名前：渡邊将太
-学年：4回生
-出身：奈良
-研究テーマ：顔アイコン
-  */
 ];
 
-export default function Bachelor() {
+export default function Master() {
   return (
-    <div className="bg-white overflow-hidden">
-      <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
-        <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
-          <div>
-            <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
-              プレイフルインタラクション研究室の1日
-            </h2>
-            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              ある学部生の場合
-            </h3>
-          </div>
-        </div>
-        <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
-          <div className="relative lg:row-start-1 lg:col-start-2">
-            <svg
-              className="hidden lg:block absolute top-0 right-0 -mt-20 -mr-20"
-              width={404}
-              height={384}
-              fill="none"
-              viewBox="0 0 404 384"
-              aria-hidden="true"
-            >
-              <defs>
-                <pattern
-                  id="de316486-4a29-4312-bdfc-fbce2132a2c1"
-                  x={0}
-                  y={0}
-                  width={20}
-                  height={20}
-                  patternUnits="userSpaceOnUse"
-                >
-                  <rect
-                    x={0}
-                    y={0}
-                    width={4}
-                    height={4}
-                    className="text-gray-200"
-                    fill="currentColor"
-                  />
-                </pattern>
-              </defs>
-              <rect
-                width={404}
-                height={384}
-                fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)"
-              />
-            </svg>
-            <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
-              <figure>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <Image
-                    className="rounded-lg shadow-lg object-cover object-center"
-                    src="/images/lablife/scheduleb.png"
-                    alt="Whitney leaning against a railing on a downtown street"
-                    width={600}
-                    height={600}
-                  />
-                </div>
-                <Timetable />
-              </figure>
-            </div>
-          </div>
+    <Page>
+      <Head>
+        <title>プレイフルインタラクション研究室の1日</title>
+        <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Noto+Sans+JP"
+          rel="stylesheet"
+        ></link>
+      </Head>
 
-          <div className="mt-8 lg:mt-0">
-            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-              <h3 className="py-3 mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">
-                答える人
-              </h3>
-              <Student />
+      <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
+        <div className="bg-white overflow-hidden">
+          <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
+            <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
+              <div>
+                <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+                  プレイフルインタラクション研究室の1日
+                </h2>
+                <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                  ある修士学生の場合
+                </h3>
+              </div>
             </div>
-            <div className="py-6 mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-              <div className="mt-12 lg:mt-0 lg:col-span-2">
-                <dl className="space-y-12">
-                  {faqs.map((faq) => (
-                    <div key={faq.question}>
-                      <dt className="text-lg leading-6 font-medium text-gray-900">
-                        {faq.question}
-                      </dt>
-                      <dd className="mt-2 text-base text-gray-500">
-                        {faq.answer}
-                      </dd>
+            <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
+              <div className="relative lg:row-start-1 lg:col-start-2">
+                <svg
+                  className="hidden lg:block absolute top-0 right-0 -mt-20 -mr-20"
+                  width={404}
+                  height={384}
+                  fill="none"
+                  viewBox="0 0 404 384"
+                  aria-hidden="true"
+                >
+                  <defs>
+                    <pattern
+                      id="de316486-4a29-4312-bdfc-fbce2132a2c1"
+                      x={0}
+                      y={0}
+                      width={20}
+                      height={20}
+                      patternUnits="userSpaceOnUse"
+                    >
+                      <rect
+                        x={0}
+                        y={0}
+                        width={4}
+                        height={4}
+                        className="text-gray-200"
+                        fill="currentColor"
+                      />
+                    </pattern>
+                  </defs>
+                  <rect
+                    width={404}
+                    height={384}
+                    fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)"
+                  />
+                </svg>
+                <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
+                  <figure>
+                    <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                      <Image
+                        className="rounded-lg shadow-lg object-cover object-center"
+                        src="/images/lablife/scheduleb.png"
+                        alt="Whitney leaning against a railing on a downtown street"
+                        width={600}
+                        height={600}
+                      />
                     </div>
-                  ))}
-                </dl>
+                    <Timetable />
+                  </figure>
+                </div>
+              </div>
+
+              <div className="mt-8 lg:mt-0">
+                <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+                  <h3 className="py-3 mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">
+                    答える人
+                  </h3>
+                  <Student />
+                </div>
+                <div className="py-6 mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+                  <div className="mt-12 lg:mt-0 lg:col-span-2">
+                    <dl className="space-y-12">
+                      {faqs.map((faq) => (
+                        <div key={faq.question}>
+                          <dt className="text-lg leading-6 font-medium text-gray-900">
+                            {faq.question}
+                          </dt>
+                          <dd className="mt-2 text-base text-gray-500">
+                            {faq.answer}
+                          </dd>
+                        </div>
+                      ))}
+                    </dl>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </main>
+    </Page>
   );
 }
 
@@ -153,7 +162,7 @@ export function Student() {
         <div>
           <Image
             className="inline-block h-16 w-16 rounded-full"
-            src="/images/watanabe.jpg"
+            src="/images/lovotyamaguchi.png"
             width="100"
             height="100"
             alt=""
@@ -161,10 +170,10 @@ export function Student() {
         </div>
         <div className="ml-3">
           <p className="text-lg font-medium text-gray-700 group-hover:text-gray-900">
-            渡邊 将太
+            山口 遊
           </p>
           <p className="text-l font-medium text-gray-500 group-hover:text-gray-700">
-            学部4回生
+            修士1回生
           </p>
         </div>
       </div>
@@ -176,86 +185,54 @@ const timeline = [
   {
     id: 1,
     content: "研究室 入室",
-    starttime: "9:30",
+    starttime: "9:00",
     icon: UserIcon,
     iconBackground: "bg-gray-400",
   },
   {
     id: 2,
-    content: "研究とミーティングの準備",
-    starttime: "9:30",
-    endtime: "10:40",
-    icon: AcademicCapIcon,
+    content: "オンラインの講義（気分や天気で自宅か大学か決める）",
+    starttime: "9:00",
+    endtime: "12:15",
+    icon: BookOpenIcon,
     iconBackground: "bg-red-400",
   },
   {
     id: 3,
-    content: "教員とミーティング",
-    starttime: "10:40",
-    endtime: "12:00",
-    icon: ChatAlt2Icon,
-    iconBackground: "bg-yellow-500",
-  },
-  {
-    id: 4,
-    content: "昼休憩",
-    starttime: "12:00",
+    content: "昼食（大学の場合は，ミーティングスペースで誰かと食べるかも）",
+    starttime: "12:15",
     endtime: "13:00",
     icon: ThumbUpIcon,
     iconBackground: "bg-green-500",
   },
   {
-    id: 5,
-    content: "研究",
+    id: 4,
+    content: "研究や授業の課題",
     starttime: "13:00",
-    endtime: "14:30",
+    endtime: "14:00",
     icon: AcademicCapIcon,
     iconBackground: "bg-red-400",
   },
   {
-    id: 6,
-    content: "休憩（研究室の人と雑談）",
-    starttime: "14:30",
+    id: 5,
+    content: "岡藤先生とミーティング",
+    starttime: "14:00",
     endtime: "15:00",
-    icon: ThumbUpIcon,
-    iconBackground: "bg-green-500",
-  },
-  {
-    id: 7,
-    content: "ゼミの準備",
-    starttime: "15:00",
-    endtime: "16:20",
-    icon: AcademicCapIcon,
-    iconBackground: "bg-red-400",
-  },
-  {
-    id: 8,
-    content: "学部ゼミ（進捗報告）",
-    starttime: "16:20",
-    endtime: "17:50",
     icon: ChatAlt2Icon,
     iconBackground: "bg-yellow-500",
   },
   {
-    id: 9,
-    content: "休憩（研究室内で卓球）",
-    starttime: "17:50",
-    endtime: "19:00",
-    icon: ThumbUpIcon,
-    iconBackground: "bg-green-500",
-  },
-  {
-    id: 10,
-    content: "ゼミの内容をまとめる",
-    starttime: "19:00",
-    endtime: "19:30",
+    id: 6,
+    content: "途中でおやつタイム挟みながら研究（この時間に相談とか雑談多い）",
+    starttime: "15:00",
+    endtime: "18:00",
     icon: AcademicCapIcon,
     iconBackground: "bg-red-400",
   },
   {
-    id: 11,
-    content: "帰宅",
-    starttime: "19:30",
+    id: 7,
+    content: "研究して，きりが良くなったタイミングで帰る",
+    starttime: "18:00",
     icon: UserIcon,
     iconBackground: "bg-gray-400",
   },
