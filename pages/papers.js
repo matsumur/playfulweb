@@ -24,3 +24,28 @@ export default function Papers() {
     </Page>
   );
 }
+
+/*
+{
+  "id":,
+  "projectId":[],
+  "type":"",
+  "title":"",
+  "tags":[],
+  "keywords":[],
+  "abstract":"",
+  "authors":[
+    {"name":"", peopleId:""},
+    {"name":"", peopleId:""},
+    {"name":"", peopleId:""}
+  ],
+  "year":"",
+  "booktitle":"",
+  "pages" :"",
+  "series" = "ITS '15",
+  "isbn" = "9781450338998"
+  "publisher" :"Association for Computing Machinery", 
+  "address" :"New York, NY, USA", 
+  "doi" : "10.1145/2817721.2823496",
+}
+*/
