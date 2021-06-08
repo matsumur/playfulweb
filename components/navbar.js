@@ -1,21 +1,20 @@
-import { Fragment, useCallback, useState, useEffect } from 'react';
-import { Disclosure, Menu, Transition } from '@headlessui/react';
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
-import Link from 'next/link';
+import { Fragment, useCallback, useState, useEffect } from "react";
+import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+import Link from "next/link";
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(" ");
 }
 
-const KEY = 'navbar';
+const KEY = "navbar";
 
 export default function Navbar() {
-
   var State;
   const [count, setCount] = useState("");
 
   useEffect(() => {
-    State = State === ""? "" :localStorage.getItem(KEY);
+    State = State === "" ? "" : localStorage.getItem(KEY);
     setCount(State);
   }, []);
 
@@ -36,11 +35,11 @@ export default function Navbar() {
       return "UnderlineNav-item";
     }
   }
-  
+
   return (
     <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (
-          <>
+        <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
               <div className="flex">
@@ -57,29 +56,61 @@ export default function Navbar() {
                         src="/playful_text.svg"
                         alt="Playful Laboratory"
                       />
-                  </a>
+                    </a>
                   </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   <Link href="/people">
-          <a onClick={() => setCount("people")} className={[ariaChange(count === "people"), 'inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese'].join(' ').trim()} >
+                    <a
+                      onClick={() => setCount("people")}
+                      className={[
+                        ariaChange(count === "people"),
+                        "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
+                      ]
+                        .join(" ")
+                        .trim()}
+                    >
                       Playfulな人
-                  </a>
+                    </a>
                   </Link>
-          <Link href="/projects">          
-          <a onClick={() => setCount("projects")} className={[ariaChange(count === "projects"), 'inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese'].join(' ').trim()}>
+                  <Link href="/projects">
+                    <a
+                      onClick={() => setCount("projects")}
+                      className={[
+                        ariaChange(count === "projects"),
+                        "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
+                      ]
+                        .join(" ")
+                        .trim()}
+                    >
                       研究プロジェクト
-                  </a>
+                    </a>
                   </Link>
                   <Link href="/papers">
-                  <a onClick={() => setCount("papers")} className={[ariaChange(count === "papers"), 'inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese'].join(' ').trim()}>
+                    <a
+                      onClick={() => setCount("papers")}
+                      className={[
+                        ariaChange(count === "papers"),
+                        "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
+                      ]
+                        .join(" ")
+                        .trim()}
+                    >
                       発表文献
-                  </a>
+                    </a>
                   </Link>
                   <Link href="/openlab2021">
-                  <a onClick={() => setCount("openlab2021")} className={[ariaChange(count === "openlab2021"), 'inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese'].join(' ').trim()}>
+                    <a
+                      onClick={() => setCount("openlab2021")}
+                      className={[
+                        ariaChange(count === "openlab2021"),
+                        "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
+                      ]
+                        .join(" ")
+                        .trim()}
+                    >
                       研究室公開
-                  </a>
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -101,26 +132,22 @@ export default function Navbar() {
           <Disclosure.Panel className="sm:hidden">
             <div className="pt-2 pb-3 space-y-1">
               <Link href="/people">
-                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-                >
+                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                   Playfulな人
                 </a>
               </Link>
               <Link href="/projects">
-                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-                >
+                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                   研究プロジェクト
                 </a>
               </Link>
               <Link href="/papers">
-                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-                >
+                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                   発表文献
                 </a>
               </Link>
               <Link href="/openlab2021">
-                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-                >
+                <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                   研究室公開
                 </a>
               </Link>
@@ -129,5 +156,5 @@ export default function Navbar() {
         </>
       )}
     </Disclosure>
-  )
+  );
 }

@@ -1,7 +1,7 @@
-import Navbar from './navbar'
+import Navbar from "./navbar";
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Page({ children }) {
@@ -14,9 +14,9 @@ export default function Page({ children }) {
           className="hidden lg:block h-4 w-auto mr-2"
           src="/playful.svg"
           alt="Playful Laboratory"
-        />
-        {' '} Playful Laboratory, Ritsumeikan University
+        />{" "}
+        Playful Laboratory, Ritsumeikan University
       </footer>
     </div>
-  )
+  );
 }

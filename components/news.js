@@ -1,20 +1,21 @@
 const announcements = [
   {
     id: 1,
-    title: "2021/5/12 ",
+    title: "2021/6/8",
     preview:
-      "研究室公開をします．3Fプレイフルインタラクションにて待ってます",
+      "研究室公開があります。オンラインで実施します。研究室公開とは関係なく本研究室はいつもオープンですので、機会を問わず気軽に遊びに来てください。",
     href: "/openlab2021",
   },
   {
     id: 2,
-    title: "2021/5/11",
-    preview: "CHI2021に〇〇君の論文が採択されました．",
-    href: "#",
+    title: "2021/6/5",
+    preview:
+      "松村が運営メンバーとなっているCHI勉強会2021が開催されます。747本のCHI論文を一気に知る機会ですので是非ご参加ください。",
+    href: "https://pgl.jp/seminars/chi2021",
   },
   {
     id: 3,
-    title: "2021/5/10",
+    title: "2021/6/1",
     preview: "プレイフルインタラクション研究室のWebpageを公開しました。",
     href: "#",
   },
@@ -30,7 +31,10 @@ export default function News() {
             <li key={announcement.id} className="py-5">
               <div className="relative focus-within:ring-2 focus-within:ring-indigo-500">
                 <h3 className="text-sm font-semibold text-gray-800">
-                  <a href={announcement.href} className="hover:underline focus:outline-none">
+                  <a
+                    href={announcement.href}
+                    className="hover:underline focus:outline-none"
+                  >
                     {/* Extend touch target to entire panel */}
                     <span className="absolute inset-0" aria-hidden="true" />
                     {announcement.title}

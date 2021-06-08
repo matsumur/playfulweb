@@ -17,17 +17,17 @@ export default function People() {
       </Head>
 
       <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
-          <About name="Playfulな人">
-            <p>研究室のメンバーを紹介します。</p>
-          </About>
+        <About name="Playfulな人">
+          <p>研究室のメンバーを紹介します。</p>
+        </About>
 
-          <Divider>教員</Divider>
-          <Faculty />
+        <Divider>教員</Divider>
+        <Faculty />
 
-          <Divider>博士前期課程</Divider>
-          <Master />
-          <Divider>学部</Divider>
-          <Bachelor />
+        <Divider>博士前期課程</Divider>
+        <Master />
+        <Divider>学部</Divider>
+        <Bachelor />
       </main>
     </Page>
   );
