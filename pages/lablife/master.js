@@ -112,7 +112,7 @@ export default function Master() {
                     <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
                       <Image
                         className="rounded-lg shadow-lg object-cover object-center"
-                        src="/images/lablife/scheduleb.png"
+                        src="/images/lablife/schedulem.png"
                         alt="Whitney leaning against a railing on a downtown street"
                         width={600}
                         height={600}
