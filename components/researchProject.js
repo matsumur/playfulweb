@@ -103,7 +103,7 @@ const projects = [
     keyword: "ロボット，心理学",
     description:
       "ロボットの対話システムを用いた商品推薦に関する研究をしています。ロボット同士に推薦する商品に関する内容で対話をさせ、それをユーザに聞かせることによって行動変容を促し、商品の購入を促進可能かどうかについて調査しています。",
-    imageUrl: "/project-images/IMG_9698.JPG",
+    imageUrl: "/project-images/IMG_9698.jpg",
   },
   {
     name: "浮田凌佑",

@@ -18,16 +18,16 @@ export default function Openlab() {
 
       <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
         <About name="研究室公開2021">
-          <p>
+          <p className="text-lg">
             2021年度の研究室公開はオンラインで実施します。こちらのページで公開の実施方法や、みなさんがプレイフルインタラクション研究室について理解するためのリソースを公開します。
           </p>
         </About>
 
         <Divider>本研究室の成り立ち</Divider>
-        <p className="flex flex-col w-full flex-1 px-10 mt-2">
+        <p className="flex flex-col w-full flex-1 px-10 mt-2 text-lg">
           プレイフルインタラクション研究室は2021年4月に発足した、ヒューマンコンピュータインタラクションに関する研究室です。特に、フィールドワークやワークショップを実施することで、コンピュータやロボットを含む複数の存在がどのように関わり合うのかということを理解することに研究上の興味があります。
         </p>
-        <p className="flex flex-col w-full flex-1 px-10 mt-2">
+        <p className="flex flex-col w-full flex-1 px-10 mt-2 text-lg">
           本研究室には歴史や伝統がありません。すなわち、これから配属することになるみなさんが1期生ということになります。みなさんが教員と一緒に研究室をどのように作っていくか、それが歴史や伝統となっていくことになります。そのような新しいチャレンジを好む人を歓迎します。
         </p>
         <Faq />
