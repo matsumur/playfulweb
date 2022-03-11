@@ -173,7 +173,7 @@ export function Student() {
             山口 遊
           </p>
           <p className="text-l font-medium text-gray-500 group-hover:text-gray-700">
-            修士1回生
+            修士2年
           </p>
         </div>
       </div>

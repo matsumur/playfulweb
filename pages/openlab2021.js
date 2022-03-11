@@ -94,13 +94,13 @@ const students = [
     id: "1",
     theme: "学部生の場合",
     imageUrl: "/images/watanabe.jpg",
-    href: "/lablife/master",
+    href: "/lablife/bachelor",
   },
   {
     name: "山口 遊",
     id: "2",
     theme: "修士生の場合",
     imageUrl: "/images/lovotyamaguchi.png",
-    href: "/lablife/bachelor",
+    href: "/lablife/master",
   },
 ];
