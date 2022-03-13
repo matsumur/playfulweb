@@ -2,10 +2,10 @@ import { MailIcon, HomeIcon } from "@heroicons/react/solid";
 import { version } from "react-dom";
 import Image from "next/image";
 
-export function Faculty(faculty) {
+export function Faculty(props) {
   return (
     <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-10 mt-6">
-      {faculty.map((person) => (
+      {props.faculty.map((person) => (
         <li
           key={person.name}
           className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200"
@@ -23,7 +23,7 @@ export function Faculty(faculty) {
             </h3>
             <dl className="mt-1 flex-grow flex flex-col justify-between">
               <dt className="sr-only">Title</dt>
-              <dd className="text-gray-500 text-sm">{person.title}</dd>
+              <dd className="text-gray-500 text-sm">{person.role}</dd>
               {person.role && (
                 <>
                   <dt className="sr-only">Role</dt>
@@ -59,7 +59,7 @@ export function Faculty(faculty) {
                     className="w-5 h-5 text-gray-400"
                     aria-hidden="true"
                   />
-                  <span className="ml-3">Web</span>
+              //     <span className="ml-3">Web</span>
                 </a>
               </div>
             </div>
@@ -70,10 +70,10 @@ export function Faculty(faculty) {
   );
 }
 
-export function Students(students) {
+export function Students(props) {
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 px-10 mt-6">
-      {students.map((person) => (
+      {props.students.map((person) => (
         <div
           key={person.id}
           className="relative rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"

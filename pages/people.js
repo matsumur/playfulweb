@@ -3,10 +3,10 @@ import Page from "../components/page";
 import About from "../components/about";
 import { Faculty, Students } from "../components/people";
 import Divider from "../components/divider";
-import faculties from "public/faculty.json";
-import masters from "public/master.json";
-import bachelors from "public/bachelor.json";
-import graduators from "public/graduator.json";
+import faculties from "../public/faculty.json";
+import masters from "../public/master.json";
+import bachelors from "../public/bachelor.json";
+import graduators from "../public/graduator.json";
 
 export default function People() {
   return (
@@ -26,14 +26,15 @@ export default function People() {
         </About>
 
         <Divider>教員</Divider>
-        <Faculty faculties/>
-
+        <Faculty faculty={faculties}/>        
         <Divider>博士前期課程</Divider>
-        <Students masters/>
+        <Students students={masters}/>
+
         <Divider>学部</Divider>
-        <Students bachelors/>
+        <Students students={bachelors}/>
+
         <Divider>卒業生</Divider>
-        <Students graduators/>
+        <Students students={graduators}/>
       </main>
     </Page>
   );
