@@ -3,7 +3,7 @@
 		"role": "修士",
 		"grade": 2,
 		"name": "天田 穣一朗",
-		"imageUrl": "amada.jpg",
+		"imageUrl": "/amada.jpg",
 		"email": "",
 		"year": 2023,
 		"project": 2
@@ -30,7 +30,7 @@
 		"role": "修士",
 		"grade": 2,
 		"name": "河野 隼一郎",
-		"imageUrl": "kawano.jpg",
+		"imageUrl": "/kawano.jpg",
 		"email": "",
 		"year": 2023,
 		"project": 13
@@ -66,7 +66,7 @@
 		"role": "修士",
 		"grade": 2,
 		"name": "山口 遊",
-		"imageUrl": "yamaguchi.png",
+		"imageUrl": "/yamaguchi.png",
 		"email": "",
 		"year": 2023,
 		"project": ""
@@ -75,7 +75,7 @@
 		"role": "修士",
 		"grade": 2,
 		"name": "Yang Guang",
-		"imageUrl": "yang.jpg",
+		"imageUrl": "/yang.jpg",
 		"email": "",
 		"year": 2023,
 		"project": 3
@@ -84,7 +84,7 @@
 		"role": "修士",
 		"grade": 1,
 		"name": "加藤 祐樹",
-		"imageUrl": "kato.jpg",
+		"imageUrl": "/kato.jpg",
 		"email": "",
 		"year": 2024,
 		"project": 5
@@ -93,7 +93,7 @@
 		"role": "修士",
 		"grade": 1,
 		"name": "岸本 和大",
-		"imageUrl": "kishimoto.jpg",
+		"imageUrl": "/kishimoto.jpg",
 		"email": "",
 		"year": 2024,
 		"project": 8
@@ -111,7 +111,7 @@
 		"role": "修士",
 		"grade": 1,
 		"name": "渡邊 将太",
-		"imageUrl": "watanae.jpg",
+		"imageUrl": "/watanae.jpg",
 		"email": "",
 		"year": 2024,
 		"project": 1
