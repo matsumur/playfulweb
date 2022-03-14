@@ -15,7 +15,7 @@ export function Faculty(props) {
               className="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
               width="400"
               height="400"
-              src={person.imageUrl}
+              src={"/images/"+person.imageUrl}
               alt="Profile image"
             />
             <h3 className="mt-6 text-gray-900 text-sm font-medium">
@@ -72,7 +72,7 @@ export function Students(props) {
             {person.imageUrl && (
               <img
                 className="h-10 w-10 rounded-full"
-                src={person.imageUrl}
+                src={"/images/"+person.imageUrl}
                 alt=""
               />
             )}
@@ -89,10 +89,9 @@ export function Students(props) {
             )}
           </div>
           <div className="flex-1 min-w-0">
-            <a href="#" className="focus:outline-none">
+            <a href={person.project ? "/projects#project" + person.project: "#"} >
               <span className="absolute inset-0" aria-hidden="true" />
               <p className="text-sm font-medium text-gray-900">{person.name}</p>
-              <p className="text-sm text-gray-500 truncate">{person.theme}</p>
             </a>
           </div>
         </div>

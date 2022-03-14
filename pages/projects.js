@@ -2,6 +2,8 @@ import Page from "../components/page";
 import Head from "next/head";
 import About from "../components/about";
 import ResearchProject from "../components/researchProject";
+import projects from "../public/projects.json";
+import master from "../public/master.json";
 
 export default function Projects() {
   return (
@@ -17,9 +19,11 @@ export default function Projects() {
 
       <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
         <About name="研究プロジェクト">
-          <p>研究内容を紹介します。</p>
+          <p className="text-lg">
+            研究内容を紹介します。
+          </p>
         </About>
-        <ResearchProject />
+          <ResearchProject projects={projects} />
       </main>
     </Page>
   );

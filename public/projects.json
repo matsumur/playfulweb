@@ -105,7 +105,7 @@
 		"keyword2": "",
 		"keyword3": "",
 		"description": "今後、私たちの生活において自動運転車が主流になってくると思われる。しかし、現状のレベル3やレベル4において、完全に人の手を離れるわけではなく、緊急時には自動運転から人への運転への移行が必要になってくる。そのためのインタラクションの研究です。",
-		"imageUrl": ""
+		"imageUrl": "carsim.jpg"
 	},
 	{
 		"projectID": 13,
@@ -114,15 +114,6 @@
 		"keyword2": "待ち合わせ",
 		"keyword3": "時間の制御",
 		"description": "日常的にナビゲーションシステムを使用しています。しかし, 待ち合わせで使用する際は待ち合わせ時間までどのくらい余裕があるかはわからないです. そこで視覚的に時間表現をすることで人の行動が変化するのかということを調べてます.",
-		"imageUrl": "naviaura.jpg"
-	},
-	{
-		"projectID": "",
-		"title": "",
-		"keyword1": "",
-		"keyword2": "",
-		"keyword3": "",
-		"description": "",
-		"imageUrl": ""
+		"imageUrl": "naviaura.png"
 	}
 ]
