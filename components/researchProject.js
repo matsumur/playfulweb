@@ -8,11 +8,9 @@ export default function ResearchProjects(props) {
           {props.projects.map((project) => (
             <div
               key={project.projectID}
-              className="flex flex-col rounded-lg shadow-lg overflow-hidden hover:border-gray-400"
+              className="flex flex-col rounded-lg shadow-lg overflow-hidden hover:border-gray-400 projectContents"
+              id={"project"+project.projectID}
             >
-            
-              
-            <span id={"project"+project.projectID}> </span>
             <div className="flex-shrink-0">
                 <Image
                   src={
