@@ -179,7 +179,7 @@ export function Student() {
             渡邊 将太
           </p>
           <p className="text-l font-medium text-gray-500 group-hover:text-gray-700">
-            学部4回生
+            修士1年
           </p>
         </div>
       </div>
