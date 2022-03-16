@@ -9,10 +9,19 @@
 		"project": ""
 	},
 	{
-		"role": "客員助教",
+		"role": "客員准教授",
 		"grade": -1,
 		"name": "岡藤 勇希",
 		"imageUrl": "okafuji.jpg",
+		"email": "",
+		"year": "",
+		"project": ""
+	},
+    {
+		"role": "客員准教授",
+		"grade": -1,
+		"name": "山西 良典",
+		"imageUrl": "",
 		"email": "",
 		"year": "",
 		"project": ""
