@@ -1,4 +1,9 @@
 .projectContents:target {
-  border: solid;
-  border-color: #4f46e5;
+  box-shadow: 0 3px 5px rgba(79,70,229,1);
+}
+
+.projectContents:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 3px 5px rgba(79,70,229,.5);
+  transition: all .5s;
 }
