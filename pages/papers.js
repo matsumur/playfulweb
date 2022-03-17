@@ -18,7 +18,9 @@ export default function Papers() {
 
       <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
         <About name="発表文献">
-          <p>近日公開予定</p>
+          <p className="text-lg">
+            発表した論文を紹介します。
+          </p>
         </About>
       </main>
     </Page>
