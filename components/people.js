@@ -11,13 +11,26 @@ export function Faculty(props) {
           className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200"
         >
           <div className="flex-1 flex flex-col p-8">
-            <Image
-              className="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
-              width="400"
-              height="400"
-              src={"/images/"+person.imageUrl}
-              alt="Profile image"
-            />
+            {person.imageUrl && (
+              <img
+                className="w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full"
+                width="400"
+                height="400"
+                src={"/images/"+person.imageUrl}
+                alt=""
+              />
+            )}
+            {!person.imageUrl && (
+              <span className="inline-block w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full overflow-hidden bg-gray-100">
+                <svg
+                  className="h-full w-full text-gray-300"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+              </span>
+            )}
             <h3 className="mt-6 text-gray-900 text-sm font-medium">
               {person.name}
             </h3>

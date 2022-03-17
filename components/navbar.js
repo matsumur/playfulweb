@@ -2,34 +2,19 @@ import { Fragment, useCallback, useState, useEffect } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import Link from "next/link";
+import { useRouter } from "next/router";
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const KEY = "navbar";
 
 export default function Navbar() {
-  var State;
-  const [count, setCount] = useState("");
 
-  useEffect(() => {
-    State = State === "" ? "" : localStorage.getItem(KEY);
-    setCount(State);
-  }, []);
-
-  useEffect(() => {
-    localStorage.setItem(KEY, count);
-  }, [count]);
-
+  const router = useRouter(); 
   function ariaChange(style) {
-    // if (style) {
-    //   return "aria-current='page' font-extrabold border-indigo-700 text-black-700 hover:border-indigo-700 hover:text-black-900 ";
-    // } else {
-    //   return "border-b-2 hover:border-b-4 font-medium border-gray-300 text-gray-700 hover:border-gray-900 hover:text-gray-900 ";
-    // }
-
-    if (style) {
+    if (style === router.pathname) {
       return "aria-current='page' UnderlineNav-item-this-page";
     } else {
       return "UnderlineNav-item";
@@ -45,7 +30,7 @@ export default function Navbar() {
               <div className="flex">
                 <div className="flex-shrink-0 flex items-center">
                   <Link href="/">
-                    <a onClick={() => setCount("home")}>
+                    <a>
                       <img
                         className="block lg:hidden h-8 w-auto"
                         src="/playful.svg"
@@ -62,9 +47,8 @@ export default function Navbar() {
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   <Link href="/people">
                     <a
-                      onClick={() => setCount("people")}
                       className={[
-                        ariaChange(count === "people"),
+                        ariaChange("/people"),
                         "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
                       ]
                         .join(" ")
@@ -75,9 +59,8 @@ export default function Navbar() {
                   </Link>
                   <Link href="/projects">
                     <a
-                      onClick={() => setCount("projects")}
                       className={[
-                        ariaChange(count === "projects"),
+                        ariaChange("/projects"),
                         "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
                       ]
                         .join(" ")
@@ -88,9 +71,8 @@ export default function Navbar() {
                   </Link>
                   <Link href="/papers">
                     <a
-                      onClick={() => setCount("papers")}
                       className={[
-                        ariaChange(count === "papers"),
+                        ariaChange("/papers"),
                         "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
                       ]
                         .join(" ")
@@ -101,9 +83,8 @@ export default function Navbar() {
                   </Link>
                   <Link href="/openlab2021">
                     <a
-                      onClick={() => setCount("openlab2021")}
                       className={[
-                        ariaChange(count === "openlab2021"),
+                        ariaChange("openlab2021"),
                         "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
                       ]
                         .join(" ")
