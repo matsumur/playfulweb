@@ -24,8 +24,7 @@ export default function Papers(props) {
               <h4 class="card-title margin-remove">【{paper.form}】</h4>
               <h4 class="card-title ">{paper.title}</h4>
         <ul class="card-meta card-nav">
-        <p> {paper.publisher} <br /></p>
-        <p> {paper.conforenceName} </p>
+        <p> {paper.publisher} <br />{paper.conforenceName}</p>
               </ul>
             </div>
             </div>
