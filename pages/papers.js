@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Page from "../components/page";
 import About from "../components/about";
-// import Faculty from '../components/faculty'
-// import Divider from '../components/divider'
+import Research from "../components/paper";
+import research from "../public/paper.json";
 
 export default function Papers() {
   return (
@@ -22,6 +22,7 @@ export default function Papers() {
             発表した論文を紹介します。
           </p>
         </About>
+        <Research papers={research}/>
       </main>
     </Page>
   );
