@@ -55,7 +55,7 @@ export function Faculty(props) {
               </div>
               <div className="-ml-px w-0 flex-1 flex">
                 <a
-                  href={`${person.website}`}
+                  href={`${person.web}`}
                   className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500"
                 >
                   <HomeIcon

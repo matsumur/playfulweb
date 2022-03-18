@@ -2,9 +2,10 @@
 	{
 		"role": "学士",
 		"grade": 4,
-		"name": "飯田",
+		"name": "飯田 祐大",
 		"imageUrl": "",
 		"email": "",
+		"web": "",
 		"year": 2023,
 		"project": ""
 	},
@@ -14,24 +15,27 @@
 		"name": "岸田 裕大",
 		"imageUrl": "",
 		"email": "",
+		"web": "",
 		"year": 2023,
 		"project": ""
 	},
 	{
 		"role": "学士",
 		"grade": 4,
-		"name": "高見",
+		"name": "高見 優也",
 		"imageUrl": "",
 		"email": "",
+		"web": "",
 		"year": 2023,
 		"project": ""
 	},
 	{
 		"role": "学士",
 		"grade": 4,
-		"name": "茶本",
+		"name": "茶本 有記",
 		"imageUrl": "",
 		"email": "",
+		"web": "",
 		"year": 2023,
 		"project": ""
 	},
@@ -41,6 +45,7 @@
 		"name": "鳥居 陽香",
 		"imageUrl": "torii.jpg",
 		"email": "",
+		"web": "",
 		"year": 2023,
 		"project": ""
 	},
@@ -50,6 +55,7 @@
 		"name": "中山 貴翔",
 		"imageUrl": "",
 		"email": "",
+		"web": "",
 		"year": 2023,
 		"project": ""
 	},
@@ -59,24 +65,27 @@
 		"name": "服部 健心",
 		"imageUrl": "",
 		"email": "",
+		"web": "",
 		"year": 2023,
 		"project": ""
 	},
 	{
 		"role": "学士",
 		"grade": 4,
-		"name": "三井",
+		"name": "三井 優弥",
 		"imageUrl": "",
 		"email": "",
+		"web": "",
 		"year": 2023,
 		"project": ""
 	},
 	{
 		"role": "学士",
 		"grade": 4,
-		"name": "若林",
+		"name": "若林 大聖",
 		"imageUrl": "",
 		"email": "",
+		"web": "",
 		"year": 2023,
 		"project": ""
 	}

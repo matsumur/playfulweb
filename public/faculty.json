@@ -5,6 +5,7 @@
 		"name": "松村 耕平",
 		"imageUrl": "matsumura.jpg",
 		"email": "matsumur@fc.ritsumei.ac.jp",
+		"web": "https://research-db.ritsumei.ac.jp/rithp/k03/resid/S001223",
 		"year": "",
 		"project": ""
 	},
@@ -13,16 +14,18 @@
 		"grade": -1,
 		"name": "岡藤 勇希",
 		"imageUrl": "okafuji.jpg",
-		"email": "",
+		"email": "yokafuji@fc.ritsumei.ac.jp",
+		"web": "https://yukiokafuji.mystrikingly.com/",
 		"year": "",
 		"project": ""
 	},
-    {
-		"role": "客員准教授",
+	{
+		"role": "客員助教",
 		"grade": -1,
 		"name": "山西 良典",
-		"imageUrl": "",
-		"email": "",
+		"imageUrl": "yamanishi.jpeg",
+		"email": "ryama@kansai-u.ac.jp",
+		"web": "https://ccca-lab.net/",
 		"year": "",
 		"project": ""
 	}
