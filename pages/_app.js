@@ -5,6 +5,7 @@ import "../components/slider.css";
 import "../components/navbar.css";
 import "../components/project.css";
 import "../components/paper.css";
+import "../components/people.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
