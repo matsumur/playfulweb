@@ -84,7 +84,7 @@ export default function Navbar() {
                   <Link href="/openlab2021">
                     <a
                       className={[
-                        ariaChange("openlab2021"),
+                        ariaChange("/openlab2021"),
                         "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
                       ]
                         .join(" ")
