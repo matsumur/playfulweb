@@ -76,7 +76,7 @@ export function Faculty(props) {
 }
 
 export function Students(props) {
-  const { students, grade } = props
+  const { students, grade } = props;
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 px-10 mt-6">
       {students.map((person) => (

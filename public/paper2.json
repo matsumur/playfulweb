@@ -1,0 +1,57 @@
+[
+	{
+		"form": "ポスター発表",
+		"cite": "天田穣一朗，岡藤勇希，松村耕平，馬場惇，中西惇也，\"複数ロボットを用いた擬似的な人だかりによる集客効果の検証\"，HAIシンポジウム，2022年3月",
+		"document": "https://hai-conference.net/symp2022/proceedings/pdf/P-4.pdf"
+	},
+	{
+		"form": "ポスター発表",
+		"cite": "坂口太一，岡藤勇希，松村耕平，馬場惇，中西惇也，\"ロボットとインタラクションを行う通行人のエンゲージメントモデリング\"，HAIシンポジウム，2022年3月",
+		"document": "https://hai-conference.net/symp2022/proceedings/pdf/P-7.pdf"
+	},
+	{
+		"form": "ポスター発表",
+		"cite": "牧田昌大，岡藤勇希，松村耕平，馬場惇，中西惇也，\"公共空間において恥ずかしさがロボットの利用に与える影響の調査\"，HAIシンポジウム，2022年3月",
+		"document": "https://hai-conference.net/symp2022/proceedings/pdf/P-8.pdf"
+	},
+	{
+		"form": "原著",
+		"cite": "Y. Okafuji, T. Sugiura, R. Osugi, C. Zhang, and T. Wada, \"A machine learning-based approach to analyze information used for steering control,\" IEEE Access, vol. 9, pp. 94239-94250, 2021, doi: 10.1109/ACCESS.2021.3093337, https://ieeexplore.ieee.org/abstract/document/9467314",
+		"document": "https://ieeexplore.ieee.org/abstract/document/9467314"
+	},
+	{
+		"form": "口頭発表",
+		"cite": "天田穣一朗，岡藤勇希，和田隆広，馬場惇，中西惇也，\"呼びかけロボットの身体性拡張による通行人の行動促進\"，HAIシンポジウム，2021年3月",
+		"document": "https://hai-conference.net/symp2021/proceedings/pdf/G-8.pdf"
+	},
+	{
+		"form": "口頭発表",
+		"cite": "YANG Guang, 松村 耕平, 大井翔, 野間 春生, \"ソーシャルVRコンテンツにおけるアバタへの吹き出し表現の付与による発話者同定手法の提案\", 第26回日本バーチャルリアリティ学会大会, 2021年9月",
+		"document": "http://conference.vrsj.org/ac2021/program/doc/3G-6.pdf"
+	},
+	{
+		"form": "口頭発表",
+		"cite": "J. Amada, Y. Okafuji, T. Wada, J. Baba, J. Nakanishi, Y. Yoshikawa, \"Behavioral Changes in Passersby by Expanding Embodiment of a Calling Robot,\" IEEE International Conference on Robot & Human Interactive Communication (RO-MAN), Virtual Conference, August 2021, doi: 10.1109/RO-MAN50785.2021.9515557, https://ieeexplore.ieee.org/document/9515557",
+		"document": "https://ieeexplore.ieee.org/document/9515557"
+	},
+	{
+		"form": "口頭発表",
+		"cite": "渡邊将太, 川上雄大, and 松村耕平. \"ラッセルの円環モデル上に描画された自由曲線に対応する顔アイコンの推薦手法の調査と提案.\" 研究報告ヒューマンコンピュータインタラクション (HCI) 2021.16 (2021): 1-7.",
+		"document": "https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=212293&item_no=1"
+	},
+	{
+		"form": "口頭発表",
+		"cite": "Y. Okafuji, J. Baba, J. Nakanishi, J. Amada, Y. Yoshikawa, H. Ishiguro, \"Persuasion Strategies for Social Robot to Keep Humans Accepting Daily Different Recommendations,\" IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Virtual Conference, September 2021, doi: 10.1109/IROS51168.2021.9636772, https://ieeexplore.ieee.org/document/9636772",
+		"document": "https://ieeexplore.ieee.org/document/9636772"
+	},
+	{
+		"form": "口頭発表",
+		"cite": "岡藤勇希，山口遊，和田隆広，村上一臣，石田裕之，\"Potential Attentionを用いたHMI使用時のドライバの注視推定\"，自動車技術会秋季大会学術講演会，2021年10月",
+		"document": "https://doi.org/10.11351/jsaeronbun.52.1137"
+	},
+	{
+		"form": "口頭発表",
+		"cite": "藤本遼太，岡藤勇希，松村耕平，\"インタラクションゲームを用いた自動運転中におけるドライバの周辺環境の注意力の向上\"，情報処理学会 ヒューマンコンピュータインタラクション研究会，2022年1月",
+		"document": "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=214588&item_no=1&page_id=13&block_id=8"
+	}
+]
