@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Page from "../components/page";
 import About from "../components/about";
-// import Faculty from '../components/faculty'
-// import Divider from '../components/divider'
+import Research from "../components/paper";
+import research from "../public/paper.json";
 
 export default function Papers() {
   return (
@@ -18,8 +18,11 @@ export default function Papers() {
 
       <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
         <About name="発表文献">
-          <p>近日公開予定</p>
+          <p className="text-lg">
+            発表した論文を紹介します。
+          </p>
         </About>
+        <Research papers={research}/>
       </main>
     </Page>
   );

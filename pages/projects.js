@@ -3,7 +3,6 @@ import Head from "next/head";
 import About from "../components/about";
 import ResearchProject from "../components/researchProject";
 import projects from "../public/projects.json";
-import master from "../public/master.json";
 
 export default function Projects() {
   return (
