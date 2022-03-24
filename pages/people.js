@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Page from "../components/page";
 import About from "../components/about";
-import { Faculty, Bachelor, Master } from "../components/people";
+import { Faculty, Students } from "../components/people";
 import Divider from "../components/divider";
+import Members from "../public/member.json";
 
 export default function People() {
   return (
@@ -18,16 +19,23 @@ export default function People() {
 
       <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
         <About name="Playfulな人">
-          <p>研究室のメンバーを紹介します。</p>
+          <p className="text-lg">
+            研究室のメンバーを紹介します。
+          </p>
         </About>
 
+      
         <Divider>教員</Divider>
-        <Faculty />
-
+        <Faculty faculty={Members} />        
         <Divider>博士前期課程</Divider>
-        <Master />
+        <Students students={Members} grade={2}/>
+        <Students students={Members} grade={1}/>
+
         <Divider>学部</Divider>
-        <Bachelor />
+        <Students students={Members} grade={4}/>
+
+        <Divider>卒業生</Divider>
+        <Students students={Members} grade={0}/>
       </main>
     </Page>
   );

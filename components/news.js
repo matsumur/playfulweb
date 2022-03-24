@@ -1,5 +1,26 @@
 const announcements = [
   {
+    id: 6,
+    title: "2022/3/18",
+    preview:
+      "2022年3月2日~3日に行われたHAIシンポジウム2022において、弊研の天田(修士1年)と牧田(学部4年)の2人がImpressive Short-paper Award(優秀論文賞(ショート))をいただきました。おめでとうございます。",
+    href: "https://hai-conference.net/symp2022/awards.php",
+  },
+  {
+    id: 5,
+    title: "2022/3/18",
+    preview:
+      "2021年度に行った発表文献の公開をしました。",
+    href: "/paper",
+  },
+  {
+    id: 4,
+    title: "2022/3/18",
+    preview:
+      "2022年度のメンバーの更新をしました。",
+    href: "/people",
+  },
+  {
     id: 1,
     title: "2021/6/8",
     preview:

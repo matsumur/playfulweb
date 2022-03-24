@@ -1,0 +1,5 @@
+.studentContents:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 3px 5px rgba(79,70,229,.5);
+  transition: all .5s;
+}

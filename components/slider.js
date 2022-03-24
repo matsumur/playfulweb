@@ -56,10 +56,9 @@ export default function App() {
         delay: 5000,
         disableOnInteraction: false,
       }}
-      pagination={{
-        clickable: true,
-      }}
-      navigation={true}
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      rewind={true}
       className="mySwiper"
     >
       {swipeImages.map((swipeImage) => (

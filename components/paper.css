@@ -1,0 +1,70 @@
+.l-wrapper {
+  margin: 1rem auto;
+  width: 100%;
+  height: fit-content;
+}
+
+/* .l-wrapper:hover { */
+/*   transform: translateY(-3px); */
+/*   box-shadow: 0 3px 5px rgba(79,70,229,.5); */
+/*   transition: all .5s; */
+/* } */
+
+.card {
+  padding: 30px;
+}
+
+.card-header {
+  margin-bottom: 20px;
+  margin-left: -30px;
+  align-items: center;
+}
+.card-title {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.margin-remove {
+    margin: 0 !important;
+}
+
+.card-meta {
+  font-size: .875rem;
+  line-height: 1.4;
+  color: #999;
+}
+
+.card-nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.card-body {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.card-image {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;       
+  margin-left: 30px;
+}
+
+
+
+.card-nav>:nth-child(n+2)::before {
+  content: "";
+  height: 1.5em;
+  margin-left: 0;
+  margin-right: 20px;
+  border-left: 1px solid #e5e5e5;
+  border-left-color: rgba(255, 255, 255, .2);
+}
