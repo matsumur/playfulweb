@@ -4,15 +4,12 @@ import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-
 export default function Navbar() {
-
-  const router = useRouter(); 
+  const router = useRouter();
   function ariaChange(style) {
     if (style === router.pathname) {
       return "aria-current='page' UnderlineNav-item-this-page";
@@ -81,10 +78,10 @@ export default function Navbar() {
                       発表文献
                     </a>
                   </Link>
-                  <Link href="/openlab2021">
+                  <Link href="/openlab2022">
                     <a
                       className={[
-                        ariaChange("/openlab2021"),
+                        ariaChange("/openlab2022"),
                         "inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese",
                       ]
                         .join(" ")
