@@ -9,7 +9,7 @@ export default function Openlab() {
   return (
     <Page>
       <Head>
-        <title>2022年度研究室公開</title>
+        <title>2021年度研究室公開</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           href="https://fonts.googleapis.com/css?family=Noto+Sans+JP"
