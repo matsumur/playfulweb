@@ -3,7 +3,7 @@ import Head from "next/head";
 import { AcademicCapIcon, ChatAlt2Icon, ThumbUpIcon, UserIcon, BookOpenIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import FaqAnswers from "../public/faq.json";
-import TimeLines from "../public/timelines.json";
+// import TimeLines from "../public/timelines.json";
 import { useRouter, useEffect } from "next/router";
 
 const questions = [ "どのような研究をしていますか?", "どのような観点から研究室を選びましたか?", "アルバイトをしていたらどんなことをしているか教えてください", "研究室で楽しいと思えることを教えてください", "研究室でつらいなーと思うことを教えてください", "研究室の教員に対する印象を教えてください", "最後に3回生に向けて、なにか一言お願いします"];
@@ -15,14 +15,11 @@ export default function Labfile() {
   const router = useRouter();
   que = router.query["id"];
     
-  console.log(que);
   if(que <= 0 || FaqAnswers.length < que || que == undefined) {
     que = 1;
   }
   que -= 1;
   answer = FaqAnswers[que];
-  console.log("ans:" + answer);
-  console.log("len:" + FaqAnswers.length);
   const faq = [answer.faq1, answer.faq2,  answer.faq3, answer.faq4, answer.faq5, answer.faq6, answer.faq7]; 
 
 
@@ -178,6 +175,314 @@ export function Student() {
   );
 }
 
+const TimeLines = [
+    {
+        timeID: 1,
+        timeline: [
+            {
+                id: 1,
+                content: "研究室 入室",
+                starttime: "9:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            },
+            {
+                id: 2,
+                content: "オンラインの講義（気分や天気で自宅か大学か決める）",
+                starttime: "9:00",
+                endtime: "12:15",
+                icon: "BookOpenIcon",
+                iconBackground: "bg-red-400"
+            },
+            {
+                id: 3,
+                content: "昼食（大学の場合は，ミーティングスペースで誰かと食べるかも）",
+                starttime: "12:15",
+                endtime: "13:00",
+                icon: ThumbUpIcon,
+                iconBackground: "bg-green-500"
+            },
+            {
+                id: 4,
+                content: "研究や授業の課題",
+                starttime: "13:00",
+                endtime: "14:00",
+                icon: AcademicCapIcon,
+                iconBackground: "bg-red-400"
+            },
+            {
+                id: 5,
+                content: "岡藤先生とミーティング",
+                starttime: "14:00",
+                endtime: "15:00",
+                icon: ChatAlt2Icon,
+                iconBackground: "bg-yellow-500"
+            },
+            {
+                id: 6,
+                content: "途中でおやつタイム挟みながら研究（この時間に相談とか雑談多い）",
+                starttime: "15:00",
+                endtime: "18:00",
+                icon: AcademicCapIcon,
+                iconBackground: "bg-red-400"
+            },
+            {
+                id: 7,
+                content: "研究して，きりが良くなったタイミングで帰る",
+                starttime: "18:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            }
+        ]
+    },
+    {
+        timeID: 2,
+        timeline: [
+            {
+                id: 1,
+                content: "研究室 入室",
+                starttime: "9:30",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            },
+            {
+                id: 2,
+                content: "研究とミーティングの準備",
+                starttime: "9:30",
+                endtime: "10:40",
+                icon: AcademicCapIcon,
+                iconBackground: "bg-red-400"
+            },
+            {
+                id: 3,
+                content: "教員とミーティング",
+                starttime: "10:40",
+                endtime: "12:00",
+                icon: ChatAlt2Icon,
+                iconBackground: "bg-yellow-500"
+            },
+            {
+                id: 4,
+                content: "昼休憩",
+                starttime: "12:00",
+                endtime: "13:00",
+                icon: ThumbUpIcon,
+                iconBackground: "bg-green-500"
+            },
+            {
+                id: 5,
+                content: "研究",
+                starttime: "13:00",
+                endtime: "14:30",
+                icon: AcademicCapIcon,
+                iconBackground: "bg-red-400"
+            },
+            {
+                id: 6,
+                content: "休憩（研究室の人と雑談）",
+                starttime: "14:30",
+                endtime: "15:00",
+                icon: ThumbUpIcon,
+                iconBackground: "bg-green-500"
+            },
+            {
+                id: 7,
+                content: "ゼミの準備",
+                starttime: "15:00",
+                endtime: "16:20",
+                icon: AcademicCapIcon,
+                iconBackground: "bg-red-400"
+            },
+            {
+                id: 8,
+                content: "ゼミ（進捗報告）",
+                starttime: "16:20",
+                endtime: "17:50",
+                icon: ChatAlt2Icon,
+                iconBackground: "bg-yellow-500"
+            },
+            {
+                id: 9,
+                content: "休憩（研究室内で卓球）",
+                starttime: "17:50",
+                endtime: "19:00",
+                icon: ThumbUpIcon,
+                iconBackground: "bg-green-500"
+            },
+            {
+                id: 10,
+                content: "ゼミの内容をまとめる",
+                starttime: "19:00",
+                endtime: "19:30",
+                icon: AcademicCapIcon,
+                iconBackground: "bg-red-400"
+            },
+            {
+                id: 11,
+                content: "帰宅",
+                starttime: "19:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            }
+        ]
+    },
+    {
+        timeID: 3,
+        timeline: [
+            
+        ]
+    },
+    {
+        timeID: 4,
+        timeline: [
+            {
+                id: 1,
+                content: "起床ー準備",
+                starttime: "7:30",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            },
+            {
+                id: 2,
+                content: "朝の散歩",
+                starttime: "8:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            },
+            {
+                id: 3,
+                content: "朝食",
+                starttime: "9:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            },
+            {
+                id: 4,
+                content: "研究室に行く",
+                starttime: "10:30",
+                endtime: "11:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            },
+            {
+                id: 5,
+                content: "研究",
+                starttime: "11:00",
+                endtime: "12:00",
+                icon: AcademicCapIcon,
+                iconBackground: "bg-red-400"
+            },
+            {
+                id: 6,
+                content: "昼食",
+                starttime: "12:00",
+                endtime: "13:00",
+                icon: ThumbUpIcon,
+                iconBackground: "bg-green-500"
+            },
+            {
+                id: 7,
+                content: "研究（論文読んだり, システム考えたり, おしゃべり）",
+                starttime: "13:00",
+                endtime: "16:00",
+                icon: AcademicCapIcon,
+                iconBackground: "bg-red-400"
+            },
+            {
+                id: 8,
+                content: "バイト, 夕食",
+                starttime: "17:00",
+                endtime: "21:00",
+                icon: ThumbUpIcon,
+                iconBackground: "bg-green-500"
+            },
+            {
+                id: 9,
+                content: "筋トレ",
+                starttime: "21:00",
+                endtime: "23:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            },
+            {
+                id: 10,
+                content: "お風呂",
+                starttime: "23:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            },
+            {
+                id: 11,
+                content: "就寝",
+                starttime: "24:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            }
+        ]
+    },
+    {
+        timeID: 5,
+        timeline: [
+            {
+                id: 1,
+                content: "昼くらいまで寝てから研究室に入室",
+                starttime: "14:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            },
+            {
+                id: 2,
+                content: "論文読んだりミーティングしたり",
+                starttime: "14:00",
+                endtime: "16:00",
+                icon: ChatAlt2Icon,
+                iconBackground: "bg-yellow-500"
+            },
+            {
+                id: 3,
+                content: "おやつ＆昼寝",
+                starttime: "16:00",
+                endtime: "17:00",
+                icon: ThumbUpIcon,
+                iconBackground: "bg-green-500"
+            },
+            {
+                id: 4,
+                content: "研究",
+                starttime: "17:00",
+                endtime: "19:00",
+                icon: AcademicCapIcon,
+                iconBackground: "bg-red-400"
+            },
+            {
+                id: 5,
+                content: "軽くごはん",
+                starttime: "19:00",
+                endtime: "19:30",
+                icon: ThumbUpIcon,
+                iconBackground: "bg-green-500"
+            },
+            {
+                id: 6,
+                content: "ゼミの準備",
+                starttime: "19:00",
+                endtime: "21:00",
+                icon: AcademicCapIcon,
+                iconBackground: "bg-red-400"
+            },
+            
+            {
+                id: 7,
+                content: "帰宅",
+                starttime: "21:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            }
+        ]
+    }
+];
+
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -243,3 +548,4 @@ export function Timetable() {
     </div>
   );
 }
+
