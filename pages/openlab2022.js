@@ -20,6 +20,10 @@ export default function Openlab() {
       <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
         <About name="研究室公開2022">
           <p className="text-lg">2022年度の研究室公開の情報を掲載します。</p>
+          <ol>
+            <li>aaa</li>
+            <li>bbb</li>
+          </ol>
         </About>
 
         <Divider>本研究室の成り立ち</Divider>
