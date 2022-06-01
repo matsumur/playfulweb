@@ -11,7 +11,7 @@ const announcements = [
     title: "2022/3/18",
     preview:
       "2021年度に行った発表文献の公開をしました。",
-    href: "/paper",
+    href: "/papers",
   },
   {
     id: 4,
