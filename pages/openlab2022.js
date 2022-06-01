@@ -19,12 +19,12 @@ export default function Openlab() {
 
       <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
         <About name="研究室公開2022">
-          <p className="text-lg">2022年度の研究室公開は以下の日時にクリエーションコア3Fプレイフルインタラクション研究室で実施します。この時間内であればいつ来てくれても、いつお帰りいただいても構いません。</p>
-          <ul className="text-lg">
+          <p className="text-lg">2022年度の研究室公開は以下の日時に<a class="underline decoration-pink-500">クリエーションコア3Fプレイフルインタラクション研究室</a>で実施します。この時間内であればいつ来てくれても、いつお帰りいただいても構いません。</p>
+          <ul className="text-lg list-decimal">
             <li>6月8日（水）16:20〜17:50</li>
             <li>6月15日（水）16:20〜17:50</li>
           </ul>
-          <p className="text-lg">オンライン（Zoom）でも随時実施します。<a href="https://ritsumei-ac-jp.zoom.us/j/98447792256?pwd=MjIrZlpNeERONGpWUHZLczhxcm5TZz09">ここのリンク</a>から待機室にはいっていただくと、教員が空いている時間に対応します（5分程度待って来なければ違う時間にもう一度試してください）。</p>
+          <p className="text-lg">オンライン（Zoom）でも随時実施します。<a href="https://ritsumei-ac-jp.zoom.us/j/98447792256?pwd=MjIrZlpNeERONGpWUHZLczhxcm5TZz09" class="underline  decoration-sky-500">ここのリンク</a>から待機室にはいっていただくと、教員が空いている時間に対応します（5分程度待って来なければ違う時間にもう一度試してください）。</p>
         </About>
 
         <Divider>本研究室の成り立ち</Divider>
