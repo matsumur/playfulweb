@@ -24,7 +24,7 @@ export default function Openlab() {
             <li>6月8日（水）16:20〜17:50</li>
             <li>6月15日（水）16:20〜17:50</li>
           </ul>
-          <p className="text-lg">オンライン（Zoom）でも随時実施します。<a href="https://ritsumei-ac-jp.zoom.us/j/98447792256?pwd=MjIrZlpNeERONGpWUHZLczhxcm5TZz09" class="underline  decoration-sky-500">ここのリンク</a>から待機室にはいっていただくと、教員が空いている時間に対応します（5分程度待って来なければ違う時間にもう一度試してください）。</p>
+          <p className="text-lg">オンライン（Zoom）でも随時実施します。<a href="https://ritsumei-ac-jp.zoom.us/j/98447792256?pwd=MjIrZlpNeERONGpWUHZLczhxcm5TZz09" class="underline  decoration-sky-700 hover:decoration-blue-500">ここのリンク</a>から待機室にはいっていただくと、教員が空いている時間に対応します（5分程度待って来なければ違う時間にもう一度試してください）。</p>
         </About>
 
         <Divider>本研究室の成り立ち</Divider>
