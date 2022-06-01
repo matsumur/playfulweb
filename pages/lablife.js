@@ -1,58 +1,31 @@
-import Page from "../../components/page";
+import Page from "../components/page";
 import Head from "next/head";
-import {
-  AcademicCapIcon,
-  ChatAlt2Icon,
-  CheckIcon,
-  ThumbUpIcon,
-  UserIcon,
-} from "@heroicons/react/solid";
+import { AcademicCapIcon, ChatAlt2Icon, ThumbUpIcon, UserIcon, BookOpenIcon } from "@heroicons/react/solid";
 import Image from "next/image";
+import FaqAnswers from "../public/faq.json";
+import TimeLines from "../public/timelines.json";
+import { useRouter, useEffect } from "next/router";
 
-const faqs = [
-  {
-    question: "どのような研究をしていますか?",
-    answer:
-      "顔アイコンの研究です。顔アイコンをアニメーションさせることで感情の変化や強調が簡単に表現できるシステムを作ってます。",
-  },
-  {
-    question: "どのような観点から研究室を選びましたか?",
-    answer: "研究内容と教員です。",
-  },
-  {
-    question: "アルバイトをしていたらどんなことをしているか教えてください",
-    answer:
-      "幼稚園～中学生の子が通うロボットプログラミング教室で講師をしています。",
-  },
-  {
-    question: "研究室で楽しいと思えることを教えてください",
-    answer:
-      "研究です。自分のしたいことができる環境なので自然と楽しくなります。研究以外でも休憩時に研究室の人と話したり、ミーティングの時に使う机で卓球したりするのが楽しいです笑。",
-  },
-  {
-    question: "研究室でつらいなーと思うことを教えてください",
-    answer:
-      "研究の進め方やプログラムで分からないことがあります…。そうゆう時は、先輩に質問したり、教員とミーティングをすると解決します。",
-  },
-  {
-    question: "研究室の教員に対する印象を教えてください",
-    answer:
-      "お二人（松村、岡藤）とも学生の目線で話してくれるのでとても話しやすいです。人としても技術者としても尊敬できる方です。",
-  },
-  {
-    question: "最後に3回生に向けて、なにか一言お願いします",
-    answer:
-      "研究を本気でしたい方、研究を楽しみたい方、研究がしんどいなと思っている方、みなさん大歓迎です。ぜひ私たちと一緒にPlayfulしましょう。",
-  },
-  /*
-名前：渡邊将太
-学年：4回生
-出身：奈良
-研究テーマ：顔アイコン
-  */
-];
+const questions = [ "どのような研究をしていますか?", "どのような観点から研究室を選びましたか?", "アルバイトをしていたらどんなことをしているか教えてください", "研究室で楽しいと思えることを教えてください", "研究室でつらいなーと思うことを教えてください", "研究室の教員に対する印象を教えてください", "最後に3回生に向けて、なにか一言お願いします"];
+    
+var answer = FaqAnswers[0];
+var que = 1;
 
-export default function Bachelor() {
+export default function Labfile() {
+  const router = useRouter();
+  que = router.query["id"];
+    
+  console.log(que);
+  if(que <= 0 || FaqAnswers.length < que || que == undefined) {
+    que = 1;
+  }
+  que -= 1;
+  answer = FaqAnswers[que];
+  console.log("ans:" + answer);
+  console.log("len:" + FaqAnswers.length);
+  const faq = [answer.faq1, answer.faq2,  answer.faq3, answer.faq4, answer.faq5, answer.faq6, answer.faq7]; 
+
+
   return (
     <Page>
       <Head>
@@ -67,14 +40,16 @@ export default function Bachelor() {
       <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
         <div className="bg-white overflow-hidden">
           <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-            <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
+            <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />  
             <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
               <div>
                 <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
                   プレイフルインタラクション研究室の1日
                 </h2>
                 <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                  ある学部生の場合
+          {answer.master?
+           ("ある修士学生の場合"):("ある学部学生の場合")
+                  }
                 </h3>
               </div>
             </div>
@@ -82,7 +57,7 @@ export default function Bachelor() {
               <div className="relative lg:row-start-1 lg:col-start-2">
                 <svg
                   className="hidden lg:block absolute top-0 right-0 -mt-20 -mr-20"
-                  width={404}
+      width={404}
                   height={384}
                   fill="none"
                   viewBox="0 0 404 384"
@@ -116,13 +91,15 @@ export default function Bachelor() {
                 <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
                   <figure>
                     <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                      <Image
-                        className="rounded-lg shadow-lg object-cover object-center"
-                        src="/images/lablife/scheduleb.png"
-                        alt="Whitney leaning against a railing on a downtown street"
-                        width={600}
-                        height={600}
-                      />
+                      {answer.scheduleImgUrl && (
+                        <Image
+                          className="rounded-lg shadow-lg object-cover object-center"
+                          src={"/images/lablife/"+answer.scheduleImgUrl}
+                          alt="Whitney leaning against a railing on a downtown street"
+                          width={600}
+                          height={600}
+                        />
+                      )}
                     </div>
                     <Timetable />
                   </figure>
@@ -139,13 +116,13 @@ export default function Bachelor() {
                 <div className="py-6 mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
                   <div className="mt-12 lg:mt-0 lg:col-span-2">
                     <dl className="space-y-12">
-                      {faqs.map((faq) => (
-                        <div key={faq.question}>
+                      {questions.map((question, idx) => (
+                        <div key={question}>
                           <dt className="text-lg leading-6 font-medium text-gray-900">
-                            {faq.question}
+                            {question}
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            {faq.answer}
+                            {faq[idx]}
                           </dd>
                         </div>
                       ))}
@@ -166,20 +143,34 @@ export function Student() {
     <div className="flex-shrink-0 group block">
       <div className="flex items-center">
         <div>
-          <Image
-            className="inline-block h-16 w-16 rounded-full"
-            src="/images/watanabe.jpg"
-            width="100"
-            height="100"
-            alt=""
-          />
+          {answer.imageUrl && (
+            <Image
+              className="inline-block h-16 w-16 rounded-full"
+              src={"/images/"+answer.imageUrl}
+              width="100"
+              height="100"
+              alt=""
+            />)}
+          {!answer.imageUrl && (
+            <span className="inline-block w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full overflow-hidden bg-gray-100">
+              <svg
+                className="h-full w-full text-gray-300"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+            </span>
+          )}
         </div>
         <div className="ml-3">
           <p className="text-lg font-medium text-gray-700 group-hover:text-gray-900">
-            渡邊 将太
+          {answer.name}
           </p>
           <p className="text-l font-medium text-gray-500 group-hover:text-gray-700">
-            修士1年
+          {answer.master?
+           "修士"+answer.grade+"年":"学部"+answer.grade+"年"
+          }
           </p>
         </div>
       </div>
@@ -187,94 +178,6 @@ export function Student() {
   );
 }
 
-const timeline = [
-  {
-    id: 1,
-    content: "研究室 入室",
-    starttime: "9:30",
-    icon: UserIcon,
-    iconBackground: "bg-gray-400",
-  },
-  {
-    id: 2,
-    content: "研究とミーティングの準備",
-    starttime: "9:30",
-    endtime: "10:40",
-    icon: AcademicCapIcon,
-    iconBackground: "bg-red-400",
-  },
-  {
-    id: 3,
-    content: "教員とミーティング",
-    starttime: "10:40",
-    endtime: "12:00",
-    icon: ChatAlt2Icon,
-    iconBackground: "bg-yellow-500",
-  },
-  {
-    id: 4,
-    content: "昼休憩",
-    starttime: "12:00",
-    endtime: "13:00",
-    icon: ThumbUpIcon,
-    iconBackground: "bg-green-500",
-  },
-  {
-    id: 5,
-    content: "研究",
-    starttime: "13:00",
-    endtime: "14:30",
-    icon: AcademicCapIcon,
-    iconBackground: "bg-red-400",
-  },
-  {
-    id: 6,
-    content: "休憩（研究室の人と雑談）",
-    starttime: "14:30",
-    endtime: "15:00",
-    icon: ThumbUpIcon,
-    iconBackground: "bg-green-500",
-  },
-  {
-    id: 7,
-    content: "ゼミの準備",
-    starttime: "15:00",
-    endtime: "16:20",
-    icon: AcademicCapIcon,
-    iconBackground: "bg-red-400",
-  },
-  {
-    id: 8,
-    content: "学部ゼミ（進捗報告）",
-    starttime: "16:20",
-    endtime: "17:50",
-    icon: ChatAlt2Icon,
-    iconBackground: "bg-yellow-500",
-  },
-  {
-    id: 9,
-    content: "休憩（研究室内で卓球）",
-    starttime: "17:50",
-    endtime: "19:00",
-    icon: ThumbUpIcon,
-    iconBackground: "bg-green-500",
-  },
-  {
-    id: 10,
-    content: "ゼミの内容をまとめる",
-    starttime: "19:00",
-    endtime: "19:30",
-    icon: AcademicCapIcon,
-    iconBackground: "bg-red-400",
-  },
-  {
-    id: 11,
-    content: "帰宅",
-    starttime: "19:30",
-    icon: UserIcon,
-    iconBackground: "bg-gray-400",
-  },
-];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -284,10 +187,10 @@ export function Timetable() {
   return (
     <div className="flow-root">
       <ul className="-mb-8">
-        {timeline.map((event, eventIdx) => (
+      {Math.abs(que) < TimeLines.length && TimeLines[que].timeline.map((event, eventIdx) => (
           <li key={event.id}>
             <div className="relative pb-8">
-              {eventIdx !== timeline.length - 1 ? (
+              {eventIdx !== TimeLines[que].timeline.length - 1 ? (
                 <span
                   className="absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200"
                   aria-hidden="true"

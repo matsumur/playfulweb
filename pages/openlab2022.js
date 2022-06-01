@@ -3,6 +3,7 @@ import Page from "../components/page";
 import About from "../components/about";
 import Faq from "../components/faq";
 import Divider from "../components/divider";
+import FaqAnswers from "../public/faq.json";
 import Link from "next/link";
 
 export default function Openlab() {
@@ -34,7 +35,7 @@ export default function Openlab() {
         <Divider>研究室の生活</Divider>
 
         <p className="flex flex-col w-full flex-1 px-10 mt-2 text-lg">
-          以下に二人の例を紹介します。
+          以下に例を紹介します。
         </p>
         <Lablife />
         <Faq />
@@ -46,8 +47,8 @@ export default function Openlab() {
 export function Lablife() {
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 px-10 mt-6">
-      {students.map((person) => (
-        <Link href={person.href}>
+      {FaqAnswers.map((person) => (
+        <Link href={"lablife?id="+person.id}>
           <div
             key={person.id}
             className="relative rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
@@ -56,7 +57,7 @@ export function Lablife() {
               {person.imageUrl && (
                 <img
                   className="h-10 w-10 rounded-full"
-                  src={person.imageUrl}
+                  src={"/images/"+person.imageUrl}
                   alt=""
                 />
               )}
@@ -73,12 +74,14 @@ export function Lablife() {
               )}
             </div>
             <div className="flex-1 min-w-0">
-              <a href="#" className="focus:outline-none">
+              <a href={"?id="+person.id} className="focus:outline-none">
                 <span className="absolute inset-0" aria-hidden="true" />
                 <p className="text-sm font-medium text-gray-900">
-                  {person.name}
+              {person.name}
                 </p>
-                <p className="text-sm text-gray-500 truncate">{person.theme}</p>
+                <p className="text-sm text-gray-500 truncate">
+                  {person.master? ("ある修士学生の場合"):("ある学部学生の場合")}
+                </p>
               </a>
             </div>
           </div>
@@ -87,20 +90,3 @@ export function Lablife() {
     </div>
   );
 }
-
-const students = [
-  {
-    name: "渡邊 将太",
-    id: "1",
-    theme: "学部生の場合",
-    imageUrl: "/images/watanabe.jpg",
-    href: "/lablife/bachelor",
-  },
-  {
-    name: "山口 遊",
-    id: "2",
-    theme: "修士生の場合",
-    imageUrl: "/images/lovotyamaguchi.png",
-    href: "/lablife/master",
-  },
-];
