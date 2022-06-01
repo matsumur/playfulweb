@@ -19,11 +19,9 @@ export default function Openlab() {
 
       <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
         <About name="研究室公開2022">
-          <p className="text-lg">2022年度の研究室公開の情報を掲載します。</p>
-          <ol>
-            <li>aaa</li>
-            <li>bbb</li>
-          </ol>
+          <p className="text-lg">2022年度の研究室公開は以下の日時に実施します。この時間内であればいつ来てくれても、いつお帰りいただいても構いません。</p>
+          <p className="text-lg">6月8日（水）16:20〜17:50 クリエーションコア3Fプレイフルインタラクション研究室</p>
+          <p className="text-lg">6月15日（水）16:20〜17:50 クリエーションコア3Fプレイフルインタラクション研究室</p>
         </About>
 
         <Divider>本研究室の成り立ち</Divider>
