@@ -191,7 +191,7 @@ const TimeLines = [
                 content: "オンラインの講義（気分や天気で自宅か大学か決める）",
                 starttime: "9:00",
                 endtime: "12:15",
-                icon: "BookOpenIcon",
+                icon: BookOpenIcon,
                 iconBackground: "bg-red-400"
             },
             {
@@ -343,10 +343,10 @@ const TimeLines = [
                 endtime: "12:00",
                 icon: AcademicCapIcon,
                 iconBackground: "bg-red-400"
-            }
+            },
             {
                 id: 3,
-                content: "昼休憩(昼食, スマブラ)",
+                content: "昼休憩(昼食、スマブラ)",
                 starttime: "12:00",
                 endtime: "13:00",
                 icon: ThumbUpIcon,
