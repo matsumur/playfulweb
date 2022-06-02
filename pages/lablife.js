@@ -329,7 +329,68 @@ const TimeLines = [
     {
         timeID: 3,
         timeline: [
-            
+            {
+                id: 1,
+                content: "起床",
+                starttime: "9:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            },
+            {
+                id: 2,
+                content: "研究",
+                starttime: "10:00",
+                endtime: "12:00",
+                icon: AcademicCapIcon,
+                iconBackground: "bg-red-400"
+            }
+            {
+                id: 3,
+                content: "昼休憩(昼食, スマブラ)",
+                starttime: "12:00",
+                endtime: "13:00",
+                icon: ThumbUpIcon,
+                iconBackground: "bg-green-500"
+            },
+            {
+                id: 4,
+                content: "研究",
+                starttime: "13:00",
+                endtime: "16:00",
+                icon: AcademicCapIcon,
+                iconBackground: "bg-red-400"
+            },
+            {
+                id: 5,
+                content: "休憩",
+                starttime: "16:00",
+                endtime: "17:00",
+                icon: ThumbUpIcon,
+                iconBackground: "bg-green-500"
+            },
+            {
+                id: 6,
+                content: "バイト",
+                starttime: "18:00",
+                endtime: "22:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            },
+            {
+                id: 7,
+                content: "趣味（ゲーム）",
+                starttime: "23:00",
+                endtime: "1:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            },
+            {
+                id: 8,
+                content: "就寝",
+                starttime: "1:00",
+                icon: UserIcon,
+                iconBackground: "bg-gray-400"
+            }
         ]
     },
     {
