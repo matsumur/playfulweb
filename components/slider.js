@@ -16,6 +16,12 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 const swipeImages = [
   {
+    id: 6,
+    src: "/images/top/home5.jpg",
+    alt: "VR people",
+    href: "",
+  },
+  {
     id: 1,
     src: "/images/top/home0.png",
     alt: "Makida",
