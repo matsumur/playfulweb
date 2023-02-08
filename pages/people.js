@@ -22,6 +22,9 @@ export default function People() {
           <p className="text-lg">
             研究室のメンバーを紹介します。
           </p>
+          <p className="text-lg">
+            ※2023年4月時点
+          </p>
         </About>
 
       
