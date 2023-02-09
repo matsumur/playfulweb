@@ -1,19 +1,32 @@
 import Image from "next/image";
 
 export default function Papers(props) {
-  const { papers, form } = props;
+  const { papers, form, year } = props
   return (
-    <div className="grid grid-cols-1 px-10 mt-6 border rounded-xl bg-gray-50 card">
-      <p class="card-title margin-remove">【{form}】</p>
-      {props.papers.map((paper) => (
-      <>{paper.form == form && (
-      <div className="l-wrapper">
+    <div className="grid-cols-1">
+    {papers.map((paper) => (
+      <>{paper.form==form && paper.year==year && ( 
+        <div className="l-wrapper">
+        <a href={paper.document}>
+        <article className="card border rounded-xl bg-gray-50">
+          <header class="card-header">
+            <div className="card-image">
+                <img
+                  src={
+                    paper.imageURL
+                      ? "/project-images/"+paper.imageURL
+                      : "/project-images/noImage.png"
+                  }
+                  height={100}
+                  width={150}
+                  objectFit="cover"
+                  alt=""
+        />
         <div class="flex-1">
           <p class="card-nav">{paper.cite}</p>
         </div>
-        <ul class="card-meta card-nav">
-          <li> <a href={paper.document} target="_blank" rel="noopener noreferrer">論文</a></li>
-        </ul>
+        </article>
+        </a>
       </div>
       )}</>
     ))}
