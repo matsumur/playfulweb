@@ -23,12 +23,22 @@ export default function Papers(props) {
                   alt=""
         />
         <div class="flex-1">
-          <p class="card-nav">{paper.cite}</p>
+              <h4 class="card-title margin-remove">【{paper.form}】</h4>
+              <h4 class="card-title ">{paper.title}</h4>
+        <ul class="card-meta card-nav">
+        <p> {paper.publisher} <br />{paper.conforenceName}</p>
+              </ul>
+            </div>
+            </div>
+            
+          </header>
+        <div class="card-body">
+        <p>{paper.abstruct}</p>
         </div>
         </article>
         </a>
       </div>
-      )}</>
+      )}</>  
     ))}
     </div>
   );
