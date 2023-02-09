@@ -81,7 +81,7 @@ export default function News() {
                 </p>
               </div>
             </li>
-            )}  
+            )}</>
           ))}
         </ul>
       </div>
