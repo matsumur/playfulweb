@@ -63,7 +63,7 @@ export default function News() {
       <div className="flow-root">
         <ul className="-my-5 divide-y divide-gray-200">
           {announcements.map((announcement) => (
-            (announcement.id > 6 && {
+            <>{announcement.id > 6 && (
             <li key={announcement.id} className="py-5">
               <div className="relative focus-within:ring-2 focus-within:ring-indigo-500">
                 <h3 className="text-sm font-semibold text-gray-800">
@@ -81,7 +81,7 @@ export default function News() {
                 </p>
               </div>
             </li>
-            })    
+            )}  
           ))}
         </ul>
       </div>
