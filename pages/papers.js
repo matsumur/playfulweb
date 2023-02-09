@@ -3,6 +3,7 @@ import Page from "../components/page";
 import About from "../components/about";
 import Research from "../components/paper";
 import research from "../public/paper.json";
+import Divider from "../components/divider";
 
 export default function Papers() {
   return (
@@ -22,7 +23,28 @@ export default function Papers() {
             発表した論文を紹介します。
           </p>
         </About>
-        <Research papers={research}/>
+      <div id={"poster2022"}/>
+      <Divider>ポスター発表(2022年度)</Divider>
+      <Research papers={research} form={"ポスター発表"} year={2022}/>
+      <div id={"jornal2022"}/>
+      <Divider>原著(2022年度)</Divider>
+      <Research papers={research} form={"原著"} year={2022}/>
+
+      <div id={"oral2022"}/>
+      <Divider>口頭発表(2022年度)</Divider>
+      <Research papers={research} form={"口頭発表"} year={2022}/>
+
+      <div id={"poster2021"}/>
+      <Divider>ポスター発表(2021年度)</Divider>
+      <Research papers={research} form={"ポスター発表"} year={2021}/>
+      
+      <div id={"jornal2021"}/>
+      <Divider>原著(2021年度)</Divider>
+      <Research papers={research} form={"原著"} year={2021}/>
+
+      <div id={"oral2021"}/>
+      <Divider>口頭発表(2021年度)</Divider>
+      <Research papers={research} form={"口頭発表"} year={2021}/>
       </main>
     </Page>
   );

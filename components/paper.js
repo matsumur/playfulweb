@@ -1,9 +1,11 @@
 import Image from "next/image";
 
 export default function Papers(props) {
+  const { papers, form, year } = props
   return (
     <div className="grid-cols-1">
-    {props.papers.map((paper) => (
+    {papers.map((paper) => (
+      <>{paper.form==form && paper.year==year && ( 
         <div className="l-wrapper">
         <a href={paper.document}>
         <article className="card border rounded-xl bg-gray-50">
@@ -34,9 +36,9 @@ export default function Papers(props) {
         <p>{paper.abstruct}</p>
         </div>
         </article>
-        
         </a>
       </div>
+      )}</>  
     ))}
     </div>
   );
