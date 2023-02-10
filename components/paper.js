@@ -6,8 +6,7 @@ export default function Papers(props) {
     <div className="grid-cols-1">
     {papers.map((paper) => (
       <>{paper.form==form && paper.year==year && ( 
-        <div className="l-wrapper">
-        <a href={paper.document}>
+        <div className="l-wrapper" key={paper.title}>
         <article className="card border rounded-xl bg-gray-50">
           <header class="card-header">
             <div className="card-image">
@@ -25,10 +24,15 @@ export default function Papers(props) {
         <div class="flex-1">
               <h4 class="card-title margin-remove">【{paper.form}】</h4>
               <h4 class="card-title ">{paper.title}</h4>
-        <ul class="card-meta card-nav">
-        <p> {paper.publisher} <br />{paper.conforenceName}</p>
+              <ul class="card-meta card-nav">
+                <p> {paper.publisher} <br />{paper.conforenceName}</p>
               </ul>
-            </div>
+              <ul class="card-meta card-nav">
+                <a href={paper.document}>
+                  <p>DOI</p>
+                </a>
+              </ul>
+        </div>
             </div>
             
           </header>
@@ -36,7 +40,6 @@ export default function Papers(props) {
         <p>{paper.abstruct}</p>
         </div>
         </article>
-        </a>
       </div>
       )}</>  
     ))}
