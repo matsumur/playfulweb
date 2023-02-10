@@ -1,5 +1,5 @@
 [
-   {
+	{
 		"role": "准教授",
 		"grade": -1,
 		"name": "松村 耕平",
@@ -26,6 +26,16 @@
 		"imageUrl": "yamanishi.jpeg",
 		"email": "ryama@kansai-u.ac.jp",
 		"web": "https://ccca-lab.net/",
+		"year": "",
+		"project": ""
+	},
+	{
+		"role": "講師",
+		"grade": -1,
+		"name": "高橋 治輝",
+		"imageUrl": "",
+		"email": "",
+		"web": "https://haruki.xyz/",
 		"year": "",
 		"project": ""
 	},
