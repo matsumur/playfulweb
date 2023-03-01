@@ -22,8 +22,8 @@ export default function Banner() {
               <Image
                 className="block lg:hidden h-8 w-auto"
                 src="/playful.svg"
-                height="80"
-                width="auto"
+                height="80px"
+                width="300px"
                 alt="Playful Laboratory Logo"
               />
               <span className="block text-yellow-500">Playful</span>
