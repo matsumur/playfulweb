@@ -30,7 +30,12 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <News />
+              <News number={5}/>
+              <div className="mt-6">
+                <a href="/news" className="w-full flex justify-center items-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                 View all
+                </a>
+              </div>
             </div>
           </div>
         </div>

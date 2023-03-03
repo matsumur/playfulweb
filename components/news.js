@@ -1,5 +1,38 @@
 const announcements = [
   {
+    id: 13,
+    title: "2022/3/1",
+    preview:
+      "2023年度のメンバーの更新をしました。",
+    href: "/people",
+  },
+  {
+    id: 12,
+    title: "2022/2/6",
+    preview: "2022年度に行った発表文献の公開をしました。",
+    href: "/papers",
+  },
+  {
+    id: 11,
+    title: "2022/10/5",
+    preview:
+      "Playful研究室麻雀リーグが開幕しました。",
+    href: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSIRbYKPhL9D6zUGawAB1xxnTtX4PQCHJw5vfH4sF02v5iTsQ3QLGPVfvQaMmSMKf0Zw5noZzhwPFoG/pubhtml?gid=835796038&single=true",
+  },
+  {
+    id: 10,
+    title: "2022/9/20",
+    preview:
+      "新しく研究室にはいった3回生をメンバーに追加しました。",
+    href: "/people",
+  },  {
+    id: 9,
+    title: "2022/7/31",
+    preview:
+      "Playful Interaction Week が始まります。3回生とたくさん交流して仲良くなりましょう。",
+    href:"https://sites.google.com/view/playful-interaction-weeks-2022",
+  },
+  {
     id: 8,
     title: "2022/6/6",
     preview:
@@ -56,13 +89,14 @@ const announcements = [
   },
 ];
 
-export default function News() {
+export default function News(props) {
   return (
     <div className="h-full flex flex-col justify-between">
       <h1 className="pb-5 text-2xl font-bold">News</h1>
       <div className="flow-root">
         <ul className="-my-5 divide-y divide-gray-200">
           {announcements.map((announcement) => (
+            <>{announcements.length - announcement.id < props.number && (
             <li key={announcement.id} className="py-5">
               <div className="relative focus-within:ring-2 focus-within:ring-indigo-500">
                 <h3 className="text-sm font-semibold text-gray-800">
@@ -80,16 +114,9 @@ export default function News() {
                 </p>
               </div>
             </li>
+            )}</>
           ))}
         </ul>
-      </div>
-      <div className="mt-6">
-        <a
-          href="#"
-          className="w-full flex justify-center items-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"
-        >
-          View all
-        </a>
       </div>
     </div>
   );

@@ -1,35 +1,61 @@
 [
 	{
+		"タイムスタンプ": "2023-02-09T15:12:39.736Z",
+		"form": "口頭発表",
+		"title": "予定までの時間的余裕を考慮したナビゲーションインターフェイスの提案",
+		"publisher": "河野隼一郎, 松村耕平, 岡藤勇希",
+		"conforenceName": "研究報告エンタテインメントコンピューティング (EC)",
+		"year": 2022,
+		"abstruct": "観光地などの見知らぬ土地で歩行ナビゲーションシステムを使用することは珍しくない．観光の体系には，観光スポットを効率的にまわるツアー型のほかに自由気ままに楽しむ散策型の観光がある．散策型観光は多少時間を費やしてでも楽しく印象に残るような観光を求めるが，実環境では電車の時間や次の予定などの時間制限があるためナビゲーションシステムは使用しづらい．そこで本研究では，時間制限がある散策型観光をサポートするためにユーザに時間の余裕度を提示するナビゲーションシステムを提案し，その有効性を評価実験で検証する．",
+		"imageURL": "naviaura.png",
+		"document": "https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=220273&item_no=1"
+	},
+	{
+		"タイムスタンプ": "2023-02-10T06:06:14.024Z",
+		"form": "口頭発表",
+		"title": "サムネイル画像を漫画に置き換えたアニメのシーン探索手法の改善と評価",
+		"publisher": "加藤 祐樹,松村 耕平,岡藤 勇希",
+		"conforenceName": "エンターテインメントコンピューティング2022",
+		"year": 2022,
+		"abstruct": "アニメ動画から特定のシーンの探索を行うことには困難を伴う．そこで，シーン探索時に表示する サムネイルを漫画に置き換えたインターフェースを提案する．サムネイルの操作インタフェースとして 「FrameSeek」，「Min15px」，「Fix15px」の 3 つを作成した．これらのインタフェースについて探索時間 およびユーザビリティを被験者実験によって評価した．結果として，既存のインタフェースと比較して， ユーザビリティの向上は確認できなかったものの，Min15px を使用することで記憶度によって探索時間 のばらつきが緩和され，記憶度が低いシーンでは探索時間を減少させる可能性が示唆された．また，イン ターフェースの操作に習熟することで，シーンの探索時間が減少しユーザビリティの向上を達成できる可 能性が示唆された．",
+		"imageURL": "anime.png",
+		"document": "https://m-use.net/ec2022/?page_id=120"
+	},
+	{
+		"タイムスタンプ": "",
 		"form": "ポスター発表",
 		"title": "複数ロボットを用いた疑似的な人だかりによる通行人への集客効果の検証",
 		"publisher": "天田 穣一朗, 岡藤 勇希, 松村 耕平, 馬場 惇(株式会社サイバーエージェント, 大阪大学), 中西 惇也(大阪大学)",
 		"conforenceName": "HAIシンポジウム",
-		"year": 2022,
+		"year": 2021,
 		"abstruct": "接客ロボットはサイネージなどに代わる広告媒体として期待されている。広告を行うためには通行人を多く呼び止め、広告機会を多く得ることが重要である。先行研究では一人ずつに呼びかけており、広告として非効率な側面があった。そこで本論文は、複数のロボットで疑似的な人だかりを作ることで、多くの通行人を立ち止め、広告機会を増やす手法を提案する。実店舗にて提案手法による集客効果を検証し、提案手法の有効性を確認した。",
 		"imageURL": "amada-poster.jpg",
 		"document": "https://hai-conference.net/symp2022/proceedings/pdf/P-4.pdf"
 	},
 	{
+		"タイムスタンプ": "",
 		"form": "ポスター発表",
 		"title": "ロボットとインタラクションを行う通行人のエンゲージメントモデリング",
 		"publisher": "坂口 太一, 岡藤 勇希, 松村 耕平, 馬場 惇(株式会社サイバーエージェント, 大阪大学), 中西 惇也(大阪大学)",
 		"conforenceName": "HAIシンポジウム",
-		"year": 2022,
+		"year": 2021,
 		"abstruct": "サービスロボットは新たな労働力として期待されており，公共空間で情報推薦の媒体として利用する取り組みが行われている．ユーザに情報推薦を行う場合，ユーザの状態に合わせた対話生成を行うことが重要となる．そのためには，ロボットへの関心度として定義されるエンゲージメントを推定することが必要になる．本研究では，実環境のインタラクションのデータに対して，ユーザのエンゲージメントを推定可能な手法の提案を行う．",
 		"imageURL": "sakaguchi-poster.jpg",
 		"document": "https://hai-conference.net/symp2022/proceedings/pdf/P-7.pdf"
 	},
 	{
+		"タイムスタンプ": "",
 		"form": "ポスター発表",
 		"title": "公共空間において恥ずかしさがロボットの利用に与える影響の調査",
 		"publisher": "牧田 昌大, 岡藤 勇希, 松村 耕平, 馬場 惇(株式会社サイバーエージェント, 大阪大学), 中西 惇也(大阪大学)",
 		"conforenceName": "HAIシンポジウム",
-		"year": 2022,
+		"year": 2021,
 		"abstruct": "近年では，労働力不足に対応するため，接客ロボットが積極的に活用され始めている．一方で，公共空間でロボットと対話をする際には恥ずかしさが生起し，これによりロボットの利用が妨げられる可能性がある．そこで本研究では，恥ずかしさを含めたロボット利用に影響する要因を定義し，ロボットを利用するサクラを用いた実験により，恥ずかしさがロボットの利用に与える影響並びにロボット利用時の恥ずかしさの要因を調査した．",
 		"imageURL": "makida-poster.jpg",
 		"document": "https://hai-conference.net/symp2022/proceedings/pdf/P-8.pdf"
 	},
 	{
+		"タイムスタンプ": "",
 		"form": "原著",
 		"title": "A machine learning-based approach to analyze information used for steering control",
 		"publisher": "Y. Okafuji, T. Sugiura, R. Osugi, C. Zhang, and T. Wada",
@@ -40,6 +66,7 @@
 		"document": "https://ieeexplore.ieee.org/abstract/document/9467314"
 	},
 	{
+		"タイムスタンプ": "",
 		"form": "口頭発表",
 		"title": "呼びかけロボットの身体性拡張による通行人の行動促進",
 		"publisher": "天田 穣一朗, 岡藤 勇希, 和田 隆広(奈良先端科学技術大学院大学), 馬場 惇(株式会社サイバーエージェント, 大阪大学), 中西 惇也(大阪大学), 吉川 雄一郎(大阪大学)",
@@ -50,6 +77,7 @@
 		"document": "https://hai-conference.net/symp2021/proceedings/pdf/G-8.pdf"
 	},
 	{
+		"タイムスタンプ": "",
 		"form": "口頭発表",
 		"title": "ソーシャルVRコンテンツにおけるアバタへの吹き出し表現の付与による発話者同定手法の提案",
 		"publisher": "YANG Guang, 松村 耕平, 大井翔(大阪工業大学情報科学部), 野間 春生(立命館大学　情報理工学研究科)",
@@ -60,6 +88,7 @@
 		"document": "http://conference.vrsj.org/ac2021/program/doc/3G-6.pdf"
 	},
 	{
+		"タイムスタンプ": "",
 		"form": "口頭発表",
 		"title": "Behavioral Changes in Passersby by Expanding Embodiment of a Calling Robot",
 		"publisher": "J. Amada, Y. Okafuji, T. Wada, J. Baba, J. Nakanishi, Y. Yoshikawa",
@@ -70,6 +99,7 @@
 		"document": "https://ieeexplore.ieee.org/document/9515557"
 	},
 	{
+		"タイムスタンプ": "",
 		"form": "口頭発表",
 		"title": "ラッセルの円環モデル上に描画された自由曲線に対応する顔アイコンの推薦手法の調査と提案",
 		"publisher": "渡邊 将太, 川上 雄大, 松村 耕平",
@@ -80,6 +110,7 @@
 		"document": "https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=212293&item_no=1"
 	},
 	{
+		"タイムスタンプ": "",
 		"form": "口頭発表",
 		"title": "Persuasion Strategies for Social Robot to Keep Humans Accepting Daily Different Recommendations",
 		"publisher": "Y. Okafuji, J. Baba, J. Nakanishi, J. Amada, Y. Yoshikawa, H. Ishiguro",
@@ -90,6 +121,7 @@
 		"document": "https://ieeexplore.ieee.org/document/9636772"
 	},
 	{
+		"タイムスタンプ": "",
 		"form": "口頭発表",
 		"title": "Potential Attentionを用いたHMI使用時のドライバの注視推定",
 		"publisher": "岡藤勇希，山口遊，和田隆広(奈良先端科学技術大学院大学)，村上一臣(小糸製作所)，石田裕之(小糸製作所)",
@@ -100,13 +132,80 @@
 		"document": "https://doi.org/10.11351/jsaeronbun.52.1137"
 	},
 	{
+		"タイムスタンプ": "",
 		"form": "口頭発表",
 		"title": "インタラクションゲームを用いた自動運転中におけるドライバの周辺環境の注意力の向上",
 		"publisher": "藤本遼太，岡藤勇希，松村耕平",
 		"conforenceName": "情報処理学会 ヒューマンコンピュータインタラクション研究会",
-		"year": 2022,
+		"year": 2021,
 		"abstruct": "近年，様々な自動運転システムが開発されており，その中でもレベル 3 の自動運転では，非常事態の際にドライバに対する自動運転から手動運転への引継ぎが要求される．しかしながら，通行人の急な飛び出しがあった際にはドライバが周辺環境に注意していない場合，手動運転への引継ぎが迅速に実施できない可能性がある．そこでドライバには安全な車両操作の引継ぎを行うために，自動運転中にも周辺環境に注意を払い，認識していることが望まれる．本研究では，ドライバが自動運転中でも周辺環境に注意を払うために，歩行者を利用したインタラクションゲームを提案した．提案した手法を，スマートフォン利用を仮定した動画視聴条件，目的なく前方を見る前方注視条件と比較して，飛び出してきた通行人に対する反応速度を計測した．実験結果は条件間で有意な差は示さなかったが，インタラクションゲームが周辺環境への認識により反応速度を向上させる可能性があることが示された．",
 		"imageURL": "carsim.jpg",
 		"document": "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=214588&item_no=1&page_id=13&block_id=8"
+	},
+	{
+		"タイムスタンプ": "",
+		"form": "口頭発表",
+		"title": "Face AVAS：時系列を伴う感情の表現が可能な顔アイコン作成システムの提案",
+		"publisher": "川上 雄大, 松村 耕平, 野間 春生",
+		"conforenceName": "情報処理学会 ヒューマンコンピュータインタラクション研究会",
+		"year": 2021,
+		"abstruct": "本研究では，感情の変化や強調を顔アイコンのアニメーションとして表現可能なシステム「Face AVAS」を提案する．顔アイコンは SNS などにおいて感情を表現する手法として広く利用されているが，提示された選択肢からしか選ぶことができないことや，感情の変化を表現できないことなどの問題がある．Face AVAS は，時間軸を表現できる 2 次元の Visual Anolog Scale（VAS）＝Animated VAS によって顔アイコンの感情表現を行う．Russel の円環モデルの 2 次元の平面上に自由曲線を描くことで顔アイコンのアニメーション画像を作成し，時系列変化を伴う感情を取り扱うことができる．本論文では，Face AVAS がアニメーション顔アイコンを生成する仕組みについて，設計や具体的な実装方法について説明する．最後に，アンケート調査，SNS，オンラインレビューの 3 つの応用例から提案手法の有用性について議論する．",
+		"imageURL": "",
+		"document": "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=212294&item_no=1&page_id=13&block_id=8"
+	},
+	{
+		"タイムスタンプ": "",
+		"form": "原著",
+		"title": "Reducing Motion Sickness When Reading With Head-Mounted Displays By Using See-Through Background Images",
+		"publisher": "Tsukasa Suwa, Yuki Sato, and Takahiro Wada",
+		"conforenceName": "Frontiers in Virtual Reality",
+		"year": 2022,
+		"abstruct": "With the development of virtual reality technology, head-mounted displays (HMDs) have been increasingly used to view or read 2D content while in vehicles. When 2D content is displayed in a fixed position on an HMD, the visual appearance does not change even with head movements, and body movements cannot be perceived while watching 2D content. This may cause visual-vestibular conflict and severe motion sickness. This study investigates whether motion sickness when reading 2D content fixed to the HMD coordinate system can be reduced by allowing readers to perceive body movements through video see-through images obtained from the front camera of the HMD in situations where the body vibrates. Twenty participants performed 20-minutes reading tasks in which they read a book fixed to the HMD coordinate while seated in a vibration device. Two background conditions of the book were explored: 1) the white background condition—not allowing participants to perceive their movements visually, and 2) the camera background condition—allowing participants to perceive their movements visually through see-through images. Evaluation of motion sickness using the Misery Scale, which is an 11-point questionnaire, showed that motion sickness after task completion was significantly lower in the camera background condition than in the white background condition. This result suggests that motion sickness can be relieved, provided that the users perceive their motion in the peripheral vision through the camera image, even if they gaze at 2D content fixed in the HMD coordinate system in the central vision. This study helps promote the use of HMDs by alleviating motion sickness.",
+		"imageURL": "",
+		"document": "https://doi.org/10.3389/frvir.2022.910434"
+	},
+	{
+		"タイムスタンプ": "",
+		"form": "ポスター発表",
+		"title": "Effects of presenting first-person camera images in the background of a book on motion sickness when reading with a head-mounted display",
+		"publisher": "Tsukasa Suwa, Yuki Sato, Masahiro, Makida, Takahiro Wada",
+		"conforenceName": "Neuroscience ",
+		"year": 2021,
+		"abstruct": "With the development of virtual reality (VR) technology, head-mounted displays (HMDs) are often used to view or read 2D content, such as videos and books, in a vehicle; however, when the 2D content are displayed in a fixed position on the display (head coordinate system), the visual appearance does not change even with head movement, and the body movements cannot be perceived from visual sensation. This cause conflicts with the body-movement information obtained from vestibular sensation. This visual–vestibular conflict may also cause severe motion sickness. However, previous studies have not clarified the means to reduce motion sickness when watching 2D content on HMDs while riding in a vehicle. Therefore, the purpose of this study is to investigate whether the motion sickness in reading with an HMD can be reduced by allowing readers to perceive body movements through visual sensation in situations where the body vibrates, such as riding a vehicle. Participants performed 20-minute reading tasks in which they read a book displayed on a HMD while seated in a device that vibrated randomly in the pitch direction. Because the book was fixed to the head coordinate system of the HMD, the appearance of the book was constant, and the participants could not perceive body movements through visual sensation. Two experimental conditions were explored: the first was the camera background condition in which the user could perceive his or her body movements through peripheral vision via real-time images of the first-person viewpoint obtained from the front camera mounted on the HMD in the background of the book; the second was a white background condition in which the background of the book was completely white (no movement) and the participants could not visually perceive their movements. The misery scale of motion sickness after the reading task was evaluated using a 11-point questionnaire, and the results indicated that motion sickness was significantly lower in the camera background condition than the white background condition. This suggests that when watching 2D content on a HMD in situations where the body is in motion, such as riding a vehicle, the sensory conflict between visual and vestibular sensations can be resolved and motion sickness can be reduced, provided the user perceive his or her motion information in the peripheral vision through the camera image, even if the user gazes at the 2D contents fixed in the head coordinate system in the central vision.",
+		"imageURL": "",
+		"document": "https://www.abstractsonline.com/pp8/#!/10485/presentation/20466"
+	},
+	{
+		"タイムスタンプ": "",
+		"form": "ポスター発表",
+		"title": "指導する情報量が初心者のスポーツ走行学習に与える影響の評価",
+		"publisher": "福西誠樹，岡藤勇希，松村耕平",
+		"conforenceName": "自動車技術学会 2022年秋季大会",
+		"year": 2022,
+		"abstruct": "",
+		"imageURL": "",
+		"document": "https://www.jsae.or.jp/2022aki/student_poster_session/student_poster_session.php"
+	},
+	{
+		"タイムスタンプ": "",
+		"form": "ポスター発表",
+		"title": "絵文字による感情の振り返りはWell-beingの向上につながるか:スマートウォッチによる感情測定システムの実装",
+		"publisher": "渡邊将太, 松村耕平, 岡藤勇希, 沓澤岳, 小林吉之",
+		"conforenceName": "IoT行動変容学研究グループ第2回研究会",
+		"year": 2022,
+		"abstruct": "",
+		"imageURL": "",
+		"document": "http://www.sig-bti.jp/event/bti02_info.html"
+	},
+	{
+		"タイムスタンプ": "",
+		"form": "原著",
+		"title": "Investigating the Crowd-drawing Effect, on Passersby, of Pseudo-Crowds Using Multiple Robots",
+		"publisher": "J. Amada, Y. Okafuji, K. Matsumura, J. Baba, J. Nakanishi",
+		"conforenceName": "Advanced Robotics (to appear)",
+		"year": 2022,
+		"abstruct": "Due to their conversational skills, service robots are expected to replace posters or digital signage as a new advertising medium. These robots must achieve two goals to obtain maximum advertising opportunities in a public space: they must stop as many passersby as possible and make passersby stay as long as possible. In previous studies, to achieve these goals, the robots called out to each passerby one by one, which was inefficient as an advertising medium. Therefore, to obtain more advertising opportunities, this study proposes a method to simultaneously stop many passersby and make them stay, by creating a pseudo-crowd with multiple robots. The pseudo-crowd is a system in which multiple robots acting as an audience are placed around a robot providing information. We verified the effectiveness of the proposed method in a shopping mall. As a result, increasing the number of robots made more passersby stop, and the use of audience robots extended the time passersby spent in front of the robots. Our findings will contribute to the application of robots as a more useful advertising medium in public spaces.",
+		"imageURL": "amada-poster.jpg",
+		"document": "https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2143242"
 	}
 ]
