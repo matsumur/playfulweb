@@ -1,14 +1,14 @@
 const announcements = [
   {
     id: 13,
-    title: "2022/3/1",
+    title: "2023/3/1",
     preview:
       "2023年度のメンバーの更新をしました。",
     href: "/people",
   },
   {
     id: 12,
-    title: "2022/2/6",
+    title: "2023/2/6",
     preview: "2022年度に行った発表文献の公開をしました。",
     href: "/papers",
   },
