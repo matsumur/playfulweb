@@ -16,6 +16,12 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 const swipeImages = [
   {
+    id: 7,
+    src: "/images/top/playfulweek.jpg",
+    alt: "Playfulweek",
+    href: "",
+  },
+  {
     id: 6,
     src: "/images/top/home5.jpg",
     alt: "VR people",
@@ -25,7 +31,7 @@ const swipeImages = [
     id: 1,
     src: "/images/top/home0.png",
     alt: "Makida",
-    href: "/openlab2021",
+    href: "/openlab2022",
   },
   {
     id: 2,
@@ -59,7 +65,7 @@ export default function App() {
       spaceBetween={10}
       centeredSlides={true}
       autoplay={{
-        delay: 5000,
+        delay: 3000,
         disableOnInteraction: false,
       }}
       pagination={{ clickable: true }}
