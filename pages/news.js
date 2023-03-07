@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Page from "../components/page";
 import About from "../components/about";
-import Newss from "../components/news";
+import NewsList from "../components/news";
 
 export default function News() {
   return (
@@ -23,7 +23,7 @@ export default function News() {
         </About>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Newss number={100}/>
+          <NewsList number={100}/>
         </div>
       </main>
     </Page>
