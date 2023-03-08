@@ -73,8 +73,8 @@ function SlideImage(props) {
         <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
           <Image
             className="block lg:hidden h-8 w-auto"
-            height="100px"
-            width="100px"
+            height="100%"
+            width="100%"
             src="/playful.svg"
             alt="Playful Laboratory Logo"
           />
