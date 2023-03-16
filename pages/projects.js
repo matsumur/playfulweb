@@ -16,9 +16,9 @@ export default function Projects() {
         ></link>
       </Head>
 
-      <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
+      <main className="flex flex-col justify-center w-full sm:px-5 lg:px-20 py-5">
         <About name="研究プロジェクト">
-          <p className="text-lg">
+          <p className="sm:text-base lg:text-lg">
             研究内容を紹介します。
           </p>
         </About>

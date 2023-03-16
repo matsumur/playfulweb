@@ -17,12 +17,12 @@ export default function People() {
         ></link>
       </Head>
 
-      <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
+      <main className="flex flex-col justify-center w-full sm:px-5 lg:px-20 py-5">
         <About name="Playfulな人">
-          <p className="text-lg">
+          <p className="sm:text-base lg:text-lg">
             研究室のメンバーを紹介します。
           </p>
-          <p className="text-lg">
+          <p className="sm:text-base lg:text-lg">
             ※2023年4月時点
           </p>
         </About>

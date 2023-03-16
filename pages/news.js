@@ -15,9 +15,9 @@ export default function News() {
         ></link>
       </Head>
 
-      <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
+      <main className="flex flex-col justify-center w-full sm:px-5 lg:px-20 py-5">
         <About name="新着ニュース一覧">
-          <p className="text-lg">
+          <p className="sm:text-base lg:text-lg">
             新着ニュースを表示します。
           </p>
         </About>

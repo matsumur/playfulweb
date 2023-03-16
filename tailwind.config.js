@@ -10,7 +10,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      'sm': '640px',
+      'sm': '300px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',
@@ -23,6 +23,7 @@ module.exports = {
       // => @media (min-width: 1280px) { ... }
     },
     extend: {},
+
   },
   variants: {
     extend: {},

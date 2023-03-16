@@ -1,6 +1,5 @@
-import { Fragment, useCallback, useState, useEffect } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Disclosure, Menu } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -41,7 +40,7 @@ export default function Navbar() {
                     </a>
                   </Link>
                 </div>
-                <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
+                <div className="hidden md:ml-6 md:flex md:space-x-8">
                   <Link href="/people">
                     <a
                       className={[
@@ -93,7 +92,7 @@ export default function Navbar() {
                 </div>
               </div>
 
-              <div className="-mr-2 flex items-center sm:hidden">
+              <div className="-mr-2 flex items-center md:hidden">
                 {/* Mobile menu button */}
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                   <span className="sr-only">Open main menu</span>
@@ -107,7 +106,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="md:hidden">
             <div className="pt-2 pb-3 space-y-1">
               <Link href="/people">
                 <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
@@ -124,7 +123,7 @@ export default function Navbar() {
                   発表文献
                 </a>
               </Link>
-              <Link href="/openlab2021">
+              <Link href="/openlab2022">
                 <a className="border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                   研究室公開
                 </a>
