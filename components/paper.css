@@ -59,6 +59,14 @@
 }
 
 
+.img-small-size {
+  width:100%;
+  max-width:350px
+}
+
+.img-middle-size {
+  width:30%;
+}
 
 .card-nav>:nth-child(n+2)::before {
   content: "";

@@ -18,23 +18,23 @@ export default function Openlab() {
         ></link>
       </Head>
 
-      <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
+      <main className="flex flex-col justify-center w-full sm:px-5 lg:px-20 py-5">
         <About name="研究室公開2022">
-          <p className="text-lg">2022年度の研究室公開は<a class="underline decoration-zink-500 decoration-2">6月8日（水）</a>と<a class="underline decoration-zink-500 decoration-2">6月15日（水）</a>の<a class="underline decoration-rose-500 decoration-2">5限（16:20〜17:50）</a>に<a class="underline decoration-pink-500 decoration-2">クリエーションコア3Fプレイフルインタラクション研究室</a>で実施します。この時間内であればいつ来てくれても、いつお帰りいただいても構いません。</p>
+          <p className="sm:text-base lg:text-lg">2022年度の研究室公開は<a class="underline decoration-zink-500 decoration-2">6月8日（水）</a>と<a class="underline decoration-zink-500 decoration-2">6月15日（水）</a>の<a class="underline decoration-rose-500 decoration-2">5限（16:20〜17:50）</a>に<a class="underline decoration-pink-500 decoration-2">クリエーションコア3Fプレイフルインタラクション研究室</a>で実施します。この時間内であればいつ来てくれても、いつお帰りいただいても構いません。</p>
 
-          <p className="text-lg">オンライン（Zoom）でも6月6日(月)から6月15日(水)の9:00から16:10までのあいだ、随時実施します。<a href="https://ritsumei-ac-jp.zoom.us/j/98447792256?pwd=MjIrZlpNeERONGpWUHZLczhxcm5TZz09" class="underline  decoration-sky-500 hover:decoration-blue-400 decoration-2">ここのリンク</a>から待機室にはいっていただくと、教員が空いている時間に対応します（5分程度待って来なければ違う時間にもう一度試してください）。</p>
+          <p className="sm:text-base lg:text-lg">オンライン（Zoom）でも6月6日(月)から6月15日(水)の9:00から16:10までのあいだ、随時実施します。<a href="https://ritsumei-ac-jp.zoom.us/j/98447792256?pwd=MjIrZlpNeERONGpWUHZLczhxcm5TZz09" class="underline  decoration-sky-500 hover:decoration-blue-400 decoration-2">ここのリンク</a>から待機室にはいっていただくと、教員が空いている時間に対応します（5分程度待って来なければ違う時間にもう一度試してください）。</p>
         </About>
 
         <Divider>本研究室の成り立ち</Divider>
-        <p className="flex flex-col w-full flex-1 px-10 mt-2 text-lg">
+        <p className="flex flex-col w-full flex-1 sm:px-5 lg:px-10 mt-2 sm:text-base lg:text-lg">
           プレイフルインタラクション研究室は2021年4月に発足した、ヒューマンコンピュータインタラクションに関する研究室です。特に、フィールドワークやワークショップを実施することで、コンピュータやロボットを含む複数の存在がどのように関わり合うのかということを理解することに研究上の興味があります。
         </p>
-        <p className="flex flex-col w-full flex-1 px-10 mt-2 text-lg">
+        <p className="flex flex-col w-full flex-1 sm:px-5 lg:px-10 mt-2 sm:text-base lg:text-lg">
           本研究室には歴史や伝統がありません。これから配属することになるみなさんは本研究室の2期生いうことになります。みなさんが1期生の学生や、教員と一緒に研究室をどのように作っていくか、それが歴史や伝統となっていくことになります。そのような新しいチャレンジを好む人を歓迎します。
         </p>
         <Divider>研究室の生活</Divider>
 
-        <p className="flex flex-col w-full flex-1 px-10 mt-2 text-lg">
+        <p className="flex flex-col w-full flex-1 sm:px-5 lg:px-10 mt-2 sm:text-base lg:text-lg">
           以下に例を紹介します。
         </p>
         <Lablife />
@@ -46,7 +46,7 @@ export default function Openlab() {
 
 export function Lablife() {
   return (
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 px-10 mt-6">
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:px-5 lg:px-10 mt-6">
       {FaqAnswers.map((person) => (
         <Link href={"lablife?id="+person.id}>
           <div
@@ -79,7 +79,7 @@ export function Lablife() {
                 <p className="text-sm font-medium text-gray-900">
               {person.name}
                 </p>
-                <p className="text-sm text-gray-500 truncate">
+                <p className="sm:text-xs md:text-sm text-gray-500 truncate">
                   {person.master? ("ある修士学生の場合"):("ある学部学生の場合")}
                 </p>
               </a>

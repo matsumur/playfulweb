@@ -17,9 +17,9 @@ export default function Papers() {
         ></link>
       </Head>
 
-      <main className="flex flex-col justify-center w-full flex-1 px-20 py-5">
+      <main className="flex flex-col justify-center w-full sm:px-5 lg:px-20 py-5">
         <About name="発表文献">
-          <p className="text-lg">
+          <p className="sm:text-base lg:text-lg">
             発表した論文を紹介します。
           </p>
           </About>
