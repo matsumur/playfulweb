@@ -1,6 +1,13 @@
 
 const announcements = [
   {
+    id: 14,
+    date: "2023/5/29",
+    preview:
+      "2023年度の研究室紹介の情報を公開しました。6月6日の3限と6月14日の5限に研究室にお越しください。",
+    href: "/openlab2023",
+  },
+  {
     id: 13,
     date: "2023/3/1",
     preview:
