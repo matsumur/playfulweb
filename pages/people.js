@@ -22,23 +22,21 @@ export default function People() {
           <p className="sm:text-base lg:text-lg">
             研究室のメンバーを紹介します。
           </p>
-          <p className="sm:text-base lg:text-lg">
-            ※2023年4月時点
-          </p>
+          <p className="sm:text-base lg:text-lg">※2023年4月時点</p>
         </About>
 
-      
         <Divider>教員</Divider>
-        <Faculty faculty={Members} />        
+        <Faculty faculty={Members} />
         <Divider>博士前期課程</Divider>
-        <Students students={Members} grade={2}/>
-        <Students students={Members} grade={1}/>
+        <Students students={Members} grade={2} />
+        <Students students={Members} grade={1} />
 
         <Divider>学部</Divider>
-        <Students students={Members} grade={4}/>
+        <Students students={Members} grade={4} />
+        <Students students={Members} grade={3} />
 
         <Divider>卒業生</Divider>
-        <Students students={Members} grade={0}/>
+        <Students students={Members} grade={0} />
       </main>
     </Page>
   );
