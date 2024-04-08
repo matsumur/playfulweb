@@ -1,482 +1,602 @@
 [
-	{
-		"role": "准教授",
-		"grade": -1,
-		"name": "松村 耕平",
-		"imageUrl": "matsumura.jpg",
-		"email": "matsumur@fc.ritsumei.ac.jp",
-		"web": "https://research-db.ritsumei.ac.jp/rithp/k03/resid/S001223",
-		"year": "",
-		"project": ""
-	},
-	{
- 		"role": "講師",
- 		"grade": -1,
- 		"name": "高橋 治輝",
- 		"imageUrl": "",
- 		"email": "",
- 		"web": "https://haruki.xyz/",
- 		"year": "",
- 		"project": ""
- 	},
-	{
-		"role": "客員准教授",
-		"grade": -1,
-		"name": "岡藤 勇希",
-		"imageUrl": "okafuji.jpg",
-		"email": "yokafuji@fc.ritsumei.ac.jp",
-		"web": "https://yukiokafuji.mystrikingly.com/",
-		"year": "",
-		"project": ""
-	},
-	{
-		"role": "客員准教授",
-		"grade": -1,
-		"name": "山西 良典",
-		"imageUrl": "yamanishi.jpeg",
-		"email": "ryama@kansai-u.ac.jp",
-		"web": "https://ccca-lab.net/",
-		"year": "",
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 0,
-		"name": "高見 優也",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 0,
-		"name": "鳥居 陽香",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 0,
-		"name": "中山 貴翔",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 0,
-		"name": "三井 優弥",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 0,
-		"name": "Zhang Sicheng",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": 5
-	},
-	{
-		"role": "学士",
-		"grade": 0,
-		"name": "Zhao Hongbo",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 0,
-		"name": "恩村 城伊",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": 9
-	},
-	{
-		"role": "学士",
-		"grade": 0,
-		"name": "坂口 太一",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": 4
-	},
-	{
-		"role": "学士",
-		"grade": 0,
-		"name": "藤本 遼太",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": 12
-	},
-	{
-		"role": "学士",
-		"grade": 0,
-		"name": "牧田 昌大",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": 2
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "石川 拓海",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": 6
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "伊藤 智樹",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "河野 隼一郎",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": 13
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "諏訪 司",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "福西 誠樹",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": 10
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "Yang Guang",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": 3
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "天田 穣一朗",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": 2
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "Zhang Chenkai",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": 11
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "Liu Jiang",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "浮田 凌佑",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": 7
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "江見 太一朗",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "川上 雄大",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": 1
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "西村 拓海",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "山本 聖",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 0,
-		"name": "Xie Zhiyan",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2022,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 1,
-		"name": "飯田 祐大",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 1,
-		"name": "岸田 裕大",
-		"imageUrl": "kishida.jpg",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 1,
-		"name": "茶本 有記",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 1,
-		"name": "服部 健心",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 1,
-		"name": "若林 大聖",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 2,
-		"name": "加藤 祐樹",
-		"imageUrl": "kato.jpg",
-		"email": "",
-		"web": "",
-		"year": 2024,
-		"project": 5
-	},
-	{
-		"role": "修士",
-		"grade": 2,
-		"name": "岸本 和大",
-		"imageUrl": "kishimoto.jpg",
-		"email": "",
-		"web": "",
-		"year": 2024,
-		"project": 8
-	},
-	{
-		"role": "修士",
-		"grade": 2,
-		"name": "待田 航太朗",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2024,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 2,
-		"name": "渡邊 将太",
-		"imageUrl": "watanabe.jpg",
-		"email": "",
-		"web": "",
-		"year": 2024,
-		"project": 1
-	},
-	{
-		"role": "修士",
-		"grade": 2,
-		"name": "野中 駿",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": ""
-	},
-	{
-		"role": "修士",
-		"grade": 2,
-		"name": "山口 遊",
-		"imageUrl": "lovotyamaguchi.png",
-		"email": "",
-		"web": "",
-		"year": 2023,
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 4,
-		"name": "森兼 皐成",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": "",
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 4,
-		"name": "佐藤 巧馬",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": "",
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 4,
-		"name": "岸本 悠汰",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": "",
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 4,
-		"name": "牧野 倫太郎",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": "",
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 4,
-		"name": "下田 明日香",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": "",
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 4,
-		"name": "山下 大貴",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": "",
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 4,
-		"name": "臼井 義人",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": "",
-		"project": ""
-	},
-	{
-		"role": "学士",
-		"grade": 4,
-		"name": "田中 舜也",
-		"imageUrl": "",
-		"email": "",
-		"web": "",
-		"year": "",
-		"project": ""
-	}
+  {
+    "role": "准教授",
+    "grade": -1,
+    "name": "松村 耕平",
+    "imageUrl": "matsumura.jpg",
+    "email": "matsumur@fc.ritsumei.ac.jp",
+    "web": "https://research-db.ritsumei.ac.jp/rithp/k03/resid/S001223",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "講師",
+    "grade": -1,
+    "name": "高橋 治輝",
+    "imageUrl": "",
+    "email": "",
+    "web": "https://haruki.xyz/",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "客員准教授",
+    "grade": -1,
+    "name": "岡藤 勇希",
+    "imageUrl": "okafuji.jpg",
+    "email": "yokafuji@fc.ritsumei.ac.jp",
+    "web": "https://yukiokafuji.mystrikingly.com/",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "客員准教授",
+    "grade": -1,
+    "name": "山西 良典",
+    "imageUrl": "yamanishi.jpeg",
+    "email": "ryama@kansai-u.ac.jp",
+    "web": "https://ccca-lab.net/",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 0,
+    "name": "高見 優也",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 0,
+    "name": "鳥居 陽香",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 0,
+    "name": "中山 貴翔",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 0,
+    "name": "三井 優弥",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 0,
+    "name": "Zhang Sicheng",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": 5
+  },
+  {
+    "role": "学士",
+    "grade": 0,
+    "name": "Zhao Hongbo",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 0,
+    "name": "恩村 城伊",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": 9
+  },
+  {
+    "role": "学士",
+    "grade": 0,
+    "name": "坂口 太一",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": 4
+  },
+  {
+    "role": "学士",
+    "grade": 0,
+    "name": "藤本 遼太",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": 12
+  },
+  {
+    "role": "学士",
+    "grade": 0,
+    "name": "牧田 昌大",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": 2
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "石川 拓海",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": 6
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "伊藤 智樹",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "河野 隼一郎",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": 13
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "諏訪 司",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "福西 誠樹",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": 10
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "Yang Guang",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": 3
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "天田 穣一朗",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": 2
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "Zhang Chenkai",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": 11
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "Liu Jiang",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "浮田 凌佑",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": 7
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "江見 太一朗",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "川上 雄大",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": 1
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "西村 拓海",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "山本 聖",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "Xie Zhiyan",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2022,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 2,
+    "name": "飯田 祐大",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 2,
+    "name": "岸田 裕大",
+    "imageUrl": "kishida.jpg",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 2,
+    "name": "茶本 有記",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 2,
+    "name": "服部 健心",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 2,
+    "name": "若林 大聖",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "加藤 祐樹",
+    "imageUrl": "kato.jpg",
+    "email": "",
+    "web": "",
+    "year": 2024,
+    "project": 5
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "岸本 和大",
+    "imageUrl": "kishimoto.jpg",
+    "email": "",
+    "web": "",
+    "year": 2024,
+    "project": 8
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "待田 航太朗",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2024,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "渡邊 将太",
+    "imageUrl": "watanabe.jpg",
+    "email": "",
+    "web": "",
+    "year": 2024,
+    "project": 1
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "野中 駿",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 0,
+    "name": "山口 遊",
+    "imageUrl": "lovotyamaguchi.png",
+    "email": "",
+    "web": "",
+    "year": 2023,
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 0,
+    "name": "森兼 皐成",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 1,
+    "name": "佐藤 巧馬",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 0,
+    "name": "岸本 悠汰",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 1,
+    "name": "牧野 倫太郎",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 0,
+    "name": "下田 明日香",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 1,
+    "name": "山下 大貴",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 1,
+    "name": "臼井 義人",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "修士",
+    "grade": 1,
+    "name": "田中 舜也",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 4,
+    "name": "赤杉 美優",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 4,
+    "name": "井口 龍之翼",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 4,
+    "name": "井用 隼輔",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 4,
+    "name": "大椿 響生",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 4,
+    "name": "岡茂 樹",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 4,
+    "name": "川久保 空真",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 4,
+    "name": "末永 悠之介",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 4,
+    "name": "杉邨 亜里紗",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 4,
+    "name": "東谷 雄輝",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 4,
+    "name": "美馬 大暉",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 4,
+    "name": "山口 結己",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 4,
+    "name": "脇坂 駿太",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  }
 ]
