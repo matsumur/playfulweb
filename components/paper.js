@@ -10,7 +10,7 @@ export default function Papers(props) {
             <div className='l-wrapper' key={paper.title}>
               <article className='card border rounded-xl bg-gray-50'>
                 <header className='card-header'>
-                  <div className='card-image'>
+                  {/* <div className='card-image'>
                     <img
                       className='img-small-size md:img-middle-size'
                       src={
@@ -19,32 +19,32 @@ export default function Papers(props) {
                           : '/project-images/noImage.png'
                       }
                       objectFit='cover'
-                    />
-                    <div className='flex-1'>
-                      <h4 className='card-title margin-remove'>
-                        【{paper.form}】
-                      </h4>
-                      <h4 className='card-title'>{paper.title}</h4>
-                      <ul className='card-meta card-nav'>
-                        <p>
-                          {' '}
-                          {paper.publisher} <br />
-                          {paper.conferenceName}
-                        </p>
-                      </ul>
-                      <ul className='card-meta card-nav'>
-                        {paper.document && (
-                          <a href={paper.document}>
-                            <p>DOI</p>
-                          </a>
-                        )}
-                      </ul>
-                    </div>
+                    /> */}
+                  <div className='flex-1 px-5'>
+                    {/* <h4 className='card-title margin-remove'>
+                      【{paper.form}】
+                    </h4> */}
+                    <h4 className='card-title'>{paper.title}</h4>
+                    <ul className='card-meta card-nav'>
+                      <p>
+                        {' '}
+                        {paper.publisher} <br />
+                        {paper.conferenceName}
+                      </p>
+                    </ul>
+                    <ul className='card-meta card-nav'>
+                      {paper.document && (
+                        <a href={paper.document}>
+                          <p>DOI</p>
+                        </a>
+                      )}
+                    </ul>
                   </div>
+                  {/* </div> */}
                 </header>
-                <div className='card-body hidden lg:inline-block '>
+                {/* <div className='card-body hidden lg:inline-block '>
                   <p>{paper.abstract}</p>
-                </div>
+                </div> */}
               </article>
             </div>
           )}
