@@ -306,5 +306,79 @@
     "abstract": "Due to their conversational skills, service robots are expected to replace posters or digital signage as a new advertising medium. These robots must achieve two goals to obtain maximum advertising opportunities in a public space: they must stop as many passersby as possible and make passersby stay as long as possible. In previous studies, to achieve these goals, the robots called out to each passerby one by one, which was inefficient as an advertising medium. Therefore, to obtain more advertising opportunities, this study proposes a method to simultaneously stop many passersby and make them stay, by creating a pseudo-crowd with multiple robots. The pseudo-crowd is a system in which multiple robots acting as an audience are placed around a robot providing information. We verified the effectiveness of the proposed method in a shopping mall. As a result, increasing the number of robots made more passersby stop, and the use of audience robots extended the time passersby spent in front of the robots. Our findings will contribute to the application of robots as a more useful advertising medium in public spaces.",
     "imageURL": "amada-poster.jpg",
     "document": "https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2143242"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "口頭発表",
+    "title": "主観的ランドマークの提示によるデバイスへの注視を防ぐ歩行用ナビゲーションシステムの研究",
+    "publisher": "山下 大貴，松村 耕平，高橋 治輝",
+    "conferenceName": "研究報告エンタテインメントコンピューティング（EC）",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=233649&item_no=1&page_id=13&block_id=8"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "ポスター発表",
+    "title": "VR上の軟体物体と硬さの異なるタンジブルオブジェクトの対応付け調査",
+    "publisher": "臼井 義人，高橋 治輝，松村 耕平",
+    "conferenceName": "INTERACTION 2024",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://www.interaction-ipsj.org/proceedings/2024/data/pdf/3P-85.pdf"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "口頭発表",
+    "title": "オンライントレーニングにおいて匿名性を保ったまま集団を意識付ける手法の提案",
+    "publisher": "岸田裕大，西村拓海，松村耕平，岡藤勇希",
+    "conferenceName": "INTERACTION 2024",
+    "year": 2023,
+    "abstract": "",
+    "document": "https://www.interaction-ipsj.org/2024/program/"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "ポスター発表",
+    "title": "ロボットの視線回避が応答時間の知覚に与える影響",
+    "publisher": "佐藤巧馬、高橋治輝、松村耕平",
+    "conferenceName": "INTERACTION 2024",
+    "year": 2023,
+    "abstract": "",
+    "document": "https://www.interaction-ipsj.org/2024/program/"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "口頭発表",
+    "title": "Investigating the Influence of Task-dependent and Task-independent Robot Behavior on the Impression of Robots and the User Experience",
+    "publisher": "Y. Chamoto, Y. Okafuji, K. Matsumura, J. Baba and J. Nakanishi",
+    "conferenceName": "2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+    "year": 2023,
+    "abstract": "",
+    "document": "https://ieeexplore.ieee.org/document/10309453"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "ポスター発表",
+    "title": "Pixel Board: 共在感を伝えるLEDボードの開発",
+    "publisher": "牧野 倫太郎, 黒田 慧, 柚 空翔, Ye Wente, Alessandro Brianti, Xingge Yang, Joe Volpato, 松村 耕平, 野間 春生, 高田 秀志",
+    "conferenceName": "INTERACTION 2024",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://www.interaction-ipsj.org/proceedings/2024/data/pdf/1C-67.pdf"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "ポスター発表",
+    "title": "ロボットはどうやってユーザとの対話を終わらせるべきか: 終了の予告タイミングからの検討",
+    "publisher": "牧野 倫太郎, 松村 耕平, 高橋治輝",
+    "conferenceName": "INTERACTION 2024",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://www.interaction-ipsj.org/proceedings/2024/data/pdf/3B-58.pdf"
   }
 ]
