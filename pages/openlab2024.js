@@ -22,18 +22,10 @@ export default function Openlab() {
         <About name='研究室公開2024'>
           <p className='sm:text-base lg:text-lg'>
             2024年度の研究室公開は
-            <a class='underline decoration-zink-500 decoration-2'>
-              6月X日（X）の3限（13:00から14:30）
-            </a>
-            と
-            <a class='underline decoration-zink-500 decoration-2'>
-              6月X日（水）の5限（16:20〜17:50）
-            </a>
-            に
             <a class='underline decoration-pink-500 decoration-2'>
               H棟5階プレイフルインタラクション研究室（H522）
             </a>
-            で実施します。この時間内であればいつ来てくれても、いつお帰りいただいても構いません。そもそもプレイフルインタラクション研究室は
+            で実施します。プレイフルインタラクション研究室は
             <a class='underline decoration-rose-500 decoration-2'>
               オープンマインド
             </a>
