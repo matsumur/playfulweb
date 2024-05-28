@@ -55,6 +55,12 @@ const swipeImages = [
     alt: 'Many Sota standing in front of people',
     href: '',
   },
+  {
+    id: 7,
+    src: '/images/top/usui.jpg',
+    alt: 'Usui',
+    href: '',
+  },
 ];
 
 function SlideImage(props) {

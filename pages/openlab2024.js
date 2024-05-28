@@ -112,10 +112,10 @@ export function Lablife() {
 
 export function LablifeGraduate() {
   return (
-    <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 sm:px-5 lg:px-10 mt-6'>
+    <div className='grid grid-cols-1 sm:grid-cols-8 md:grid-cols-10 lg:grid-cols-12 sm:px-5 mt-6 lg:px-10'>
       {Graduates.map((person) => (
         <Link href={'graduate?id=' + person.id} key={person.id}>
-          <div className='relative rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm flex flex-col items-center space-y-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500'>
+          <div className='relative rounded-lg py-5 flex flex-col items-center space-y-3 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500'>
             <div className='flex-shrink-0'>
               {person.imageUrl ? (
                 <img
@@ -124,7 +124,7 @@ export function LablifeGraduate() {
                   alt=''
                 />
               ) : (
-                <span className='inline-block w-10 h-10 rounded-full overflow-hidden bg-gray-100'>
+                <span className='inline-block w-10 h-10 rounded-full overflow-hidden'>
                   <svg
                     className='h-full w-full text-gray-300'
                     fill='currentColor'
