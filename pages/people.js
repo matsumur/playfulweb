@@ -33,6 +33,7 @@ export default function People() {
 
         <Divider>学部</Divider>
         <Students students={Members} grade={4} />
+        <Students students={Members} grade={3} />
 
         <Divider>卒業生</Divider>
         <Students students={Members} grade={0} />
