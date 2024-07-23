@@ -77,7 +77,7 @@ export default function Navbar() {
                       発表文献
                     </a>
                   </Link>
-                  <Link href='/openlab2024'>
+                  {/* <Link href='/openlab2024'>
                     <a
                       className={[
                         ariaChange('/openlab2024'),
@@ -88,7 +88,7 @@ export default function Navbar() {
                     >
                       いつでも研究室公開
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
 
@@ -123,11 +123,11 @@ export default function Navbar() {
                   発表文献
                 </a>
               </Link>
-              <Link href='/openlab2024'>
+              {/* <Link href='/openlab2024'>
                 <a className='border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium'>
                   いつでも研究室公開
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </Disclosure.Panel>
         </>
