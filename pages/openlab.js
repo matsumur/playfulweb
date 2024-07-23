@@ -22,15 +22,15 @@ export default function Openlab() {
       <main className='flex flex-col justify-center w-full sm:px-5 lg:px-20 py-5'>
         <About name='いつでも研究室公開'>
           <p className='sm:text-base lg:text-lg'>
-            研究室公開は
-            <a class='underline decoration-pink-500 decoration-2'>
-              H棟5階プレイフルインタラクション研究室（H522）
-            </a>
-            で実施します。いつ来てくれても、いつお帰りいただいても構いません。そもそもプレイフルインタラクション研究室は
+            プレイフルインタラクション研究室は
             <a class='underline decoration-rose-500 decoration-2'>
               オープンマインド
             </a>
-            を標語としており、いつでもオープンですので、お気軽にお越しください。
+            を標語としております。いつでもオープンですので、ご興味のある方は
+            <a class='underline decoration-pink-500 decoration-2'>
+              H棟5階プレイフルインタラクション研究室（H522）
+            </a>
+            にお気軽にお越しください（いつでも研究室公開）。
           </p>
         </About>
 
