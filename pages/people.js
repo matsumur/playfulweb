@@ -22,7 +22,7 @@ export default function People() {
           <p className='sm:text-base lg:text-lg'>
             研究室のメンバーを紹介します。
           </p>
-          <p className='sm:text-base lg:text-lg'>※2024年4月時点</p>
+          <p className='sm:text-base lg:text-lg'>※2024年7月時点</p>
         </About>
 
         <Divider>教員</Divider>
