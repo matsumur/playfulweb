@@ -1,5 +1,18 @@
 const announcements = [
   {
+    id: 18,
+    date: '2024/7/15',
+    preview:
+      'Playful Interaction Week が始まります。3回生とたくさん交流して仲良くなりましょう。',
+    href: 'https://playful-interaction-weeks-2024.vercel.app',
+  },
+  {
+    id: 17,
+    date: '2024/7/5',
+    preview: '新しく研究室にB3メンバーが加わりました。ようこそ！',
+    href: '/people',
+  },
+  {
     id: 16,
     date: '2024/5/24',
     preview:
@@ -11,7 +24,7 @@ const announcements = [
     date: '2024/5/24',
     preview:
       '2024年度の研究室紹介の情報を公開しました。いつでもお越しください。',
-    href: '/openlab2024',
+    href: '#',
   },
   {
     id: 14,
