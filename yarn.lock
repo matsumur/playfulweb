@@ -353,6 +353,11 @@
     url-loader "^4.1.0"
     vue-svg-loader "^0.16.0"
 
+"@progfay/scrapbox-parser@^9.1.5":
+  version "9.1.5"
+  resolved "https://registry.npmjs.org/@progfay/scrapbox-parser/-/scrapbox-parser-9.1.5.tgz"
+  integrity sha512-dfEnkgjsD5IITIkVM5kKIX0KWpjor3qZiJD+8+8yHoOUFVBW8ne015j8ADNR5BOjX35Gqeg2/umwDi1JW2nU/w==
+
 "@svgr/babel-plugin-add-jsx-attribute@^6.0.0":
   version "6.0.0"
   resolved "https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-6.0.0.tgz"

@@ -11,6 +11,7 @@
     "@headlessui/react": "^1.2.0",
     "@heroicons/react": "^1.0.6",
     "@nuxtjs/svg": "^0.1.12",
+    "@progfay/scrapbox-parser": "^9.1.5",
     "@tailwindcss/line-clamp": "^0.2.1",
     "gray-matter": "^4.0.3",
     "js-beautify": "^1.14.7",
