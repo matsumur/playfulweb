@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/paper-gallery',
-        destination: 'https://5663-133-19-43-4.ngrok-free.app/',
+        destination: 'https://d2b3-133-19-43-4.ngrok-free.app',
         permanent: false,
       },
     ];
