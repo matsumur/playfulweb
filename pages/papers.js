@@ -21,6 +21,9 @@ export default function Papers() {
         <About name='発表文献'>
           <p className='sm:text-base lg:text-lg'>発表した論文を紹介します。</p>
         </About>
+        <div id={'poster2025'} />
+        <Divider>査読なし発表(2025年)</Divider>
+        <Research papers={research} form={'査読なし発表'} year={2025} />
         {/* <div id={'jornal2024'} />
         <Divider>論文誌(2024年)</Divider>
         <Research papers={research} form={'論文'} year={2024} /> */}
