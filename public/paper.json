@@ -391,5 +391,82 @@
     "abstract": "",
     "imageURL": "",
     "document": "https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=238782&file_id=1&file_no=1"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "査読なし発表",
+    "title": "ボタンひとつで3Dプリントが体験できるシステムの提案と運用",
+    "publisher": "高橋 治輝, 臼井 義人, 松村 耕平",
+    "conferenceName": "WISS 2024: 第32回インタラクティブシステムとソフトウェアに関するワークショップ",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://www.wiss.org/WISS2024Proceedings/data/paper//12.pdf"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "査読なし発表",
+    "title": "3Dプリンタ未経験者の理解と利用意欲を高めるためのLithophane造形システム",
+    "publisher": "臼井 義人, 高橋 治輝, 松村 耕平",
+    "conferenceName": "WISS 2024: 第32回インタラクティブシステムとソフトウェアに関するワークショップ",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://www.wiss.org/WISS2024Proceedings/data/demo//1-B16.pdf"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "査読なし発表",
+    "title": "Emo-pathy：寄り添いインタラクションによる心理的健康促進システム",
+    "publisher": "末永 悠之介, 高橋 治輝, 松村 耕平",
+    "conferenceName": "WISS 2024: 第32回インタラクティブシステムとソフトウェアに関するワークショップ",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://www.wiss.org/WISS2024Proceedings/data/demo//3-B10.pdf"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "査読なし発表",
+    "title": "HMDを利用したVR環境において通知の重要度に応じて通知領域を動的に変更する手法の検討",
+    "publisher": "川久保 空真, 高橋 治輝, 松村 耕平",
+    "conferenceName": "WISS 2024: 第32回インタラクティブシステムとソフトウェアに関するワークショップ",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://www.wiss.org/WISS2024Proceedings/data/demo//3-A03.pdf"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "査読なし発表",
+    "title": "ロボットの背後に表示された画像による感情表現手法の提案",
+    "publisher": "東谷 雄輝, 松村 耕平, 高橋 治輝, 岡藤 勇希",
+    "conferenceName": "HAIシンポジウム2025",
+    "year": 2025,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://hai-conference.net/symp2025/proceedings/pdf/P2-3.pdf"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "査読なし発表",
+    "title": "複数台のロボットによるゆるやかなファシリテーション",
+    "publisher": "牧野 倫太郎, 岡藤 勇希, 高橋 治輝, 松村 耕平",
+    "conferenceName": "HAIシンポジウム2025",
+    "year": 2025,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://hai-conference.net/symp2025/proceedings/pdf/P2-20.pdf"
+  },
+  {
+    "タイムスタンプ": "",
+    "form": "査読なし発表",
+    "title": "Paper Gallery: 論文要約スライドを活用するためのWebギャラリー",
+    "publisher": "牧野 倫太郎, 高橋 治輝, 松村 耕平",
+    "conferenceName": "インタラクション2025",
+    "year": 2025,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://www.interaction-ipsj.org/proceedings/2025/data/pdf/2B-21.pdf"
   }
 ]

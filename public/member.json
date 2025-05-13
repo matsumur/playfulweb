@@ -20,12 +20,12 @@
     "project": ""
   },
   {
-    "role": "客員准教授",
+    "role": "客員教授",
     "grade": -1,
-    "name": "岡藤 勇希",
-    "imageUrl": "members/okafuji.jpg",
-    "email": "yokafuji@fc.ritsumei.ac.jp",
-    "web": "https://yukiokafuji.mystrikingly.com/",
+    "name": "小川 浩平",
+    "imageUrl": "members/ogawa.jpg",
+    "email": "",
+    "web": "https://sites.google.com/site/sslabnagoya/home",
     "year": "",
     "project": ""
   },
@@ -291,7 +291,7 @@
   },
   {
     "role": "修士",
-    "grade": 2,
+    "grade": 0,
     "name": "飯田 祐大",
     "imageUrl": "",
     "email": "",
@@ -301,7 +301,7 @@
   },
   {
     "role": "修士",
-    "grade": 2,
+    "grade": 0,
     "name": "岸田 裕大",
     "imageUrl": "members/kishida.jpg",
     "email": "",
@@ -311,7 +311,7 @@
   },
   {
     "role": "修士",
-    "grade": 2,
+    "grade": 0,
     "name": "茶本 有記",
     "imageUrl": "members/chamoto.jpg",
     "email": "",
@@ -321,7 +321,7 @@
   },
   {
     "role": "修士",
-    "grade": 2,
+    "grade": 0,
     "name": "服部 健心",
     "imageUrl": "members/hattori.jpg",
     "email": "",
@@ -331,7 +331,7 @@
   },
   {
     "role": "修士",
-    "grade": 2,
+    "grade": 0,
     "name": "若林 大聖",
     "imageUrl": "",
     "email": "",
@@ -411,7 +411,7 @@
   },
   {
     "role": "修士",
-    "grade": 1,
+    "grade": 2,
     "name": "佐藤 巧馬",
     "imageUrl": "members/sato.jpg",
     "email": "",
@@ -431,7 +431,7 @@
   },
   {
     "role": "修士",
-    "grade": 1,
+    "grade": 2,
     "name": "牧野 倫太郎",
     "imageUrl": "members/makino.jpg",
     "email": "",
@@ -451,7 +451,7 @@
   },
   {
     "role": "修士",
-    "grade": 1,
+    "grade": 2,
     "name": "山下 大貴",
     "imageUrl": "members/yamashita.jpg",
     "email": "",
@@ -461,7 +461,7 @@
   },
   {
     "role": "修士",
-    "grade": 1,
+    "grade": 2,
     "name": "臼井 義人",
     "imageUrl": "members/usui.jpg",
     "email": "",
@@ -471,7 +471,7 @@
   },
   {
     "role": "修士",
-    "grade": 1,
+    "grade": 2,
     "name": "田中 舜也",
     "imageUrl": "members/tanaka.jpg",
     "email": "",
@@ -481,7 +481,7 @@
   },
   {
     "role": "学士",
-    "grade": 4,
+    "grade": 0,
     "name": "赤杉 美優",
     "imageUrl": "members/akasugi.jpg",
     "email": "",
@@ -491,7 +491,7 @@
   },
   {
     "role": "学士",
-    "grade": 4,
+    "grade": 0,
     "name": "井口 龍之翼",
     "imageUrl": "members/inokuchi.jpg",
     "email": "",
@@ -501,7 +501,7 @@
   },
   {
     "role": "学士",
-    "grade": 4,
+    "grade": 0,
     "name": "井用 隼輔",
     "imageUrl": "members/iyo.jpg",
     "email": "",
@@ -511,7 +511,7 @@
   },
   {
     "role": "学士",
-    "grade": 4,
+    "grade": 0,
     "name": "大椿 響生",
     "imageUrl": "members/otsubaki.jpeg",
     "email": "",
@@ -520,18 +520,18 @@
     "project": ""
   },
   {
-    "role": "学士",
-    "grade": 4,
+    "role": "修士",
+    "grade": 1,
     "name": "岡茂 樹",
-    "imageUrl": "",
+    "imageUrl": "members/okamo.jpg",
     "email": "",
     "web": "",
     "year": "",
     "project": ""
   },
   {
-    "role": "学士",
-    "grade": 4,
+    "role": "修士",
+    "grade": 1,
     "name": "川久保 空真",
     "imageUrl": "members/kawakubo.jpg",
     "email": "",
@@ -540,8 +540,8 @@
     "project": ""
   },
   {
-    "role": "学士",
-    "grade": 4,
+    "role": "修士",
+    "grade": 1,
     "name": "末永 悠之介",
     "imageUrl": "members/suenaga.png",
     "email": "",
@@ -551,7 +551,7 @@
   },
   {
     "role": "学士",
-    "grade": 4,
+    "grade": 0,
     "name": "杉邨 亜里紗",
     "imageUrl": "members/sugimura.jpg",
     "email": "",
@@ -561,7 +561,7 @@
   },
   {
     "role": "学士",
-    "grade": 4,
+    "grade": 0,
     "name": "東谷 雄輝",
     "imageUrl": "members/higashitani.jpg",
     "email": "",
@@ -570,8 +570,8 @@
     "project": ""
   },
   {
-    "role": "学士",
-    "grade": 4,
+    "role": "修士",
+    "grade": 1,
     "name": "美馬 大暉",
     "imageUrl": "members/mima.png",
     "email": "",
@@ -581,7 +581,7 @@
   },
   {
     "role": "学士",
-    "grade": 4,
+    "grade": 0,
     "name": "山口 結己",
     "imageUrl": "members/yamaguchi.jpg",
     "email": "",
@@ -590,8 +590,8 @@
     "project": ""
   },
   {
-    "role": "学士",
-    "grade": 4,
+    "role": "修士",
+    "grade": 1,
     "name": "脇坂 駿太",
     "imageUrl": "members/wakisaka.jpg",
     "email": "",
@@ -600,8 +600,18 @@
     "project": ""
   },
   {
+    "role": "修士",
+    "grade": 1,
+    "name": "劉 天鑑",
+    "imageUrl": "members/liu.jpg",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
     "role": "学士",
-    "grade": 3,
+    "grade": 4,
     "name": "上田 潮",
     "imageUrl": "",
     "email": "",
@@ -611,7 +621,7 @@
   },
   {
     "role": "学士",
-    "grade": 3,
+    "grade": 4,
     "name": "小川 真由",
     "imageUrl": "",
     "email": "",
@@ -621,7 +631,7 @@
   },
   {
     "role": "学士",
-    "grade": 3,
+    "grade": 4,
     "name": "加藤 哲平",
     "imageUrl": "members/kato_teppei.jpg",
     "email": "",
@@ -631,7 +641,7 @@
   },
   {
     "role": "学士",
-    "grade": 3,
+    "grade": 4,
     "name": "木越 湧太",
     "imageUrl": "",
     "email": "",
@@ -641,7 +651,7 @@
   },
   {
     "role": "学士",
-    "grade": 3,
+    "grade": 4,
     "name": "久保田 学",
     "imageUrl": "",
     "email": "",
@@ -651,7 +661,7 @@
   },
   {
     "role": "学士",
-    "grade": 3,
+    "grade": 4,
     "name": "坂本 優真",
     "imageUrl": "members/sakamoto.jpg",
     "email": "",
@@ -661,7 +671,7 @@
   },
   {
     "role": "学士",
-    "grade": 3,
+    "grade": 4,
     "name": "高木 翔理",
     "imageUrl": "members/takagi.jpg",
     "email": "",
@@ -671,7 +681,7 @@
   },
   {
     "role": "学士",
-    "grade": 3,
+    "grade": 4,
     "name": "竹内 咲花",
     "imageUrl": "",
     "email": "",
@@ -681,7 +691,7 @@
   },
   {
     "role": "学士",
-    "grade": 3,
+    "grade": 4,
     "name": "西本 一翔",
     "imageUrl": "",
     "email": "",
@@ -691,7 +701,7 @@
   },
   {
     "role": "学士",
-    "grade": 3,
+    "grade": 4,
     "name": "松野 菖",
     "imageUrl": "members/matsuno.jpg",
     "email": "",
@@ -701,7 +711,7 @@
   },
   {
     "role": "学士",
-    "grade": 3,
+    "grade": 4,
     "name": "丸橋 和弥",
     "imageUrl": "",
     "email": "",
