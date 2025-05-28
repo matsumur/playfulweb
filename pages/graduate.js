@@ -205,6 +205,14 @@ function getTimelineData() {
     ChatAlt2Icon: ChatAlt2Icon,
   };
 
+  // Tailwind CSSのカラークラスマッピング
+  const colorMap = {
+    'bg-gray-400': 'bg-gray-400',
+    'bg-red-400': 'bg-red-400',
+    'bg-green-500': 'bg-green-500',
+    'bg-yellow-500': 'bg-yellow-500',
+  };
+
   return TimeLineData.graduate.map((timeline) => ({
     ...timeline,
     timeline: timeline.timeline.map((event) => ({
