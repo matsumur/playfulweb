@@ -1,7 +1,7 @@
 {
   "lablife": [
     {
-      "timeID": 2,
+      "timeID": 1,
       "timeline": [
         {
           "id": 1,
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "timeID": 3,
+      "timeID": 2,
       "timeline": [
         {
           "id": 1,
@@ -130,6 +130,66 @@
           "content": "研究活動 疲れたら帰る",
           "starttime": "19:00",
           "endtime": "21:00",
+          "icon": "UserIcon",
+          "iconBackground": "bg-gray-400"
+        }
+      ]
+    },
+    {
+      "timeID": 3,
+      "timeline": [
+        {
+          "id": 1,
+          "content": "起床",
+          "starttime": "6:30",
+          "icon": "UserIcon",
+          "iconBackground": "bg-gray-400"
+        },
+        {
+          "id": 2,
+          "content": "バイト",
+          "starttime": "7:00",
+          "endtime": "9:00",
+          "icon": "UserIcon",
+          "iconBackground": "bg-red-400"
+        },
+        {
+          "id": 3,
+          "content": "朝食、家事、ランニング",
+          "starttime": "9:00",
+          "endtime": "12:00",
+          "icon": "ThumbUpIcon",
+          "iconBackground": "bg-green-500"
+        },
+        {
+          "id": 4,
+          "content": "研究活動を行う。たまに雑談",
+          "starttime": "12:00",
+          "endtime": "18:00",
+          "icon": "AcademicCapIcon",
+          "iconBackground": "bg-yellow-500"
+        },
+        {
+          "id": 5,
+          "content": "バイト",
+          "starttime": "18:00",
+          "endtime": "20:00",
+          "icon": "UserIcon",
+          "iconBackground": "bg-red-400"
+        },
+        {
+          "id": 6,
+          "content": "夕食、風呂、娯楽",
+          "starttime": "20:00",
+          "endtime": "23:00",
+          "icon": "ChatAlt2Icon",
+          "iconBackground": "bg-yellow-500"
+        },
+        {
+          "id": 7,
+          "content": "就寝",
+          "starttime": "23:00",
+          "endtime": "",
           "icon": "UserIcon",
           "iconBackground": "bg-gray-400"
         }
