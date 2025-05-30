@@ -1,5 +1,12 @@
 const announcements = [
   {
+    id: 19,
+    date: '2024/5/30',
+    preview:
+      '2025年度の研究室紹介の情報を公開しました。いつでもお越しください。',
+    href: '/openlab2025',
+  },
+  {
     id: 18,
     date: '2024/7/15',
     preview:
