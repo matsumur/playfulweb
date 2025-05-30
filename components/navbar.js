@@ -86,7 +86,7 @@ export default function Navbar() {
                         .join(' ')
                         .trim()}
                     >
-                      いつでも研究室公開
+                      研究室公開2025
                     </a>
                   </Link>
                 </div>
@@ -125,7 +125,7 @@ export default function Navbar() {
               </Link>
               <Link href='/openlab2025'>
                 <a className='border-gray-500 text-gray-700 hover:bg-gray-50 hover:border-gray-900 hover:text-gray-900 block pl-3 pr-4 py-2 border-l-4 text-base font-medium'>
-                  いつでも研究室公開
+                  研究室公開2025
                 </a>
               </Link>
             </div>
