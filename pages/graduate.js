@@ -184,11 +184,11 @@ export function Student() {
           <p className='text-lg font-medium text-gray-700 group-hover:text-gray-900'>
             {answer.name}
           </p>
-          <p className='text-l font-medium text-gray-500 group-hover:text-gray-700'>
+          {/* <p className='text-l font-medium text-gray-500 group-hover:text-gray-700'>
             {answer.master
               ? '修士' + answer.grade + '年'
               : '学部' + answer.grade + '年'}
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
