@@ -441,8 +441,7 @@
 }, 
 {
 "form": "査読なし発表",
-"title": "勉強会の}, 
-{運営・参加}を支援するシステム",
+"title": "勉強会の{運営・参加}を支援するシステム",
 "publisher": "中村雄哉, 松村耕平 and 野間春生",
 "conferenceName": "第24回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2016) 論文集",
 "year": 2016, "abstract": "",
@@ -577,7 +576,7 @@
 }, 
 {
 "form": "査読なし発表",
-"title": "",
+"title": "CHI勉強会2017:ネットワーク連携した勉強会とその支援システム",
 "publisher": "松村耕平, 尾形正泰, 小野哲雄, 加藤淳, 阪口紗季, 坂本大介, 杉本雅則, 角康之, 中村裕美, 西田健志, 樋口啓太, 安尾萌 and 渡邉拓貴 ",
 "conferenceName": "研究報告ヒューマンコンピュータインタラクション",
 "year": 2017, "abstract": "",
@@ -640,7 +639,7 @@
 }, 
 {
 "form": "査読付き発表",
-"title": "",
+"title": "Training Simulator for Resuscitation of Neonate with High Effectiveness and Low Introduction Cost",
 "publisher": "Noboru Nishimoto, Wei Yaguang, Kohei Matsumura, Roberto Lopez-Gulliver, Haruo Noma, Iwanaga Kogoro and Tomohiro Kuroda",
 "conferenceName": "International Conference on Innovation in Medicine and Healthcare",
 "year": 2017, "abstract": "",
@@ -722,7 +721,7 @@
 {
 "form": "査読なし発表",
 "title": "モノの動きを表すハンドジェスチャと意味情報の収集システムの提案",
-"publisher": "田村香都, 松村耕平 and 野間春生",
+"publisher": "田村香都, 松村耕平 and 野間春生",
 "conferenceName": "第25回インタラクティブシステムとソフトウェアに関するワークショップ(WISS2017)",
 "year": 2017, "abstract": "",
 "imageURL": "",
@@ -731,7 +730,7 @@
 {
 "form": "査読なし発表",
 "title": "自動運転車で情報を収集するための運転ルートジェネレータの設計",
-"publisher": "内藤拓海, 松村耕平 and 野間春生",
+"publisher": "内藤拓海, 松村耕平 and 野間春生",
 "conferenceName": "第25回インタラクティブシステムとソフトウェアに関するワークショップ(WISS2017)",
 "year": 2017, "abstract": "",
 "imageURL": "",
@@ -857,7 +856,7 @@
 {
 "form": "査読なし発表",
 "title": "新生児蘇生シミュレーションに用いる聴診器装着型心音再生モジュールの提案",
-"publisher": "村田賢弥, 西本騰, 松村耕平, 足立隆弘, 野間春生, 岩永甲午郎 and 黒田知宏",
+"publisher": "村田賢弥, 西本騰, 松村耕平, 足立隆弘, 野間春生, 岩永甲午郎 and 黒田知宏",
 "conferenceName": "インタラクション2018論文集",
 "year": 2018, "abstract": "",
 "imageURL": "",
