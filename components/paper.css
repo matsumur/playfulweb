@@ -26,11 +26,11 @@
   margin-left: 10px;
 }
 .margin-remove {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 .card-meta {
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.4;
   color: #999;
 }
@@ -38,7 +38,7 @@
 .card-nav {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 20px;
+  margin-left: 10px;
   padding: 0;
   list-style: none;
   align-items: center;
@@ -54,25 +54,24 @@
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  list-style: none;       
+  list-style: none;
   margin-left: 30px;
 }
 
-
 .img-small-size {
-  width:100%;
-  max-width:350px
+  width: 100%;
+  max-width: 350px;
 }
 
 .img-middle-size {
-  width:30%;
+  width: 30%;
 }
 
-.card-nav>:nth-child(n+2)::before {
-  content: "";
+.card-nav > :nth-child(n + 2)::before {
+  content: '';
   height: 1.5em;
   margin-left: 0;
   margin-right: 20px;
   border-left: 1px solid #e5e5e5;
-  border-left-color: rgba(255, 255, 255, .2);
+  border-left-color: rgba(255, 255, 255, 0.2);
 }
