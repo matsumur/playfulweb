@@ -14,7 +14,7 @@ function FacultyCard(props) {
           />
         )}
         {!props.person.imageUrl && (
-          <span className='inline-block w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full overflow-hidden bg-gray-100'>
+          <span className='inline-block w-32 h-32 flex-shrink-0 mx-auto rounded-full overflow-hidden bg-gray-100'>
             <svg
               className='h-full w-full text-gray-300'
               fill='currentColor'
