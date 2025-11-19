@@ -83,6 +83,13 @@ export function Students(props) {
       ? 'gap-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8'
       : 'gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4';
   const textSizes = grade === 0 ? 'text-xs' : 'text-sm';
+
+  const handleStudentClick = (person) => {
+    if (person.project) {
+      window.location.href = '/projects#project' + person.project;
+    }
+  };
+
   return (
     <div className={`grid grid-cols-1 ${gridClasses} px-10 mt-6`}>
       {students.map((person) => (
@@ -90,7 +97,10 @@ export function Students(props) {
           {person.grade == grade && (
             <div
               key={person.id}
-              className='relative rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm flex items-center space-x-3 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500 studentContents'
+              className={`relative rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm flex items-center space-x-3 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500 studentContents ${
+                person.project ? 'has-project' : ''
+              }`}
+              onClick={() => handleStudentClick(person)}
             >
               {grade !== 0 && (
                 <div className='flex-shrink-0'>
@@ -114,16 +124,10 @@ export function Students(props) {
                 </div>
               )}
               <div className='flex-1 min-w-0'>
-                <a
-                  href={
-                    person.project ? '/projects#project' + person.project : '#'
-                  }
-                >
-                  <span className='absolute inset-0' aria-hidden='true' />
-                  <p className={`${textSizes} font-medium text-gray-900`}>
-                    {person.name}
-                  </p>
-                </a>
+                <span className='absolute inset-0' aria-hidden='true' />
+                <p className={`${textSizes} font-medium text-gray-900`}>
+                  {person.name}
+                </p>
               </div>
             </div>
           )}
