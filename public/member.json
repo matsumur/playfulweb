@@ -610,6 +610,16 @@
     "project": ""
   },
   {
+    "role": "修士",
+    "grade": 1,
+    "name": "Zhang Dexu",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
     "role": "学士",
     "grade": 4,
     "name": "上田 潮",
@@ -623,7 +633,7 @@
     "role": "学士",
     "grade": 4,
     "name": "小川 真由",
-    "imageUrl": "",
+    "imageUrl": "members/ogawa_mayu.jpg",
     "email": "",
     "web": "",
     "year": "",
@@ -721,8 +731,128 @@
   },
   {
     "role": "学士",
-    "grade": 3,
+    "grade": 4,
     "name": "左鴻毅",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 3,
+    "name": "小椋遼太郎",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 3,
+    "name": "木下陽菜",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 3,
+    "name": "小松原深月",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 3,
+    "name": "杉江駿介",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 3,
+    "name": "田宮佑真",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 3,
+    "name": "利根川陸",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 3,
+    "name": "仲野将馬",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 3,
+    "name": "中野陽",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 3,
+    "name": "西田琉",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 3,
+    "name": "野村亜夕美",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 3,
+    "name": "吉田大晋",
+    "imageUrl": "",
+    "email": "",
+    "web": "",
+    "year": "",
+    "project": ""
+  },
+  {
+    "role": "学士",
+    "grade": 3,
+    "name": "Su Hang",
     "imageUrl": "",
     "email": "",
     "web": "",
