@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Page from '../components/page';
 import About from '../components/about';
-import { Faculty, Students } from '../components/people';
+import { Faculty, Students, Alumni } from '../components/people';
 import Divider from '../components/divider';
 import Members from '../public/member.json';
 
@@ -22,11 +22,14 @@ export default function People() {
           <p className='sm:text-base lg:text-lg'>
             研究室のメンバーを紹介します。
           </p>
-          <p className='sm:text-base lg:text-lg'>※2025年11月時点</p>
+          <p className='sm:text-base lg:text-lg'>※2026年4月時点</p>
         </About>
 
         <Divider>教員</Divider>
         <Faculty faculty={Members} />
+        <Divider>博士後期課程</Divider>
+        <Students students={Members} grade={5} />
+
         <Divider>博士前期課程</Divider>
         <Students students={Members} grade={2} />
         <Students students={Members} grade={1} />
@@ -36,7 +39,7 @@ export default function People() {
         <Students students={Members} grade={3} />
 
         <Divider>卒業生</Divider>
-        <Students students={Members} grade={0} />
+        <Alumni members={Members} />
       </main>
     </Page>
   );
