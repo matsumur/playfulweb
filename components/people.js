@@ -1,4 +1,5 @@
-import { MailIcon, HomeIcon } from '@heroicons/react/solid';
+import { useState } from 'react';
+import { MailIcon, HomeIcon, ChevronDownIcon } from '@heroicons/react/solid';
 
 function FacultyCard(props) {
   return (
@@ -14,7 +15,7 @@ function FacultyCard(props) {
           />
         )}
         {!props.person.imageUrl && (
-          <span className='inline-block w-32 h-32 flex-shrink-0 mx-auto bg-black rounded-full overflow-hidden bg-gray-100'>
+          <span className='inline-block w-32 h-32 flex-shrink-0 mx-auto rounded-full overflow-hidden bg-gray-100'>
             <svg
               className='h-full w-full text-gray-300'
               fill='currentColor'
@@ -76,6 +77,96 @@ export function Faculty(props) {
   );
 }
 
+function AlumniYearGroup({ year, label, members }) {
+  const handleClick = (person) => {
+    if (person.project) {
+      window.location.href = '/projects#project' + person.project;
+    }
+  };
+
+  const displayLabel = label ?? (year ? `${year}年度` : 'その他');
+
+  return (
+    <div className='py-3'>
+      <p className='text-xs font-medium text-gray-400 mb-2'>{displayLabel}</p>
+
+      <div className='grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-2'>
+        {members.map((person, i) => (
+          <div
+            key={i}
+            className={`relative rounded border border-gray-200 bg-white px-2 py-1.5 shadow-sm overflow-hidden ${
+              person.project
+                ? 'cursor-pointer hover:border-indigo-300 hover:bg-indigo-50 transition-colors'
+                : ''
+            }`}
+            onClick={() => handleClick(person)}
+          >
+            <span className='absolute inset-0' aria-hidden='true' />
+            <p className='text-xs font-medium text-gray-700 whitespace-nowrap overflow-hidden'>
+              {person.name}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export function Alumni({ members }) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const CUTOFF_YEAR = 2022;
+
+  const alumni = members.filter((p) => p.grade === 0);
+  const recentYears = [
+    ...new Set(
+      alumni
+        .map((p) => p.year)
+        .filter((y) => y !== '' && y !== null && y !== undefined && y > CUTOFF_YEAR)
+    ),
+  ].sort((a, b) => b - a);
+  const oldMembers = alumni.filter(
+    (p) => p.year !== '' && p.year !== null && p.year !== undefined && p.year <= CUTOFF_YEAR
+  );
+  const noYearMembers = alumni.filter(
+    (p) => p.year === '' || p.year === null || p.year === undefined
+  );
+
+  return (
+    <div className='px-4 md:px-10 mt-6'>
+      <button
+        onClick={() => setIsExpanded(!isExpanded)}
+        className='flex items-center gap-2 px-5 py-2 text-sm text-gray-500 hover:text-gray-700 border border-gray-300 rounded-full bg-white hover:bg-gray-50 hover:border-gray-400 transition-all duration-200 select-none'
+      >
+        <ChevronDownIcon
+          className={`w-4 h-4 transition-transform duration-200 ${
+            isExpanded ? '' : '-rotate-90'
+          }`}
+        />
+        {isExpanded ? '折りたたむ' : `${alumni.length}名の卒業生`}
+      </button>
+
+      {isExpanded && (
+        <div className='mt-2 divide-y divide-gray-100'>
+          {recentYears.map((year) => (
+            <AlumniYearGroup
+              key={year}
+              year={year}
+              members={alumni.filter((p) => p.year === year)}
+            />
+          ))}
+          {oldMembers.length > 0 && (
+            <AlumniYearGroup label={`${CUTOFF_YEAR}年度以前`} members={oldMembers} />
+          )}
+          {noYearMembers.length > 0 && (
+            <AlumniYearGroup year={null} members={noYearMembers} />
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export function Students(props) {
   const { students, grade } = props;
   const gridClasses =
@@ -83,6 +174,13 @@ export function Students(props) {
       ? 'gap-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8'
       : 'gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4';
   const textSizes = grade === 0 ? 'text-xs' : 'text-sm';
+
+  const handleStudentClick = (person) => {
+    if (person.project) {
+      window.location.href = '/projects#project' + person.project;
+    }
+  };
+
   return (
     <div className={`grid grid-cols-1 ${gridClasses} px-10 mt-6`}>
       {students.map((person) => (
@@ -90,7 +188,11 @@ export function Students(props) {
           {person.grade == grade && (
             <div
               key={person.id}
-              className='relative rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm flex items-center space-x-3 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500 studentContents'
+              className={`relative rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm flex items-center space-x-3 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500 studentContents ${
+                person.project ? 'has-project' : ''
+              }`}
+              onClick={() => handleStudentClick(person)}
+              title={person.name}
             >
               {grade !== 0 && (
                 <div className='flex-shrink-0'>
@@ -114,16 +216,10 @@ export function Students(props) {
                 </div>
               )}
               <div className='flex-1 min-w-0'>
-                <a
-                  href={
-                    person.project ? '/projects#project' + person.project : '#'
-                  }
-                >
-                  <span className='absolute inset-0' aria-hidden='true' />
-                  <p className={`${textSizes} font-medium text-gray-900`}>
-                    {person.name}
-                  </p>
-                </a>
+                <span className='absolute inset-0' aria-hidden='true' />
+                <p className={`${textSizes} font-medium text-gray-900 whitespace-nowrap`}>
+                  {person.name}
+                </p>
               </div>
             </div>
           )}
