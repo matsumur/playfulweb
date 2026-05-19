@@ -77,16 +77,16 @@ export default function Navbar() {
                       発表文献
                     </a>
                   </Link>
-                  <Link href='/openlab'>
+                  <Link href='/openlab2026'>
                     <a
                       className={[
-                        ariaChange('/openlab'),
+                        ariaChange('/openlab2026'),
                         'inline-flex items-center px-1 pt-1 text-sm  wf-notosansjapanese',
                       ]
                         .join(' ')
                         .trim()}
                     >
-                      いつでも研究室公開
+                      研究室公開2026
                     </a>
                   </Link>
                 </div>
