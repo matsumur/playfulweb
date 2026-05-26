@@ -2018,5 +2018,15 @@
     "abstract": "",
     "imageURL": "",
     "document": "https://www.wiss.org/WISS2025Proceedings/data/paper/13.pdf"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Multiple Robots Enable Moderate Facilitation Through Approaching Movements in Group Discussions",
+    "publisher": "Rintaro Makino, Yuki Okafuji, Haruki Takahashi, and Kohei Matsumura",
+    "conferenceName": "Entertainment Computing",
+    "year": 2025,
+    "abstract": "In group discussions, facilitation is often employed to encourage equal participation among members. However, excessively directive methods disrupt the natural flow of discussion, whereas excessively passive methods fail to ensure equal participation. In this paper,...",
+    "imageURL": "",
+    "document": "https://doi.org/10.1007/978-3-032-02555-5_53"
   }
 ]
