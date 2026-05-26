@@ -2008,5 +2008,15 @@
     "abstract": "Purikura-Fabɿ3D生成システムは、プリクラ撮影後の写真を元に、3Dプリント可能な3Dモデルを自動生成するシステムである。従来の3Dプリントは、3Dモデルの作成に専門的な知識が必要であり、一般ユーザーにとってハードルが高い。本システムでは、Web上で写真をアップロードするだけで、AIを用いて3Dモデルを生成し、3Dプリンタで出力可能な形式に変換する。これにより、誰でも手軽に自分だけの3Dプリクラを作成できる体験を提供する。",
     "imageURL": "",
     "document": "https://www.wiss.org/WISS2025Proceedings/data/paper/11.pdf"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Paper Gallery: 論文要約スライドをコミュニティの資産に",
+    "publisher": "牧野 倫太郎, 高橋 治輝 and 松村 耕平",
+    "conferenceName": "日本ソフトウェア科学会 第33回インタラクティブシステムとソフトウェアに関するワークショップ（WISS2025）",
+    "year": 2025,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://www.wiss.org/WISS2025Proceedings/data/paper/13.pdf"
   }
 ]
