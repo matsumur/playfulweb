@@ -123,6 +123,65 @@
           "iconBackground": "bg-gray-400"
         }
       ]
+    },
+    {
+      "timeID": 3,
+      "timeline": [
+        {
+          "id": 1,
+          "content": "研究室入室",
+          "starttime": "9:00",
+          "icon": "UserIcon",
+          "iconBackground": "bg-gray-400"
+        },
+        {
+          "id": 2,
+          "content": "ミーティング・論文執筆など、考える系の作業",
+          "starttime": "9:00",
+          "endtime": "12:00",
+          "icon": "AcademicCapIcon",
+          "iconBackground": "bg-red-400"
+        },
+        {
+          "id": 3,
+          "content": "昼食",
+          "starttime": "12:00",
+          "endtime": "13:00",
+          "icon": "ThumbUpIcon",
+          "iconBackground": "bg-yellow-500"
+        },
+        {
+          "id": 4,
+          "content": "雑談、みんなでゲームなど",
+          "starttime": "13:00",
+          "endtime": "15:00",
+          "icon": "ChatAlt2Icon",
+          "iconBackground": "bg-green-500"
+        },
+        {
+          "id": 5,
+          "content": "実装・作業（夕方はKOBOでバイトのことも）",
+          "starttime": "15:00",
+          "endtime": "18:00",
+          "icon": "AcademicCapIcon",
+          "iconBackground": "bg-red-400"
+        },
+        {
+          "id": 6,
+          "content": "論文読みなど",
+          "starttime": "18:00",
+          "endtime": "20:00",
+          "icon": "BookOpenIcon",
+          "iconBackground": "bg-green-500"
+        },
+        {
+          "id": 7,
+          "content": "帰宅",
+          "starttime": "20:00",
+          "icon": "UserIcon",
+          "iconBackground": "bg-gray-400"
+        }
+      ]
     }
   ],
   "graduate": [
