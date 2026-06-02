@@ -5,6 +5,132 @@
       "timeline": [
         {
           "id": 1,
+          "content": "起床",
+          "starttime": "7:30",
+          "icon": "UserIcon",
+          "iconBackground": "bg-gray-400"
+        },
+        {
+          "id": 2,
+          "content": "研究室入室",
+          "starttime": "10:30",
+          "icon": "UserIcon",
+          "iconBackground": "bg-gray-400"
+        },
+        {
+          "id": 3,
+          "content": "研究、ゼミ資料作り、たまに3Dモデリング",
+          "starttime": "10:30",
+          "endtime": "15:00",
+          "icon": "AcademicCapIcon",
+          "iconBackground": "bg-red-400"
+        },
+        {
+          "id": 4,
+          "content": "バイト",
+          "starttime": "16:00",
+          "endtime": "21:30",
+          "icon": "UserIcon",
+          "iconBackground": "bg-green-500"
+        },
+        {
+          "id": 5,
+          "content": "帰宅。ご飯食べてだらだらする。",
+          "starttime": "22:30",
+          "icon": "UserIcon",
+          "iconBackground": "bg-gray-400"
+        },
+        {
+          "id": 6,
+          "content": "就寝",
+          "starttime": "24:00",
+          "icon": "UserIcon",
+          "iconBackground": "bg-gray-400"
+        }
+      ]
+    },
+    {
+      "timeID": 2,
+      "timeline": [
+        {
+          "id": 1,
+          "content": "起床",
+          "starttime": "9:00",
+          "icon": "UserIcon",
+          "iconBackground": "bg-gray-400"
+        },
+        {
+          "id": 2,
+          "content": "朝食、支度",
+          "starttime": "9:00",
+          "endtime": "10:00",
+          "icon": "UserIcon",
+          "iconBackground": "bg-gray-400"
+        },
+        {
+          "id": 3,
+          "content": "TA、授業",
+          "starttime": "10:00",
+          "endtime": "12:00",
+          "icon": "AcademicCapIcon",
+          "iconBackground": "bg-red-400"
+        },
+        {
+          "id": 4,
+          "content": "昼休憩",
+          "starttime": "12:00",
+          "endtime": "13:00",
+          "icon": "ChatAlt2Icon",
+          "iconBackground": "bg-yellow-500"
+        },
+        {
+          "id": 5,
+          "content": "研究",
+          "starttime": "13:00",
+          "endtime": "17:00",
+          "icon": "UserIcon",
+          "iconBackground": "bg-red-400"
+        },
+        {
+          "id": 6,
+          "content": "筋トレ",
+          "starttime": "17:00",
+          "endtime": "19:00",
+          "icon": "ThumbUpIcon",
+          "iconBackground": "bg-green-500"
+        },
+        {
+          "id": 7,
+          "content": "バイト",
+          "starttime": "19:00",
+          "endtime": "22:00",
+          "icon": "UserIcon",
+          "iconBackground": "bg-gray-400"
+        },
+        {
+          "id": 8,
+          "content": "夕食、風呂、娯楽、作業",
+          "starttime": "22:00",
+          "endtime": "25:00",
+          "icon": "ThumbUpIcon",
+          "iconBackground": "bg-gray-400"
+        },
+        {
+          "id": 9,
+          "content": "就寝",
+          "starttime": "25:00",
+          "icon": "UserIcon",
+          "iconBackground": "bg-gray-400"
+        }
+      ]
+    }
+  ],
+  "graduate": [
+    {
+      "timeID": 1,
+      "timeline": [
+        {
+          "id": 1,
           "content": "ジムでトレーニング",
           "starttime": "9:00",
           "endtime": "10:00",
@@ -194,11 +320,9 @@
           "iconBackground": "bg-gray-400"
         }
       ]
-    }
-  ],
-  "graduate": [
+    },
     {
-      "timeID": 1,
+      "timeID": 4,
       "timeline": [
         {
           "id": 1,
@@ -257,7 +381,7 @@
       ]
     },
     {
-      "timeID": 2,
+      "timeID": 5,
       "timeline": [
         {
           "id": 1,
@@ -348,7 +472,7 @@
       ]
     },
     {
-      "timeID": 3,
+      "timeID": 6,
       "timeline": [
         {
           "id": 1,
@@ -439,7 +563,7 @@
       ]
     },
     {
-      "timeID": 4,
+      "timeID": 7,
       "timeline": [
         {
           "id": 1,
@@ -498,7 +622,7 @@
       ]
     },
     {
-      "timeID": 5,
+      "timeID": 8,
       "timeline": [
         {
           "id": 1,
@@ -586,7 +710,7 @@
       ]
     },
     {
-      "timeID": 6,
+      "timeID": 9,
       "timeline": [
         {
           "id": 1,

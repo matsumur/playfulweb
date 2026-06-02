@@ -65,7 +65,7 @@ export default function Labfile() {
                   プレイフルインタラクション研究室の1日
                 </h2>
                 <h3 className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
-                  {answer.master ? 'ある修士学生の場合' : 'ある学部学生の場合'}
+                  {answer.degree === 'doctoral' ? 'ある博士学生の場合' : answer.degree === 'master' ? 'ある修士学生の場合' : 'ある学部学生の場合'}
                 </h3>
               </div>
             </div>
@@ -185,9 +185,7 @@ export function Student() {
             {answer.name}
           </p>
           {/* <p className='text-l font-medium text-gray-500 group-hover:text-gray-700'>
-            {answer.master
-              ? '修士' + answer.grade + '年'
-              : '学部' + answer.grade + '年'}
+            {answer.degree === 'doctoral' ? '博士' + answer.grade + '年' : answer.degree === 'master' ? '修士' + answer.grade + '年' : '学部' + answer.grade + '年'}
           </p> */}
         </div>
       </div>
