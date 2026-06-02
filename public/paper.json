@@ -1,1800 +1,2032 @@
-[{
-"form": "論文",
-"title": "浮世絵の3次元CGアニメーション化の試み",
-"publisher": "角 康之, 名生 圭佑 and 松村 耕平",
-"conferenceName": "情報処理学会論文誌デジタルコンテンツ（DCON）",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "展示空間における体験共有を促すロボットガイド",
-"publisher": "角康之, 松村耕平 and 権瓶匠",
-"conferenceName": "マルチメディア、分散協調とモバイルシンポジウム2014論文集",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "モバイル端末における複数人によるコンテンツ体験の記録とその応用",
-"publisher": "松村耕平 and 角康之",
-"conferenceName": "マルチメディア、分散協調とモバイルシンポジウム2014論文集",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "人は車内においてどのような会話をするのか: 「タイムリー」な情報流通のための一考察",
-"publisher": "松村耕平 and 角康之",
-"conferenceName": "インタラクション2014論文集",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "物理エンジンを用いた仮想ロボットコンテストのフレームワーク設計",
-"publisher": "下田昂平, 松村耕平, Roberto Lopez-Gulliver and 野間春生",
-"conferenceName": "第19回日本バーチャルリアリティ学会大会論文集",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "VR学習カリキュラムにおける統合開発環境の活用事例",
-"publisher": "橋口哲志, 松村耕平, 木村朝子 and 野間春生",
-"conferenceName": "第19回日本バーチャルリアリティ学会大会論文集",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "オノマトペリアリティ:オノマトペを利用した実物体における表現拡張の試み",
-"publisher": "坂田陵, 松村耕平, Roberto Lopez-Gulliver and 野間春生",
-"conferenceName": "第19回日本バーチャルリアリティ学会大会論文集",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "仮想空間を用いた野球打撃練習の効率化手法の提案",
-"publisher": "髙木将樹, 坂本匡, 樋口貴俊, 松村耕平, 伊坂忠夫 and 野間春生",
-"conferenceName": "第19回日本バーチャルリアリティ学会大会論文集",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "移動感覚の生成におけるキーフレーム画像からの全方位動画像生成技術の研究",
-"publisher": "畑本敬博, 松村耕平, Roberto Lopez-Gulliver and 野間春生",
-"conferenceName": "第19回日本バーチャルリアリティ学会大会論文集",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "健康維持のための行動変容を働きかけるソーシャルシステムの開発",
-"publisher": "鈴木真生, 江指未紗, 若尾あすか, 松村耕平 and 野間春生",
-"conferenceName": "ヒューマンインタフェースシンポジウム論文集",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "でこぼこキャンバスを用いた立体スケッチシステム",
-"publisher": "友広歩李, 角康之 and 松村耕平 ",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "複数人の視点映像を利用した図書館内の体験共有支援",
-"publisher": "和田聖矢, 松村耕平 and 角康之 ",
-"conferenceName": "研究報告ユビキタスコンピューティングシステム",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "Robot behavior designed to encourage conversations between visitors in an exhibition space",
-"publisher": "Kohei Matsumura, Takumi Gompei and Yasuyuki Sumi",
-"conferenceName": "The 23rd IEEE International Symposium on Robot and Human Interactive Communication",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1109/ROMAN.2014.6926269"
-}, 
-{
-"form": "査読付き発表",
-"title": "What Are You Talking About While Driving?: An Analysis of In-car Conversations Aimed at Conversation Sharing",
-"publisher": "Kohei Matsumura and Yasuyuki Sumi",
-"conferenceName": "Proceedings of the 6th International Conference on Automotive User Interfaces and Interactive Vehicular Applications",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/2667317.2667417"
-}, 
-{
-"form": "査読付き発表",
-"title": "CarCast: a framework for situated in-car conversation sharing",
-"publisher": "Kohei Matsumura and Yasuyuki Sumi",
-"conferenceName": "Proceedings of the 5th Augmented Human International Conference",
-"year": 2014, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/2582051.2582068"
-}, 
-{
-"form": "論文",
-"title": "ウェアラブル実況中継システム",
-"publisher": "竹川佳成 and 松村耕平",
-"conferenceName": "情報処理",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "論文",
-"title": "自動車内における会話と場所の関連性の分析：タイムリーな情報の流通に向けて",
-"publisher": "松村耕平 and 角康之",
-"conferenceName": "情報処理学会論文誌",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "Treasure hunt game to persuade visitors to walk around a shopping mall",
-"publisher": "Asuka Wakao, Kohei Matsumura, Mao Suzuki and Haruo Noma",
-"conferenceName": "2015 IEEE 4th Global Conference on Consumer Electronics",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1109/GCCE.2015.7398555"
-}, 
-{
-"form": "査読なし発表",
-"title": "災害急性期における通信の断絶した被災地での通信手段の提案",
-"publisher": "森琢郎, 松村耕平 and 野間春生",
-"conferenceName": "第23回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2015) 論文集",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "新生児蘇生法の訓練シミュレータの開発",
-"publisher": "西原美夏, 松村耕平, 野間春生, 西澤和子 and 黒田知宏",
-"conferenceName": "第126回ヒューマンインタフェース学会研究会 看護用具・用品開発に関わる研究および一般",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "てくピコ：ショッピングモールにおける宝さがしゲームによる周遊行動の誘導",
-"publisher": "若尾あすか, 鈴木真生, 松村耕平 and 野間春生",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "複数人の指差しを用いた車内会話の場所への紐付け",
-"publisher": "坂本匡, 松村耕平 and 野間春生",
-"conferenceName": "インタラクション2015論文集",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "でこぼこスケッチ: 空間の凹凸情報をキャンバスに見立てた立体スケッチシステム",
-"publisher": "友広歩李, 角康之 and 松村耕平",
-"conferenceName": "インタラクション2015論文集",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "ぐるペコ: 生活の中でさりげなく運動量を増加させるシステム",
-"publisher": "鈴木真生, 若尾あすか, 江指未紗, 西原美夏, 松村耕平 and 野間春生",
-"conferenceName": "インタラクション2015論文集",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "Catching Laughter: 笑顔認識による笑い声収集・共有システム",
-"publisher": "松村耕平, 矢野圭太 and 野間春生",
-"conferenceName": "インタラクション2015論文集",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "物体へのオノマトペ重畳環境におけるユーザの動作の分析",
-"publisher": "坂田陵, 松村耕平, Roberto Lopez-Gulliver and 野間春生",
-"conferenceName": "インタラクション2015論文集",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "移動データを基に変形した地図による生活時空間の認知",
-"publisher": "横井逸人, 角康之 and 松村耕平",
-"conferenceName": "インタラクション2015論文集",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "語のイメージを指標とした言語表現の推薦",
-"publisher": "田渕健太, 松村耕平, 山西良典 and 野間春生",
-"conferenceName": "インタラクション2015論文集",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "InCamShare: An Automatic Playlist Creator Employs Users' Shared Experience on Mobile Devices",
-"publisher": "Kohei Matsumura and Yasuyuki Sumi",
-"conferenceName": "2015 IEEE 12th International Conference on Ubiquitous Intelligence and Computing",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1109/UIC-ATC-ScalCom-CBDCom-IoP.2015.76"
-}, 
-{
-"form": "査読付き発表",
-"title": "Drive scenery estimation using image features extracted from roadmap and satellite images",
-"publisher": "Kenta Oku, Ryosuke Yamanishi, Kohei Matsumura and Kyoji Kawagoe",
-"conferenceName": "The 16th International Symposium on Advanced Intelligent Systems",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "Synthesis of omnidirectional movie using a set of key frame panoramic images",
-"publisher": "Robert Lopez-Gulliver, Takahiro Hatamoto, Kohei Matsumura and Haruo Noma",
-"conferenceName": "2015 IEEE Virtual Reality",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1109/VR.2015.7223375"
-}, 
-{
-"form": "査読付き発表",
-"title": "Studying User-Defined Gestures Toward Off the Screen Interactions",
-"publisher": "Kohei Matsumura",
-"conferenceName": "Proceedings of the 2015 International Conference on Interactive Tabletops & Surfaces",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/2817721.2823496"
-}, 
-{
-"form": "査読付き発表",
-"title": "Stick'n conversation: stick in-car conversation into places using multi person finger pointing gestures",
-"publisher": "Kohei Matsumura, Tadashi Sakamoto, Haruo Noma, and Yasuyuki Sumi",
-"conferenceName": "Adjunct Proceedings of the 7th International Conference on Automotive User Interfaces and Interactive Vehicular Applications",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/2809730.2809735"
-}, 
-{
-"form": "査読なし発表",
-"title": "Development of a Virtual Robot Competition Framework: Anybody Can Join Anytime from Anywhere",
-"publisher": "Motoki Sonoda, Kohei Matsumura, Roberto Lopez-Gulliver and Haruo Noma",
-"conferenceName": "The 7th Asian Joint Workshop on Information Technologies",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "Synthesis of Omni-directional Movies: Study of their Perception while Walking on a Treadmill",
-"publisher": "Soichiro Tomitaka, Kohei Matsumura, Roberto Lopez-Gulliver and Haruo Noma",
-"conferenceName": "The 7th Asian Joint Workshop on Information Technologies",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "運動意欲を生み運動習慣の獲得を円滑にする手法の提案",
-"publisher": "鈴木真生, 若尾あすか, 松村耕平, 多田昌裕 and 野間春生",
-"conferenceName": "第35回医療情報学連合大会",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "運動習慣獲得におけるチームの効果",
-"publisher": "鈴木真生, 若尾あすか, 松村耕平, 野間春生, 多田昌裕 and 黒田知宏",
-"conferenceName": "生体医工学シンポジウム2015",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "仮想ロボットコンテストのフレームワークの開発と実証実験",
-"publisher": "仮想ロボットコンテストのフレームワークの開発と実証実験",
-"conferenceName": "第20回日本バーチャルリアリティ学会大会論文集",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "素振りを効果的に実施できる練習支援システムの開発",
-"publisher": "髙木将樹, 樋口貴俊, 松村耕平, Roberto Lopez-Gulliver, 伊坂忠夫 and 野間春生",
-"conferenceName": "第20回日本バーチャルリアリティ学会大会論文集",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "トレッドミル上での全周囲映像提示におけるキーフレーム画像間隔に関する研究",
-"publisher": "富髙宗一郎, 松村耕平, Roberto Lopez-Gulliver and 野間春生",
-"conferenceName": "第20回日本バーチャルリアリティ学会大会論文集",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "運動習慣の獲得を補助するシステムてくペコの提案",
-"publisher": "鈴木真生, 若尾あすか, 杉山治, 松村耕平, 多田昌裕, 野間春生 and 黒田知宏",
-"conferenceName": "ヒューマンインタフェースシンポジウム論文集",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "センサプローブとしてのイヤフォンの可能性の検討",
-"publisher": "田中瑞輝, 松村耕平 and 野間春生",
-"conferenceName": "ヒューマンインタフェースシンポジウム論文集",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "道路地図および航空写真の特徴量を用いたドライブ風景の推定",
-"publisher": "奥健太, 山西良典, 松村耕平 and 川越恭二 ",
-"conferenceName": "第6回Webインテリジェンスとインタラクション研究会",
-"year": 2015, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "Reporting Solo: A Design of Supporting System for Solo Live Reporting",
-"publisher": "Kohei Matsumura and Yoshinari Takegawa",
-"conferenceName": "Proceedings of the 13th International Conference on Advances in Computer Entertainment Technology",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3001773.3001792"
-}, 
-{
-"form": "論文",
-"title": "凹凸情報を持つ写真をキャンバスとした立体スケッチシステム",
-"publisher": "友広歩李, 角康之 and 松村耕平",
-"conferenceName": "情報処理学会論文誌デジタルコンテンツ（DCON）",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "ポケレポ GO: ワンマンライブレポートシステム",
-"publisher": "竹川佳成, 松村耕平 and 西村陽菜 ",
-"conferenceName": "第24回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2016) 論文集",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "ポケレポ GO: ワンマンライブレポートシステムの構築",
-"publisher": "竹川佳成, 松村耕平 and 西村陽菜 ",
-"conferenceName": "エンタテインメントコンピューティングシンポジウム2016論文集",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "災害時における救助者同士の情報共有を支援するSNSの拡張の提案",
-"publisher": "神原春香, 河合俊樹, 松村耕平, 野間春生 and 杉山治",
-"conferenceName": "第24回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2016) 論文集",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "歩行習慣獲得を支援するシステムの開発に向けたユーザの行動解析",
-"publisher": "大槻涼, 鈴木真生, 松村耕平, 杉山治, 多田昌裕 and 野間春生",
-"conferenceName": "第24回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2016) 論文集",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "勉強会の{運営・参加}を支援するシステム",
-"publisher": "中村雄哉, 松村耕平 and 野間春生",
-"conferenceName": "第24回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2016) 論文集",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "登場人物に注目した動画内のシーン探索支援システム",
-"publisher": "楢原雅広, 松村耕平 and 野間春生",
-"conferenceName": "第24回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2016) 論文集",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "リアルタイム実況中継システムにおけるロンバード効果を利用した発話声量の安定化の試み",
-"publisher": "矢萩智史, 内藤拓海, 松村耕平 and 野間春生",
-"conferenceName": "第24回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2016) 論文集",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "ショッピングモールにおけるグループ来訪者の連続的な気持ちの調査",
-"publisher": "若尾あすか, 松村耕平, Roberto Lopez-Gulliver, 野間春生",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読あり発表",
-"title": "Japanese HCI Symposium: Emerging Japanese HCI Research Collection",
-"publisher": "Kohei Matsumura, Masa Ogata, Saki Sakaguchi, Takashi Ijiri, Takeshi Nishida, Jun Kato, Hiromi Nakamura, Daisuke Sakamoto, and Yoshifumi Kitamura",
-"conferenceName": "Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/2851581.2856475"
-}, 
-{
-"form": "査読なし発表",
-"title": "ショッピングモールにおける大人と子どもの目的の不一致を解決するためのゲームの提案",
-"publisher": "伊賀尚美, 若尾あすか, 鈴木真生, 松村耕平 and 野間春生",
-"conferenceName": "ヒューマンインタフェースシンポジウム論文集",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "新生児蘇生法の講習会における受講生の気付きのための新生児蘇生シミュレータの開発",
-"publisher": "魏亞光, 松村耕平, 野間春生, 西澤和子, 岩永甲午郎 and 黒田知宏",
-"conferenceName": "第52回日本周産期・新生児医学界学術集会",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "VR空間を利用した野球打撃練習システムの開発 -投球軌道の関数化によるシミュレータの改善-",
-"publisher": "富高宗一郎, 松村耕平, Roberto Lopez-Gulliver and 野間春生 ",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "センサ組み込み型聴診器を用いた新生児蘇生法訓練シミュレータの提案",
-"publisher": "西原美夏, 魏亞光, 松村耕平, 野間春生, 西澤和子 and 黒田 知宏",
-"conferenceName": "インタラクション2016論文集",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "オノマトペのイメージを考慮した可視化による子どもたちの表現能力向上の試み",
-"publisher": "中佐古真実, 松村耕平 and 野間春生",
-"conferenceName": "インタラクション2016論文集",
-"year": 2016, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "Vetrina Attori: Scene Seek Support System Focusing on Characters in a Video",
-"publisher": "Masahiro Narahara, Kohei Matsumura, Roberto Lopez-Gulliver and Haruo Noma",
-"conferenceName": "IFIP The 16th International Conference on Entertainment Computing 2017",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "NCPR講習に利用可能な安価で効果的なシミュレーション教育システムの開発",
-"publisher": "西本騰, 野間春生, 松村耕平 and 岩永甲午郎",
-"conferenceName": "第8回横幹連合コンファレンス",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "歩行の習慣づけにむけた歩数と外的要因の関係性の分析",
-"publisher": "松村耕平, 鈴木真生, 杉山治 and 野間春生",
-"conferenceName": "第8回横幹連合コンファレンス",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "仮想環境を用いた鏡像の知覚距離認識の差異に関する実験",
-"publisher": "岡田侑真, 野間春生, 松村耕平 and 東山篤規",
-"conferenceName": "日本バーチャルリアリティ学会大会論文集",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "名演説の模倣によるプレゼンテーション能力養成手法の提案",
-"publisher": "史宇華, 松村耕平, Lopez-Gulliver Roberto and 野間春生",
-"conferenceName": "日本バーチャルリアリティ学会大会論文集",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "CHI勉強会2017:ネットワーク連携した勉強会とその支援システム",
-"publisher": "松村耕平, 尾形正泰, 小野哲雄, 加藤淳, 阪口紗季, 坂本大介, 杉本雅則, 角康之, 中村裕美, 西田健志, 樋口啓太, 安尾萌 and 渡邉拓貴 ",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "博物館におけるテレプレゼンスロボットのデザイン",
-"publisher": "松村耕平, 柴田太一 and 野間春生",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "ながはま健康ウォークが見据える未来",
-"publisher": "黒田知宏, 野間春生, 多田昌裕, 杉山治 and 松村耕平",
-"conferenceName": "行動変容と社会システム",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "複数の活動量計のセンサデータの差異を吸収する活動識別法の提案",
-"publisher": "大槻涼, 杉山治, 鈴木真生, 松村耕平 and 多田昌裕",
-"conferenceName": "システム制御情報学会研究発表講演会講演論文集",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "ひと触覚を模した人工触覚モデル実現の試み",
-"publisher": "下江輝, 松村耕平, 寒川雅之 and 野間春生",
-"conferenceName": "第18回力触覚の提示と計算研究会",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "安価で効果的なシミュレーション教育システムの開発",
-"publisher": "西本騰, WEI Yaguang, 松村耕平, 野間春生, 岩永甲午郎 and 黒田知宏",
-"conferenceName": "第19回新生児呼吸療法モニタリングフォーラム",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "Design and Implementation of a Social Networking Service-Based Application for Supporting Disaster Medical Assistance Teams",
-"publisher": "Toshiki Kawai, Haruka Kambara, Kohei Matsumura, Haruo Noma, Osamu Sugiyama, Manabu Shimoto, Shigeru Ohtsuru and Tomohiro Kuroda",
-"conferenceName": "International Conference on Innovation in Medicine and Healthcare",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1007/978-3-319-59397-5_18"
-}, 
-{
-"form": "査読付き発表",
-"title": "Training Simulator for Resuscitation of Neonate with High Effectiveness and Low Introduction Cost",
-"publisher": "Noboru Nishimoto, Wei Yaguang, Kohei Matsumura, Roberto Lopez-Gulliver, Haruo Noma, Iwanaga Kogoro and Tomohiro Kuroda",
-"conferenceName": "International Conference on Innovation in Medicine and Healthcare",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1007/978-3-319-59397-5_29"
-}, 
-{
-"form": "査読付き発表",
-"title": "Design of Virtual Tea Ceremony “Otemae” from Remote Place Using Haptic Retargeting",
-"publisher": "Yoshihiro Ikeda, Hiromi T.Tanaka, Haruo Noma, Kohei Matsumura and Roberto Lopez-Gulliver",
-"conferenceName": "2017 International Conference on Culture and Computing",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1109/Culture.and.Computing.2017.26"
-}, 
-{
-"form": "査読付き発表",
-"title": "Development of Artificial Haptic Model for Human Tactile Sense using Machine Learning",
-"publisher": "Hikaru Shimoe, Kohei Matsumura, Haruo Noma, Masayuki Sohgawa and Masanori Okuyama",
-"conferenceName": "IEEE Sensors 2017",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1109/ICSENS.2017.8234173"
-}, 
-{
-"form": "査読付き発表",
-"title": "Improving Relationships between Parents and Children in Shopping Malls by Using a Digital Treasure Hunting Game",
-"publisher": "Naomi Iga, Asuka Wakao, Kohei Matsumura, Roberto Lopez-Gulliver and Haruo Noma",
-"conferenceName": "CHI PLAY Companion '17: Proceedings of the 2017 Annual Symposium on Computer-Human Interaction in Play Companion Extended Abstracts",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読あり発表",
-"title": "Asian CHI Symposium: Emerging HCI Research Collection",
-"publisher": "Keita Higuchi, Eunice Sari, Taku Hachisu, Adi Tedjasaputra, Masa Ogata, Masitah Ghazali, Hiromi Nakamura, Ellen Yi Luen Do, Jun Kato, Saki Sakaguchi, Takeshi Nishida, Kohei Matsumura, Daisuke Sakamoto, and Yoshifumi Kitamura",
-"conferenceName": "Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3027063.3108904"
-}, 
-{
-"form": "査読付き発表",
-"title": "When should the Health Promotion Agent Recommend the User to Walk? Approach for Searching an Appropriate Walking Pattern for the User",
-"publisher": "Ryo Otsuki, Osamu Sugiyama, Kohei Matsumura, Masahiro Tada, Haruo Noma, and Tomohiro Kuroda",
-"conferenceName": "Proceedings of the 5th International Conference on Human Agent Interaction (HAI ’17)",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3125739.3132589"
-}, 
-{
-"form": "査読なし発表",
-"title": "ショッピングモールにおけるグループ来訪者にお互いの気持ちの理解を促進するための買い周り行動振り返りの試み",
-"publisher": "若尾あすか, 松村耕平, Roberto Lopez-Gulliver and 野間春生",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "歩行の習慣づけにむけた歩数と外的要因の関係性の解析",
-"publisher": "鈴木真生, 大槻涼, 若尾あすか, 松村耕平, 杉山治, 多田昌裕, 野間春生 and 黒田知宏 ",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "Kinectによる姿勢認識を用いた食事姿勢の計測",
-"publisher": "史宇華, 松村耕平, Robert Lopez-Gulliver and 野間春生",
-"conferenceName": "研究報告コンピュータビジョンとイメージメディア",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "モノの動きを表すハンドジェスチャと意味情報の収集システムの提案",
-"publisher": "田村香都, 松村耕平 and 野間春生",
-"conferenceName": "第25回インタラクティブシステムとソフトウェアに関するワークショップ(WISS2017)",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "自動運転車で情報を収集するための運転ルートジェネレータの設計",
-"publisher": "内藤拓海, 松村耕平 and 野間春生",
-"conferenceName": "第25回インタラクティブシステムとソフトウェアに関するワークショップ(WISS2017)",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "論文",
-"title": "Embodiment of Guidance Robot Encourages Conversation among Visitors",
-"publisher": "Kohei Matsumura, Yasuyuki Sumi, and Takumi Gompei",
-"conferenceName": "Journal of Information Processing",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.2197/ipsjjip.25.352"
-}, 
-{
-"form": "論文",
-"title": "Analyzing Listeners' Empathy by Their Nonverbal Behaviors in Bibliobattle",
-"publisher": "Kohei Matsumura, Yasuyuki Sumi, and Mitsuki Sugiya,",
-"conferenceName": "Journal of Information Processing",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.2197/ipsjjip.25.361"
-}, 
-{
-"form": "論文",
-"title": "運動習慣獲得に向けたチームの効果を用いる試み",
-"publisher": "鈴木真生, 若尾あすか, 松村耕平, 野間春生, 多田昌裕 and 黒田知宏",
-"conferenceName": "生体医工学",
-"year": 2017, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.11239/jsmbe.54.58"
-}, 
-{
-"form": "査読付き発表",
-"title": "Walking record analysis in the health promotion event with state transition diagram",
-"publisher": "Ryo Otsuki, Osamu Sugiyama, Kohei Matsumura, Shuji Yano, Masahiro Tada, Haruo Noma and Tomohiro Kuroda",
-"conferenceName": "The International Symposium on Ubiquitous Healthcare 2018",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "What's Going On?: A Disaster in Disaster Communication Between Medical Teams at Hospitals",
-"publisher": "Toshiki Kawai, Hiroki Chino, Kohei Matsumura, Haruo Noma, Osamu Sugiyama, Manabu Shimoto, Shigeru Ohtsuru, and Tomohiro Kuroda",
-"conferenceName": "Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW '18)",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3272973.3274071"
-}, 
-{
-"form": "査読なし発表",
-"title": "深層学習を用いた医療機器に表示される数値の認識モデルの提案",
-"publisher": "大槻涼, 杉山治, 松村耕平, 多田昌裕, 野間春生, 黒田知宏",
-"conferenceName": "第5回「JAMI医用知能情報学研究会-JSAI医用人工知能研究会」合同研究会",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "健康推進イベント運用のための歩数計読み取りシステム開発の試み",
-"publisher": "大槻涼, 杉山治, 松村耕平, 多田昌裕, 野間春生, 黒田知宏",
-"conferenceName": "情報処理学会 第80回全国大会",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "深層学習を用いた医療機器に表示される数値の認識モデルの提案",
-"publisher": "大槻涼, 杉山治, 松村耕平, 多田昌裕, 野間春生 and 黒田知宏",
-"conferenceName": "人工知能学会研究会資料",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "野球素振りにおける仮想環境を用いた打者のイメージづくりと2次元画像を用いた視覚フィードバックによる正確性向上の検証",
-"publisher": "内山 元晴, Zou Liyuan, 樋口 貴俊, Roberto Lopez-Gulliver, 松村耕平, 野間春生 and 伊坂忠夫",
-"conferenceName": "インタラクション2018論文集",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "PoChotto: Quotes Searching System for Supporting Anime Music Video Creation",
-"publisher": "Koji Yamato, Kohei Matsumura, Roberto Lopez-Gulliver, and Haruo Noma.",
-"conferenceName": "Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp '18)",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3267305.3267606"
-}, 
-{
-"form": "査読付き発表",
-"title": "Doff the Wearable Devices: A Case Study of Ephemeral Experience While Charging Wireless Earbuds",
-"publisher": "Kazushi Okada, Kohei Matsumura, Roberto Lopez-Gulliver, and Haruo Noma",
-"conferenceName": "Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp '18)",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3267305.3267589"
-}, 
-{
-"form": "査読付き発表",
-"title": "YUGE: Collecting and Evaluating Gestures in a Playful Way",
-"publisher": "Kazu Tamura, Kohei Matsumura, Roberto Lopez-Gulliver, and Haruo Noma",
-"conferenceName": "Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp '18)",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3267305.3267591"
-}, 
-{
-"form": "査読付き発表",
-"title": "Trapunta Attori: AMV Creation Support System Focusing on Characters in a Video",
-"publisher": "Masahiro Narahara, Kohei Matsumura, Roberto Lopez-Gulliver, and Haruo Noma",
-"conferenceName": "Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp '18)",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3267305.3267590"
-}, 
-{
-"form": "査読なし発表",
-"title": "新生児蘇生シミュレーションに用いる聴診器装着型心音再生モジュールの提案",
-"publisher": "村田賢弥, 西本騰, 松村耕平, 足立隆弘, 野間春生, 岩永甲午郎 and 黒田知宏",
-"conferenceName": "インタラクション2018論文集",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "災害派遣医療チーム内におけるSNSベースの情報管理システムの提案と開発",
-"publisher": "河合俊樹, 茅野宏紀, 神原春香, 松村耕平, 杉山治, 下戸学, 大鶴繁, 野間春生, 黒田知宏",
-"conferenceName": "インタラクション2018論文集",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "健康促進イベント運用のための歩数計読み取りシステム開発の試み",
-"publisher": "大槻涼, 杉山治, 松村耕平, 多田昌裕, 野間春生 and 黒田知宏 ",
-"conferenceName": "情報処理学会 第80回全国大会講演論文集",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "臨床およびシミュレーション教育用に応用可能な新生児蘇生における遠隔支援システムの開発",
-"publisher": "岩永甲午郎, 花岡信太朗, 友滝清一, 野間春生, 松村耕平 and 西本騰",
-"conferenceName": "第63回日本新生児成育医学会学術集会",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "臨床への応用が可能な, 新生児蘇生における遠隔支援のためのシミュレーション教育用ツールおよびシステム開発",
-"publisher": "岩永甲午郎, 花岡信太朗, 友滝清一, 野間春生, 松村耕平 and 西本騰",
-"conferenceName": "第22回遠隔医療学会学術大会",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "ウォーキングイベントでの歩行記録を用いた参加者の歩数遷移解析",
-"publisher": "大槻涼, 杉山治, 松村耕平, 矢野修治, 多田昌裕, 野間春生 and 黒田知宏",
-"conferenceName": "超異分野学会大阪フォーラム2018",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "ぽちょっと: MAD動画作成のためのシーン検索システム",
-"publisher": "大和幸司, 松村耕平, and 野間春生",
-"conferenceName": "第26回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2018)",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "ワイヤレスイヤフォンの充電時間をどのように過ごすか",
-"publisher": "岡田一志, 松村耕平, and 野間春生",
-"conferenceName": "第26回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2018)",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "Simulation-based educational tool and system development for remote support of neonatal resuscitation that can be applied to clinical practice",
-"publisher": "Kogoro Iwanaga, Shintaro Hanaoka, Seiichi Tomotaki, Haruo Noma, Kohei Matsumura and Noboru Nishimoto",
-"conferenceName": "20th Congress of the Federation of Asian and Oceania Perinatal Societies 2018 (FAOPS 2018)",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "Reduction of Communication Cost for Edge-Heavy Sensor Using Divided CNN",
-"publisher": "Yoshihiro Ikeda, Yutaka Yanagisawa, Yasue Kishino, Shin Mizutani, Yoshinari Shirai, Takayuki Suyama, Kohei Matsumura and Haruo Noma",
-"conferenceName": "The 24th IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA2018)",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1109/RTCSA.2018.00042"
-}, 
-{
-"form": "査読なし発表",
-"title": "YUGE: 手振りコーパスのための手振りと評価を楽しく収集する方法の提案",
-"publisher": "田村香都, 松村耕平, and  野間春生",
-"conferenceName": "第26回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2018)",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "恒常法に基づく仮想環境を用いた鏡像の知覚距離認識",
-"publisher": "岡田侑真, 野間春生, 松村耕平 and 東山篤規",
-"conferenceName": "第23回日本バーチャルリアリティ学会大会論文集",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "クラスタ方式空気砲の設計と評価クラスタ方式空気砲の設計と評価",
-"publisher": "園田祐馬, 大井翔, 松村耕平, 柳田康幸 and 野間春生",
-"conferenceName": "第23回日本バーチャルリアリティ学会大会論文集",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "顔アイコンを用いた子ども向け感情調査手法の提案",
-"publisher": "伊賀尚美, 松村耕平, 大井翔, Roberto Lopez-Gulliver and 野間春生",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション（HCI）",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "新生児蘇生講習のためのシミュレータの開発とその効果検証",
-"publisher": "西本騰, 野間春生, 松村耕平, 岩永 甲午郎, 花岡伸太朗 and 友滝清一",
-"conferenceName": "第6回日本シミュレーション医療教育学会学術大会",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "人はカーウィンドウを通してどのように風景と関わり合うのか：インタラクティブカーウィンドウの設計と評価",
-"publisher": "松村耕平 and David S. Kirk",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション（HCI）",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "登壇発表におけるライブ中継のためのスイッチング支援システムの改良とその評価",
-"publisher": "遠藤 史央里, 竹川 佳成, 松村 耕平, 平田 圭二, and 五十嵐 健夫",
-"conferenceName": "研究報告エンタテインメントコンピューティング（EC）",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "ポケレポGO++=ポケレポGO+コメンテータ機能",
-"publisher": "竹川 佳成, 宇井 さつき, 松村 耕平, and 真鍋 宏幸 ",
-"conferenceName": "研究報告エンタテインメントコンピューティング（EC）",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "論文",
-"title": "On Active Passengering: Supporting In-Car Experiences",
-"publisher": "Kohei Matsumura and David Kirk",
-"conferenceName": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3161176"
-}, 
-{
-"form": "論文",
-"title": "ポケレポGO: ワンマンライブレポートシステム",
-"publisher": "竹川佳成 and 松村耕平",
-"conferenceName": "コンピュータソフトウェア",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.11309/jssst.35.2_95"
-}, 
-{
-"form": "査読付き発表",
-"title": "登壇発表におけるライブ中継のためのスイッチング支援システムの構築",
-"publisher": "竹川佳成, 松村耕平, 船木綾香, 遠藤史央里, 平田圭二, and 五十嵐健夫",
-"conferenceName": "第26回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2018)",
-"year": 2018, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "新生児蘇生講習シミュレータの VR 感覚の応用と効果",
-"publisher": "野間春生, 大井翔, 松村耕平, 岩永甲午郎, 花岡信太郎 and 友滝清一",
-"conferenceName": "第63回システム制御情報学会研究発表講演会 (SCI’19)",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "健康促進イベントにおける歩行量可視化アプリへのアクセスとユーザの歩行量の関係解析の試み",
-"publisher": "矢野修治, 大槻涼, 杉山治, 松村耕平, 多田昌裕, 野間春生 and 黒田知宏",
-"conferenceName": "第63回システム制御情報学会研究発表講演会 (SCI’19)",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "新生児蘇生における遠隔支援システムの開発と運用実験",
-"publisher": "花岡信太朗, 岩永甲午郎, 花岡信太朗, 友滝清一, 野間春生, 大井翔 and 松村耕平",
-"conferenceName": "第122回日本小児科学会学術集会",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "IT技術を活用した, 新生児蘇生シミュレーション教育用ツールおよび遠隔支援システム開発",
-"publisher": "岩永甲午郎, 花岡信太朗, 友滝清一, 野間春生, 松村耕平 and 西本騰",
-"conferenceName": "日本医療教授システム学会学術集会",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "カメラで撮影された医療健康機器から数値を理解する Digital Symbol Understanding System(DSUS)開発の試み",
-"publisher": "大槻涼, 杉山治, 矢野修治, 松村耕平, 多田昌裕, 野間春生 and 黒田知宏",
-"conferenceName": "第7回日本医療情報学会「医用知能情報学研究会」人工知能学会「医用人工知能研究会」(SIG-AIMED)合同研究会",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "Simulation-based educational tools and system development for remote support in neonatal resuscitation which is applicable to clinical practice",
-"publisher": "Shintaro Hanaoka, Kogoro Iwanaga, Seiichi Tomotaki, Masahiko Kawai, Haruo Noma, Kohei Matsumura and Sho Ooi",
-"conferenceName": "The Pediatric Academic Societies (PAS) 2019 Meeting",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "FraXer: Fragrance Mixer using Cluster Digital Vortex Air Cannon",
-"publisher": "Yuma Sonoda, Koji Ohara, Sho Ooi, Kohei Matsumura, Yasuyuki Yanagida and Haruo Noma",
-"conferenceName": "IEEE Virtual Reality 2019",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "Evaluation of a Virtual Reality-based Baseball Batting Training System using Instantaneous Bat Swing Information",
-"publisher": "Liyuan Zou, Takatoshi Higuchi, Roberto Lopez-Gulliver, Tadao Isaka and Haruo Noma",
-"conferenceName": "IEEE Virtual Reality 2019",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "ゲーミフィケーションに基づく体操支援システムの提案",
-"publisher": "姚舜禹, 大井翔, 松村耕平 and 野間春生",
-"conferenceName": "インタラクション2019論文集",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "講演会の中継における自動カメラスイッチングのための聴衆の注視オブジェクト推定システム",
-"publisher": "村上雄亮, 松村耕平 and 野間春生",
-"conferenceName": "インタラクション2019論文集",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "Long-Term Value of Social Robots through the Eyes of Expert Users",
-"publisher": "Dmitry Dereshev, David Kirk, Kohei Matsumura, and Toshiyuki Maeda",
-"conferenceName": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI ’19)",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3290605.3300896"
-}, 
-{
-"form": "査読付き発表",
-"title": "PokeRepo Go++: One-man Live Reporting System with a Commentator Function",
-"publisher": "Yoshinari Takegawa, Kohei Matsumura, and Hiroyuki Manabe",
-"conferenceName": "Proceedings of the 2019 ACM International Conference on Interactive Experiences for TV and Online Video (TVX ’19)",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3317697.3325126"
-}, 
-{
-"form": "査読なし発表",
-"title": "ペングリップ型デバイスを用いた個人認証の提案",
-"publisher": "岡田一志, 大井翔, 松村耕平 and 野間春生",
-"conferenceName": "インタラクション2019論文集",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "博物館におけるテレプレゼンスロボットのデザインに基づいた遠隔訪問システムの開発",
-"publisher": "老田葵, 松村耕平 and 野間春生",
-"conferenceName": "インタラクション2019論文集",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "クラスタ方式空気砲を用いた香りブレンディングマシンの開発",
-"publisher": "小原光二, 園田祐馬, 大井翔, 松村耕平, 柳田康幸 and 野間春生",
-"conferenceName": "インタラクション2019論文集",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "野球打撃練習を考慮した仮想空間における危険投球回避練習方法の提案と検証",
-"publisher": "山岡仁, Zou Liyuan, 樋口貴俊, Roberto Lopez-Gulliver, 大井翔, 松村耕平, 野間春生 and 伊坂忠夫",
-"conferenceName": "インタラクション2019論文集",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "eSense Veers: A Case Study of Acoustical Manipulation in Walking without Sight both on Subtle and Overt Conditions",
-"publisher": "Kohei Matsumura and Kazushi Okada",
-"conferenceName": "Proceedings of the 1st International Workshop on Earable Computing (EarComp’19)",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3345615.3361135"
-}, 
-{
-"form": "査読付き発表",
-"title": "AroundSense: An Input Method for Gestures around a Smartphone",
-"publisher": "Kaho Kato, Kohei Matsumura, and Yuta Sugiura",
-"conferenceName": "Proceedings of the 26th International Display Workshops (IDW '19)",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "スマートフォンの周辺におけるジェスチャ入力手法",
-"publisher": "加藤花歩, 松村耕平, and 杉浦裕太 ",
-"conferenceName": "エンタテインメントコンピューティングシンポジウム2019論文集",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "イヤフォン形状を活かしたアンビエントディスプレイの提案",
-"publisher": "岡田一志, 松村耕平, and 野間春生",
-"conferenceName": "第27回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2019)",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "論文",
-"title": "デジタル宝探しゲームはショッピングモールにおける親子の買い物行動にどのような影響を与えるか？",
-"publisher": "伊賀尚美, 松村耕平, 若尾あすか, Roberto Lopez-Gulliver and 野間春生",
-"conferenceName": "ヒューマンインタフェース学会論文誌",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.11184/his.21.1_31"
-}, 
-{
-"form": "査読付き発表",
-"title": "自動監視システムのためのCNNの分散処理による送信データ量削減手法",
-"publisher": "池田佳弘, 柳沢豊, 岸野泰恵, 水谷伸, 白井良成, 須山敬之, 松村耕平, and 野間 春生",
-"conferenceName": "マルチメディア,分散協調とモバイルシンポジウム2019論文集",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "スマートフォンの周辺におけるジェスチャ入力手法",
-"publisher": "加藤花歩, 松村耕平, and 杉浦裕太",
-"conferenceName": "エンタテインメントコンピューティングシンポジウム2019論文集",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "Face VAS：顔アイコンを用いた子どもへの感情調査手法",
-"publisher": "川上雄大, 伊賀尚美, 松村耕平, and 野間春生",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション（HCI）",
-"year": 2019, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "Self-Skill Training System for Chest Compressions in Neonatal Resuscitation Workshop",
-"publisher": "Noboru Nishimoto, Reiji Watanabe, Haruo Noma, Kohei Matsumura, Sho Ooi, Kogoro Iwanaga, and Shintaro Hanaoka",
-"conferenceName": "Innovation in Medicine and Healthcare",
-"year": 2020, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1007/978-981-15-5852-8_8"
-}, 
-{
-"form": "査読付き発表",
-"title": "A Smiley Face Icon Creator for Evaluating Emotion with Children",
-"publisher": "Yudai Kawakami, Kohei Matsumura, Naomi Iga, and Haruo Noma",
-"conferenceName": "Proceedings of the 2020 Symposium on Emerging Research from Asia and on Asian Contexts and Cultures (AsianCHI ’20)",
-"year": 2020, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3391203.3391228"
-}, 
-{
-"form": "査読付き発表",
-"title": "ヒトを模した人工触覚の触り動作における素材識別率を向上させる学習モデルの研究  ",
-"publisher": "岡田一志, 下江輝, 大井翔, 松村耕平, 寒川雅之, 杉山治, and 野間春生",
-"conferenceName": "インタラクション2020論文集",
-"year": 2020, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "新生児蘇生法における胸骨圧迫に着目した個人手技訓練システムの研究  ",
-"publisher": "渡邊嶺児, 西本騰, 大井翔, 松村耕平, 野間春生, 花岡信太朗, and 岩永甲午郎",
-"conferenceName": "インタラクション2020論文集",
-"year": 2020, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "講演会のライブ中継の自動化に向けた聴衆の注視対象推定システム",
-"publisher": "村上雄亮, 松村耕平, 大井翔, and 野間春生",
-"conferenceName": "インタラクション2020論文集",
-"year": 2020, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "模擬授業訓練システムのための教員行動可視化に関する研究",
-"publisher": "Wang Yuchen, 大井翔, 松村耕平, and 野間春生",
-"conferenceName": "インタラクション2020論文集",
-"year": 2020, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "NCPR講習会のデブリーフィングにおける振り返り点自動抽出の試み",
-"publisher": "田村香都, 大井翔, 松村耕平, 野間春生, 花岡信太朗, and 岩永甲午郎",
-"conferenceName": "インタラクション2020論文集",
-"year": 2020, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "包丁手技訓練を目的とした把持力信号の自動ストローク切り出し手法の検討",
-"publisher": "川田智晴, 岡田一志, 大井翔, 松村耕平, 寒川雅之, and 野間春生",
-"conferenceName": "インタラクション2020論文集",
-"year": 2020, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "アニメと漫画の相互視聴がもらたす体験の調査",
-"publisher": "大和幸司, 松村耕平, 大井翔, and 野間春生",
-"conferenceName": "インタラクション2020論文集",
-"year": 2020, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "遠隔トレーニングにおける表情の重要性：自重トレーニングワークショップの質的分析による課題抽出とトレーナー支援の提案",
-"publisher": "西村拓海, 松村耕平, and 野間春生",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション（HCI）",
-"year": 2020, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "ポケレポJoin:仮想的な同行体験を支援するワンマンレポートシステムの提案",
-"publisher": "西村南海, 竹川佳成, 松村耕平, and 平田圭二",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション（HCI）",
-"year": 2020, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "論文",
-"title": "Construction of a Switching Support System for Live Broadcast of Oral Presentation",
-"publisher": "Shiori Endo, Yoshinari Takegawa, Kohei Matsumura, Keiji Hirata and Takeo Igarashi",
-"conferenceName": "Journal of Information Processing",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "クラスタデジタル方式空気砲の時間制御による速度向上",
-"publisher": "小川牧葉, 待田航太朗, 大井翔, 松村耕平, 柳田康幸, and 野間春生",
-"conferenceName": "インタラクション2021論文集",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "MEMS触覚センサによる運動時の靴底にかかる力の計測",
-"publisher": "河内彪博, 岡田一志, 大井翔, 松村耕平, 寒川雅之, and 野間春生 ",
-"conferenceName": "インタラクション2021論文集",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "歩行速度に合わせた速度を提示するアクティブトレッドミルの開発",
-"publisher": "久保村尚樹, Denielsen Paulus, 大井翔, 松村耕平, and 野間春生",
-"conferenceName": "インタラクション2021論文集",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "漫画画像を索引としたアニメのシーン探索システムの開発",
-"publisher": "加藤祐樹, 大和幸司, 松村耕平, 大井翔, and 野間春生",
-"conferenceName": "インタラクション2021論文集",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "新任教員の授業力向上のための授業振り返りシステムに関する研究",
-"publisher": "Wang Yuchen, 大井翔, 松村耕平, and 野間春生",
-"conferenceName": "インタラクション2021論文集",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "多視点カメラ映像の選好を収集するための視聴行為を阻害しない映像提示方法の検討",
-"publisher": "遠藤史央里, 竹川佳成, 松村耕平, 平田圭二, and 五十嵐健夫",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション（HCI）",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "端子部への負荷を軽減する FPC を用いた MEMS 触覚センサの実装",
-"publisher": "岡田一志, 川田智晴, 河内彪博, 大井翔, 松村耕平, 寒川雅之, and 野間春生",
-"conferenceName": "ロボティクス・メカトロニクス講演会講演概要集 2020",
-"year": 2020, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "認知処理の違いが食品安全知識に与える影響の検討",
-"publisher": "田村昌彦, 稲津康弘, 野中朋美, 松村耕平, サトウタツヤ, 永井聖剛, 江渡浩一郎, 堀口逸子, 天野祥吾, 松原和也, and 和田有史",
-"conferenceName": "電子情報通信学会技術研究報告; 信学技報",
-"year": 2020, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "登壇発表を対象としたライブ中継のためのマルチカメラ自動スイッチングシステムの提案",
-"publisher": "比佐翔太, 竹川佳成, 松村耕平, 平田圭二, and 五十嵐健夫",
-"conferenceName": "研究報告エンタテインメントコンピューティング (EC)",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "仮想同行体験システムの構築に向けて人間関係性を考慮したユーザインタフェースの提案",
-"publisher": "豊田翔護, 西村南海,  竹川佳成,  松村耕平, and 平田圭二",
-"conferenceName": "研究報告 音楽情報科学 (MUS)",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "ラッセルの円環モデル上に描画された自由曲線に対応する顔アイコンの推薦手法の調査と提案",
-"publisher": "渡邊将太,  川上雄大, and 松村耕平",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション (HCI)",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "サファリパークオンラインツアーシステムの実運用",
-"publisher": "綱谷優,  中村颯流, 竹川佳成,  松村耕平, and 平田圭二",
-"conferenceName": "エンタテインメントコンピューティングシンポジウム 2021 論文集",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "Face AVAS: 時系列を伴う感情の表現が可能な顔アイコン作成システムの提案",
-"publisher": "川上雄大, 松村耕平, and 野間春生",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション (HCI)",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "オンラインツアーにおける状況と人間関係性がツアー参加者の視聴要求に与える影響の調査",
-"publisher": "豊田翔護, 西村南海, 竹川佳成, 松村耕平, and 平田圭二",
-"conferenceName": "研究報告エンタテインメントコンピューティング (EC)",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "インタラクションゲームを用いた自動運転中におけるドライバの周辺環境の注意力の向上",
-"publisher": "藤本遼太, 岡藤勇希, 松村耕平",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション (HCI)",
-"year": 2022, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "サムネイル画像を漫画に置き換えたアニメのシーン探索手法の改善と評価",
-"publisher": "加藤祐樹, 松村耕平, and 岡藤勇希",
-"conferenceName": "エンタテインメントコンピューティングシンポジウム 2022 論文集",
-"year": 2022, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "予定までの時間的余裕を考慮したナビゲーションインターフェイスの提案",
-"publisher": "河野隼一郎, 松村耕平,  and 岡藤勇希",
-"conferenceName": "研究報告エンタテインメントコンピューティング (EC)",
-"year": 2022, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "論文",
-"title": "新生児蘇生訓練のための新生児人形を用いたシミュレータの開発",
-"publisher": "西本騰, 大井翔, 野間春生, 松村耕平, 岩永甲午郎, 花岡信太朗, and 友滝清一",
-"conferenceName": "情報処理学会論文誌デジタルプラクティス（TDP）",
-"year": 2022, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "論文",
-"title": "ダンス動画の模倣は視聴する動画のコンテンツ認識に影響を与えるのか？：被写体と背景への注目度の分析から",
-"publisher": "山西良典, and 松村耕平",
-"conferenceName": "情報処理学会論文誌",
-"year": 2022, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.20729/00222134"
-}, 
-{
-"form": "論文",
-"title": "Investigating the crowd-drawing effect, on passersby, of pseudo-crowds using multiple robots",
-"publisher": "Joichiro Amada, Yuki Okafuji, Kohei Matsumura, Jun Baba, and Junya Nakanishi",
-"conferenceName": "Advanced Robotics",
-"year": 2023, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1080/01691864.2022.2143242"
-}, 
-{
-"form": "論文",
-"title": "公共空間のロボット利用時における恥ずかしさの発生要因とロボット利用への影響の調査",
-"publisher": "岡藤勇希, 牧田昌大, 松村耕平, 馬場惇, and 中西惇也",
-"conferenceName": "情報処理学会論文誌",
-"year": 2023, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.20729/00224249"
-}, 
-{
-"form": "論文",
-"title": "ディスプレイ中の顔画像の方向推定における表示人数や立ち位置の影響に関する調査",
-"publisher": "岸本和大, 松村耕平, 川口一画, and 岡藤 勇希",
-"conferenceName": "情報処理学会論文誌",
-"year": 2023, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.20729/00224246"
-}, 
-{
-"form": "査読なし発表",
-"title": "サファリパークオンラインツアーシステムの開発と富士サファリパークでの実運用",
-"publisher": "綱谷優, 竹川佳成, 松村耕平, and 平田圭二",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション (HCI)",
-"year": 2023, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "英会話はハートがすべてなんで!? キャンユースピークイングリッシュ?",
-"publisher": "山西良典, and 松村耕平",
-"conferenceName": "エンタテインメントコンピューティングシンポジウム 2023 論文集",
-"year": 2023, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "「はぁ」 データセットの構築と音声特徴の基礎分析",
-"publisher": "清野陽平, 山西良典, 辻野雄大, and 松村耕平",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション (EC)",
-"year": 2023, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "論文",
-"title": "ポケレポSafari：富士サファリパーク職員との共創によるサファリパークオンラインツアーシステムの開発とその実運用",
-"publisher": "綱谷優, 竹川佳成, 松村耕平, and 平田圭二",
-"conferenceName": "情報処理学会論文誌",
-"year": 2023, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.20729/00229301"
-}, 
-{
-"form": "査読付き発表",
-"title": "Pokerepo Join: Construction of a Virtual Companion Experience System",
-"publisher": "Minami Nishimura, Yoshinari Takegawa, Kohei Matsumura, and Keiji Hirata",
-"conferenceName": "Lecture Notes in Computer Science",
-"year": 2021, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1007/978-3-030-78468-3_43"
-}, 
-{
-"form": "査読なし発表",
-"title": "環境音付与による音楽印象操作の効果検証",
-"publisher": "藤本直樹, 山西良典, and 松村耕平",
-"conferenceName": "研究報告ヒューマンコンピュータインタラクション (HCI)",
-"year": 2024, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "初心者マークを取り付けたロボットの失敗がユーザの許容度や再利用意欲に与える影響の調査",
-"publisher": "田中舜也, 松村耕平, and 高橋治輝",
-"conferenceName": "研究報告エンタテインメントコンピューティング (EC)",
-"year": 2024, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "主観的ランドマークの提示によるデバイスへの注視を防ぐ歩行用ナビゲーションシステムの研究",
-"publisher": "山下大貴, 松村耕平, and 高橋治輝",
-"conferenceName": "研究報告エンタテインメントコンピューティング (EC)",
-"year": 2024, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "論文",
-"title": "Pseudo-eating behavior of service robot to improve the trustworthiness of product recommendations",
-"publisher": "Yuki Okafuji, Takumi Ishikawa, Kohei Matsumura, Jun Baba, and Junya Nakanishi",
-"conferenceName": "Advanced Robotics",
-"year": 2024, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1080/01691864.2024.2321191"
-}, 
-{
-"form": "査読なし発表",
-"title": "ガブレコ: ジャングルバスのためのオンラインツアーシステムの設計と実装",
-"publisher": "森皐太, 竹川佳成, 松村耕平, 渡邉拓貴, and 平田圭二",
-"conferenceName": "エンタテインメントコンピューティングシンポジウム 2024 論文集",
-"year": 2024, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読なし発表",
-"title": "ゆるやかなファシリテーションをする小型ロボットのインタラクションデザイン",
-"publisher": "牧野倫太郎, 岡藤勇希, 高橋治輝, and 松村耕平",
-"conferenceName": "エンタテインメントコンピューティングシンポジウム 2024 論文集",
-"year": 2024, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "ボタンひとつで3Dプリントが体験できるシステムの提案と運用",
-"publisher": "高橋治輝, 臼井義人, and 松村耕平",
-"conferenceName": "日本ソフトウェア科学会 第32回インタラクティブシステムとソフトウェアに関するワークショップ（WISS2024）",
-"year": 2024, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "HMDを利用したVR環境において通知の重要度に応じて通知領域を動的に変更する手法の検討",
-"publisher": "川久保空真, 高橋治輝, and 松村耕平",
-"conferenceName": "日本ソフトウェア科学会 第32回インタラクティブシステムとソフトウェアに関するワークショップ（WISS2024）",
-"year": 2024, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "Emo-pathy：寄り添いインタラクションによる心理的健康促進システム",
-"publisher": "末永悠之介, 高橋治輝, and 松村耕平",
-"conferenceName": "日本ソフトウェア科学会 第32回インタラクティブシステムとソフトウェアに関するワークショップ（WISS2024）",
-"year": 2024, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "査読付き発表",
-"title": "3Dプリンタ未経験者の理解と利用意欲を高めるためのLithophane造形システム",
-"publisher": "臼井義人, 高橋治輝, and 松村耕平",
-"conferenceName": "日本ソフトウェア科学会 第32回インタラクティブシステムとソフトウェアに関するワークショップ（WISS2024）",
-"year": 2024, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "論文",
-"title": "オンライントレーニングにおいて匿名性を保ったまま集団を意識づける手法の提案",
-"publisher": "岸田裕大, 松村耕平, 西村拓海, and 岡藤勇希",
-"conferenceName": "情報処理学会論文誌",
-"year": 2025, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.20729/0002000030"
-}, 
-{
-"form": "査読付き発表",
-"title": "Changes in Embarrassment Through Repeated Interactions with Robots in Public Spaces",
-"publisher": "Yuki Okafuji, Yuya Mitsui, Kohei Matsumura, Jun Baba, and Junya Nakanishi",
-"conferenceName": "32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
-"year": 2023, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1109/RO-MAN57019.2023.10309409"
-}, 
-{
-"form": "査読付き発表",
-"title": "Investigating the Influence of Task-dependent and Task-independent Robot Behavior on the Impression of Robots and the User Experience",
-"publisher": "Yuki Chamoto, Yuki Okafuji, Kohei Matsumura, Jun Baba, and Junya Nakanishi",
-"conferenceName": "32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
-"year": 2023, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1109/RO-MAN57019.2023.10309453"
-}, 
-{
-"form": "査読なし発表",
-"title": "女性アスリートの Well-being に資するシステム開発事例: 6 カ年の取り組み",
-"publisher": "杉山敬, 寺田昌史, 下澤結花, 栗原俊之, 上田憲嗣, 草川祐生, 堀美幸, 田中貴大, 松村耕平, 西原陽子, 野間春生, and 伊坂忠夫",
-"conferenceName": "立命館大学スポーツ健康科学総合研究所紀要",
-"year": 2024, "abstract": "",
-"imageURL": "",
-"document": ""
-}, 
-{
-"form": "論文",
-"title": "Cat and Dog Behavior Recognition Method Using Deep Learning Approach Based on Inertial Measurement Unit Sensor Data",
-"publisher": "Guanyu Chen, Yoshinari Takegawa, Kohei Matsumura, Hiroki Watanabe, and Keiji Hirata",
-"conferenceName": "Sensors & Materials",
-"year": 2025, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.18494/SAM5359"
-}, 
-{
-"form": "査読付き発表",
-"title": "Ice-kun: A Virtual Pet on a Low Energy Display Controlled by a Large Language Model",
-"publisher": "Febri Abdullah, Augustin Roussely, Benjamin Dayres, Tristan Riehs, Xiaoxu Li, Rintaro Makino, Kohei Matsumura, Haruo Noma, Hideyuki Takada, and Ruck Thawonmas",
-"conferenceName": "IEEE International Conference on Consumer Electronics (ICCE2025)",
-"year": 2025, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1109/ICCE63647.2025.10930195"
-}, 
-{
-"form": "査読付き発表",
-"title": "Investigation on Enhancement of the Sense of Life in Safari Park Online Tours with Animal Breathing Reproduction System",
-"publisher": "Minori Tsuji, Yoshinari Takegawa, Kohei Matsumura, and Keiji Hirata",
-"conferenceName": "Proceedings of the Ninth International Conference on Animal-Computer Interaction (ACI '22)",
-"year": 2023, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1145/3565995.3566024"
-}, 
-{
-"form": "論文",
-"title": "Canine-centric interactive systems: Wavelet-based IMU motion recognition in edge AI scenarios",
-"publisher": "Guanyu Chen, Hiroki Watanabe, Kohei Matsumura, and Yoshinari Takegawa",
-"conferenceName": "Entertainment Computing",
-"year": 2025, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1016/j.entcom.2025.100971"
-}, 
-{
-"form": "論文",
-"title": "A Playful Experience Sampling Method to Measure Emotions Using Smartwatches and Emojis",
-"publisher": "Shota Watanabe, Gaku Kutsuzawa, Yoshiyuki Kobayashi, and Kohei Matsumura",
-"conferenceName": "Entertainment Computing",
-"year": 2025, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1016/j.entcom.2025.100984"
-}, 
-{
-"form": "論文",
-"title": "Dynamic Notification Placement Based on Gaze Concentration in HMD-VR",
-"publisher": "Kuma Kawakubo, Haruki Takahashi, and Kohei Matsumura",
-"conferenceName": "Entertainment Computing",
-"year": 2025, "abstract": "",
-"imageURL": "",
-"document": "https://doi.org/10.1016/j.entcom.2025.100993"
-},
-{
-"form": "論文",
-"title": "The impact of audience avatar movements on presence in virtual live events",
-"publisher": "Yang Guang, Sho Sakurai, Kohei Matsumura, and Yuki Okafuji",
-"conferenceName": "Frontiers in Virtual Reality 6",
-"year": 2025, "abstract": "",
-"imageURL": "",
-"document": "https://dx.doi.org/10.3389/frvir.2025.1655545"
-}]
+[
+  {
+    "form": "論文",
+    "title": "浮世絵の3次元CGアニメーション化の試み",
+    "publisher": "角 康之, 名生 圭佑 and 松村 耕平",
+    "conferenceName": "情報処理学会論文誌デジタルコンテンツ（DCON）",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "展示空間における体験共有を促すロボットガイド",
+    "publisher": "角康之, 松村耕平 and 権瓶匠",
+    "conferenceName": "マルチメディア、分散協調とモバイルシンポジウム2014論文集",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "モバイル端末における複数人によるコンテンツ体験の記録とその応用",
+    "publisher": "松村耕平 and 角康之",
+    "conferenceName": "マルチメディア、分散協調とモバイルシンポジウム2014論文集",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "人は車内においてどのような会話をするのか: 「タイムリー」な情報流通のための一考察",
+    "publisher": "松村耕平 and 角康之",
+    "conferenceName": "インタラクション2014論文集",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "物理エンジンを用いた仮想ロボットコンテストのフレームワーク設計",
+    "publisher": "下田昂平, 松村耕平, Roberto Lopez-Gulliver and 野間春生",
+    "conferenceName": "第19回日本バーチャルリアリティ学会大会論文集",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "VR学習カリキュラムにおける統合開発環境の活用事例",
+    "publisher": "橋口哲志, 松村耕平, 木村朝子 and 野間春生",
+    "conferenceName": "第19回日本バーチャルリアリティ学会大会論文集",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "オノマトペリアリティ:オノマトペを利用した実物体における表現拡張の試み",
+    "publisher": "坂田陵, 松村耕平, Roberto Lopez-Gulliver and 野間春生",
+    "conferenceName": "第19回日本バーチャルリアリティ学会大会論文集",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "仮想空間を用いた野球打撃練習の効率化手法の提案",
+    "publisher": "髙木将樹, 坂本匡, 樋口貴俊, 松村耕平, 伊坂忠夫 and 野間春生",
+    "conferenceName": "第19回日本バーチャルリアリティ学会大会論文集",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "移動感覚の生成におけるキーフレーム画像からの全方位動画像生成技術の研究",
+    "publisher": "畑本敬博, 松村耕平, Roberto Lopez-Gulliver and 野間春生",
+    "conferenceName": "第19回日本バーチャルリアリティ学会大会論文集",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "健康維持のための行動変容を働きかけるソーシャルシステムの開発",
+    "publisher": "鈴木真生, 江指未紗, 若尾あすか, 松村耕平 and 野間春生",
+    "conferenceName": "ヒューマンインタフェースシンポジウム論文集",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "でこぼこキャンバスを用いた立体スケッチシステム",
+    "publisher": "友広歩李, 角康之 and 松村耕平 ",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "複数人の視点映像を利用した図書館内の体験共有支援",
+    "publisher": "和田聖矢, 松村耕平 and 角康之 ",
+    "conferenceName": "研究報告ユビキタスコンピューティングシステム",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Robot behavior designed to encourage conversations between visitors in an exhibition space",
+    "publisher": "Kohei Matsumura, Takumi Gompei and Yasuyuki Sumi",
+    "conferenceName": "The 23rd IEEE International Symposium on Robot and Human Interactive Communication",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1109/ROMAN.2014.6926269"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "What Are You Talking About While Driving?: An Analysis of In-car Conversations Aimed at Conversation Sharing",
+    "publisher": "Kohei Matsumura and Yasuyuki Sumi",
+    "conferenceName": "Proceedings of the 6th International Conference on Automotive User Interfaces and Interactive Vehicular Applications",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/2667317.2667417"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "CarCast: a framework for situated in-car conversation sharing",
+    "publisher": "Kohei Matsumura and Yasuyuki Sumi",
+    "conferenceName": "Proceedings of the 5th Augmented Human International Conference",
+    "year": 2014,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/2582051.2582068"
+  },
+  {
+    "form": "論文",
+    "title": "ウェアラブル実況中継システム",
+    "publisher": "竹川佳成 and 松村耕平",
+    "conferenceName": "情報処理",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "論文",
+    "title": "自動車内における会話と場所の関連性の分析：タイムリーな情報の流通に向けて",
+    "publisher": "松村耕平 and 角康之",
+    "conferenceName": "情報処理学会論文誌",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Treasure hunt game to persuade visitors to walk around a shopping mall",
+    "publisher": "Asuka Wakao, Kohei Matsumura, Mao Suzuki and Haruo Noma",
+    "conferenceName": "2015 IEEE 4th Global Conference on Consumer Electronics",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1109/GCCE.2015.7398555"
+  },
+  {
+    "form": "査読なし発表",
+    "title": "災害急性期における通信の断絶した被災地での通信手段の提案",
+    "publisher": "森琢郎, 松村耕平 and 野間春生",
+    "conferenceName": "第23回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2015) 論文集",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "新生児蘇生法の訓練シミュレータの開発",
+    "publisher": "西原美夏, 松村耕平, 野間春生, 西澤和子 and 黒田知宏",
+    "conferenceName": "第126回ヒューマンインタフェース学会研究会 看護用具・用品開発に関わる研究および一般",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "てくピコ：ショッピングモールにおける宝さがしゲームによる周遊行動の誘導",
+    "publisher": "若尾あすか, 鈴木真生, 松村耕平 and 野間春生",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "複数人の指差しを用いた車内会話の場所への紐付け",
+    "publisher": "坂本匡, 松村耕平 and 野間春生",
+    "conferenceName": "インタラクション2015論文集",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "でこぼこスケッチ: 空間の凹凸情報をキャンバスに見立てた立体スケッチシステム",
+    "publisher": "友広歩李, 角康之 and 松村耕平",
+    "conferenceName": "インタラクション2015論文集",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ぐるペコ: 生活の中でさりげなく運動量を増加させるシステム",
+    "publisher": "鈴木真生, 若尾あすか, 江指未紗, 西原美夏, 松村耕平 and 野間春生",
+    "conferenceName": "インタラクション2015論文集",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "Catching Laughter: 笑顔認識による笑い声収集・共有システム",
+    "publisher": "松村耕平, 矢野圭太 and 野間春生",
+    "conferenceName": "インタラクション2015論文集",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "物体へのオノマトペ重畳環境におけるユーザの動作の分析",
+    "publisher": "坂田陵, 松村耕平, Roberto Lopez-Gulliver and 野間春生",
+    "conferenceName": "インタラクション2015論文集",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "移動データを基に変形した地図による生活時空間の認知",
+    "publisher": "横井逸人, 角康之 and 松村耕平",
+    "conferenceName": "インタラクション2015論文集",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "語のイメージを指標とした言語表現の推薦",
+    "publisher": "田渕健太, 松村耕平, 山西良典 and 野間春生",
+    "conferenceName": "インタラクション2015論文集",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "InCamShare: An Automatic Playlist Creator Employs Users' Shared Experience on Mobile Devices",
+    "publisher": "Kohei Matsumura and Yasuyuki Sumi",
+    "conferenceName": "2015 IEEE 12th International Conference on Ubiquitous Intelligence and Computing",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1109/UIC-ATC-ScalCom-CBDCom-IoP.2015.76"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Drive scenery estimation using image features extracted from roadmap and satellite images",
+    "publisher": "Kenta Oku, Ryosuke Yamanishi, Kohei Matsumura and Kyoji Kawagoe",
+    "conferenceName": "The 16th International Symposium on Advanced Intelligent Systems",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Synthesis of omnidirectional movie using a set of key frame panoramic images",
+    "publisher": "Robert Lopez-Gulliver, Takahiro Hatamoto, Kohei Matsumura and Haruo Noma",
+    "conferenceName": "2015 IEEE Virtual Reality",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1109/VR.2015.7223375"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Studying User-Defined Gestures Toward Off the Screen Interactions",
+    "publisher": "Kohei Matsumura",
+    "conferenceName": "Proceedings of the 2015 International Conference on Interactive Tabletops & Surfaces",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/2817721.2823496"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Stick'n conversation: stick in-car conversation into places using multi person finger pointing gestures",
+    "publisher": "Kohei Matsumura, Tadashi Sakamoto, Haruo Noma, and Yasuyuki Sumi",
+    "conferenceName": "Adjunct Proceedings of the 7th International Conference on Automotive User Interfaces and Interactive Vehicular Applications",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/2809730.2809735"
+  },
+  {
+    "form": "査読なし発表",
+    "title": "Development of a Virtual Robot Competition Framework: Anybody Can Join Anytime from Anywhere",
+    "publisher": "Motoki Sonoda, Kohei Matsumura, Roberto Lopez-Gulliver and Haruo Noma",
+    "conferenceName": "The 7th Asian Joint Workshop on Information Technologies",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "Synthesis of Omni-directional Movies: Study of their Perception while Walking on a Treadmill",
+    "publisher": "Soichiro Tomitaka, Kohei Matsumura, Roberto Lopez-Gulliver and Haruo Noma",
+    "conferenceName": "The 7th Asian Joint Workshop on Information Technologies",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "運動意欲を生み運動習慣の獲得を円滑にする手法の提案",
+    "publisher": "鈴木真生, 若尾あすか, 松村耕平, 多田昌裕 and 野間春生",
+    "conferenceName": "第35回医療情報学連合大会",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "運動習慣獲得におけるチームの効果",
+    "publisher": "鈴木真生, 若尾あすか, 松村耕平, 野間春生, 多田昌裕 and 黒田知宏",
+    "conferenceName": "生体医工学シンポジウム2015",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "仮想ロボットコンテストのフレームワークの開発と実証実験",
+    "publisher": "仮想ロボットコンテストのフレームワークの開発と実証実験",
+    "conferenceName": "第20回日本バーチャルリアリティ学会大会論文集",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "素振りを効果的に実施できる練習支援システムの開発",
+    "publisher": "髙木将樹, 樋口貴俊, 松村耕平, Roberto Lopez-Gulliver, 伊坂忠夫 and 野間春生",
+    "conferenceName": "第20回日本バーチャルリアリティ学会大会論文集",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "トレッドミル上での全周囲映像提示におけるキーフレーム画像間隔に関する研究",
+    "publisher": "富髙宗一郎, 松村耕平, Roberto Lopez-Gulliver and 野間春生",
+    "conferenceName": "第20回日本バーチャルリアリティ学会大会論文集",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "運動習慣の獲得を補助するシステムてくペコの提案",
+    "publisher": "鈴木真生, 若尾あすか, 杉山治, 松村耕平, 多田昌裕, 野間春生 and 黒田知宏",
+    "conferenceName": "ヒューマンインタフェースシンポジウム論文集",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "センサプローブとしてのイヤフォンの可能性の検討",
+    "publisher": "田中瑞輝, 松村耕平 and 野間春生",
+    "conferenceName": "ヒューマンインタフェースシンポジウム論文集",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "道路地図および航空写真の特徴量を用いたドライブ風景の推定",
+    "publisher": "奥健太, 山西良典, 松村耕平 and 川越恭二 ",
+    "conferenceName": "第6回Webインテリジェンスとインタラクション研究会",
+    "year": 2015,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Reporting Solo: A Design of Supporting System for Solo Live Reporting",
+    "publisher": "Kohei Matsumura and Yoshinari Takegawa",
+    "conferenceName": "Proceedings of the 13th International Conference on Advances in Computer Entertainment Technology",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3001773.3001792"
+  },
+  {
+    "form": "論文",
+    "title": "凹凸情報を持つ写真をキャンバスとした立体スケッチシステム",
+    "publisher": "友広歩李, 角康之 and 松村耕平",
+    "conferenceName": "情報処理学会論文誌デジタルコンテンツ（DCON）",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "ポケレポ GO: ワンマンライブレポートシステム",
+    "publisher": "竹川佳成, 松村耕平 and 西村陽菜 ",
+    "conferenceName": "第24回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2016) 論文集",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ポケレポ GO: ワンマンライブレポートシステムの構築",
+    "publisher": "竹川佳成, 松村耕平 and 西村陽菜 ",
+    "conferenceName": "エンタテインメントコンピューティングシンポジウム2016論文集",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "災害時における救助者同士の情報共有を支援するSNSの拡張の提案",
+    "publisher": "神原春香, 河合俊樹, 松村耕平, 野間春生 and 杉山治",
+    "conferenceName": "第24回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2016) 論文集",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "歩行習慣獲得を支援するシステムの開発に向けたユーザの行動解析",
+    "publisher": "大槻涼, 鈴木真生, 松村耕平, 杉山治, 多田昌裕 and 野間春生",
+    "conferenceName": "第24回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2016) 論文集",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "勉強会の{運営・参加}を支援するシステム",
+    "publisher": "中村雄哉, 松村耕平 and 野間春生",
+    "conferenceName": "第24回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2016) 論文集",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "登場人物に注目した動画内のシーン探索支援システム",
+    "publisher": "楢原雅広, 松村耕平 and 野間春生",
+    "conferenceName": "第24回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2016) 論文集",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "リアルタイム実況中継システムにおけるロンバード効果を利用した発話声量の安定化の試み",
+    "publisher": "矢萩智史, 内藤拓海, 松村耕平 and 野間春生",
+    "conferenceName": "第24回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2016) 論文集",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ショッピングモールにおけるグループ来訪者の連続的な気持ちの調査",
+    "publisher": "若尾あすか, 松村耕平, Roberto Lopez-Gulliver, 野間春生",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読あり発表",
+    "title": "Japanese HCI Symposium: Emerging Japanese HCI Research Collection",
+    "publisher": "Kohei Matsumura, Masa Ogata, Saki Sakaguchi, Takashi Ijiri, Takeshi Nishida, Jun Kato, Hiromi Nakamura, Daisuke Sakamoto, and Yoshifumi Kitamura",
+    "conferenceName": "Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/2851581.2856475"
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ショッピングモールにおける大人と子どもの目的の不一致を解決するためのゲームの提案",
+    "publisher": "伊賀尚美, 若尾あすか, 鈴木真生, 松村耕平 and 野間春生",
+    "conferenceName": "ヒューマンインタフェースシンポジウム論文集",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "新生児蘇生法の講習会における受講生の気付きのための新生児蘇生シミュレータの開発",
+    "publisher": "魏亞光, 松村耕平, 野間春生, 西澤和子, 岩永甲午郎 and 黒田知宏",
+    "conferenceName": "第52回日本周産期・新生児医学界学術集会",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "VR空間を利用した野球打撃練習システムの開発 -投球軌道の関数化によるシミュレータの改善-",
+    "publisher": "富高宗一郎, 松村耕平, Roberto Lopez-Gulliver and 野間春生 ",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "センサ組み込み型聴診器を用いた新生児蘇生法訓練シミュレータの提案",
+    "publisher": "西原美夏, 魏亞光, 松村耕平, 野間春生, 西澤和子 and 黒田 知宏",
+    "conferenceName": "インタラクション2016論文集",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "オノマトペのイメージを考慮した可視化による子どもたちの表現能力向上の試み",
+    "publisher": "中佐古真実, 松村耕平 and 野間春生",
+    "conferenceName": "インタラクション2016論文集",
+    "year": 2016,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Vetrina Attori: Scene Seek Support System Focusing on Characters in a Video",
+    "publisher": "Masahiro Narahara, Kohei Matsumura, Roberto Lopez-Gulliver and Haruo Noma",
+    "conferenceName": "IFIP The 16th International Conference on Entertainment Computing 2017",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "NCPR講習に利用可能な安価で効果的なシミュレーション教育システムの開発",
+    "publisher": "西本騰, 野間春生, 松村耕平 and 岩永甲午郎",
+    "conferenceName": "第8回横幹連合コンファレンス",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "歩行の習慣づけにむけた歩数と外的要因の関係性の分析",
+    "publisher": "松村耕平, 鈴木真生, 杉山治 and 野間春生",
+    "conferenceName": "第8回横幹連合コンファレンス",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "仮想環境を用いた鏡像の知覚距離認識の差異に関する実験",
+    "publisher": "岡田侑真, 野間春生, 松村耕平 and 東山篤規",
+    "conferenceName": "日本バーチャルリアリティ学会大会論文集",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "名演説の模倣によるプレゼンテーション能力養成手法の提案",
+    "publisher": "史宇華, 松村耕平, Lopez-Gulliver Roberto and 野間春生",
+    "conferenceName": "日本バーチャルリアリティ学会大会論文集",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "CHI勉強会2017:ネットワーク連携した勉強会とその支援システム",
+    "publisher": "松村耕平, 尾形正泰, 小野哲雄, 加藤淳, 阪口紗季, 坂本大介, 杉本雅則, 角康之, 中村裕美, 西田健志, 樋口啓太, 安尾萌 and 渡邉拓貴 ",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "博物館におけるテレプレゼンスロボットのデザイン",
+    "publisher": "松村耕平, 柴田太一 and 野間春生",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ながはま健康ウォークが見据える未来",
+    "publisher": "黒田知宏, 野間春生, 多田昌裕, 杉山治 and 松村耕平",
+    "conferenceName": "行動変容と社会システム",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "複数の活動量計のセンサデータの差異を吸収する活動識別法の提案",
+    "publisher": "大槻涼, 杉山治, 鈴木真生, 松村耕平 and 多田昌裕",
+    "conferenceName": "システム制御情報学会研究発表講演会講演論文集",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ひと触覚を模した人工触覚モデル実現の試み",
+    "publisher": "下江輝, 松村耕平, 寒川雅之 and 野間春生",
+    "conferenceName": "第18回力触覚の提示と計算研究会",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "安価で効果的なシミュレーション教育システムの開発",
+    "publisher": "西本騰, WEI Yaguang, 松村耕平, 野間春生, 岩永甲午郎 and 黒田知宏",
+    "conferenceName": "第19回新生児呼吸療法モニタリングフォーラム",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Design and Implementation of a Social Networking Service-Based Application for Supporting Disaster Medical Assistance Teams",
+    "publisher": "Toshiki Kawai, Haruka Kambara, Kohei Matsumura, Haruo Noma, Osamu Sugiyama, Manabu Shimoto, Shigeru Ohtsuru and Tomohiro Kuroda",
+    "conferenceName": "International Conference on Innovation in Medicine and Healthcare",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1007/978-3-319-59397-5_18"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Training Simulator for Resuscitation of Neonate with High Effectiveness and Low Introduction Cost",
+    "publisher": "Noboru Nishimoto, Wei Yaguang, Kohei Matsumura, Roberto Lopez-Gulliver, Haruo Noma, Iwanaga Kogoro and Tomohiro Kuroda",
+    "conferenceName": "International Conference on Innovation in Medicine and Healthcare",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1007/978-3-319-59397-5_29"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Design of Virtual Tea Ceremony “Otemae” from Remote Place Using Haptic Retargeting",
+    "publisher": "Yoshihiro Ikeda, Hiromi T.Tanaka, Haruo Noma, Kohei Matsumura and Roberto Lopez-Gulliver",
+    "conferenceName": "2017 International Conference on Culture and Computing",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1109/Culture.and.Computing.2017.26"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Development of Artificial Haptic Model for Human Tactile Sense using Machine Learning",
+    "publisher": "Hikaru Shimoe, Kohei Matsumura, Haruo Noma, Masayuki Sohgawa and Masanori Okuyama",
+    "conferenceName": "IEEE Sensors 2017",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1109/ICSENS.2017.8234173"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Improving Relationships between Parents and Children in Shopping Malls by Using a Digital Treasure Hunting Game",
+    "publisher": "Naomi Iga, Asuka Wakao, Kohei Matsumura, Roberto Lopez-Gulliver and Haruo Noma",
+    "conferenceName": "CHI PLAY Companion '17: Proceedings of the 2017 Annual Symposium on Computer-Human Interaction in Play Companion Extended Abstracts",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読あり発表",
+    "title": "Asian CHI Symposium: Emerging HCI Research Collection",
+    "publisher": "Keita Higuchi, Eunice Sari, Taku Hachisu, Adi Tedjasaputra, Masa Ogata, Masitah Ghazali, Hiromi Nakamura, Ellen Yi Luen Do, Jun Kato, Saki Sakaguchi, Takeshi Nishida, Kohei Matsumura, Daisuke Sakamoto, and Yoshifumi Kitamura",
+    "conferenceName": "Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3027063.3108904"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "When should the Health Promotion Agent Recommend the User to Walk? Approach for Searching an Appropriate Walking Pattern for the User",
+    "publisher": "Ryo Otsuki, Osamu Sugiyama, Kohei Matsumura, Masahiro Tada, Haruo Noma, and Tomohiro Kuroda",
+    "conferenceName": "Proceedings of the 5th International Conference on Human Agent Interaction (HAI ’17)",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3125739.3132589"
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ショッピングモールにおけるグループ来訪者にお互いの気持ちの理解を促進するための買い周り行動振り返りの試み",
+    "publisher": "若尾あすか, 松村耕平, Roberto Lopez-Gulliver and 野間春生",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "歩行の習慣づけにむけた歩数と外的要因の関係性の解析",
+    "publisher": "鈴木真生, 大槻涼, 若尾あすか, 松村耕平, 杉山治, 多田昌裕, 野間春生 and 黒田知宏 ",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "Kinectによる姿勢認識を用いた食事姿勢の計測",
+    "publisher": "史宇華, 松村耕平, Robert Lopez-Gulliver and 野間春生",
+    "conferenceName": "研究報告コンピュータビジョンとイメージメディア",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "モノの動きを表すハンドジェスチャと意味情報の収集システムの提案",
+    "publisher": "田村香都, 松村耕平 and 野間春生",
+    "conferenceName": "第25回インタラクティブシステムとソフトウェアに関するワークショップ(WISS2017)",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "自動運転車で情報を収集するための運転ルートジェネレータの設計",
+    "publisher": "内藤拓海, 松村耕平 and 野間春生",
+    "conferenceName": "第25回インタラクティブシステムとソフトウェアに関するワークショップ(WISS2017)",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "論文",
+    "title": "Embodiment of Guidance Robot Encourages Conversation among Visitors",
+    "publisher": "Kohei Matsumura, Yasuyuki Sumi, and Takumi Gompei",
+    "conferenceName": "Journal of Information Processing",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.2197/ipsjjip.25.352"
+  },
+  {
+    "form": "論文",
+    "title": "Analyzing Listeners' Empathy by Their Nonverbal Behaviors in Bibliobattle",
+    "publisher": "Kohei Matsumura, Yasuyuki Sumi, and Mitsuki Sugiya,",
+    "conferenceName": "Journal of Information Processing",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.2197/ipsjjip.25.361"
+  },
+  {
+    "form": "論文",
+    "title": "運動習慣獲得に向けたチームの効果を用いる試み",
+    "publisher": "鈴木真生, 若尾あすか, 松村耕平, 野間春生, 多田昌裕 and 黒田知宏",
+    "conferenceName": "生体医工学",
+    "year": 2017,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.11239/jsmbe.54.58"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Walking record analysis in the health promotion event with state transition diagram",
+    "publisher": "Ryo Otsuki, Osamu Sugiyama, Kohei Matsumura, Shuji Yano, Masahiro Tada, Haruo Noma and Tomohiro Kuroda",
+    "conferenceName": "The International Symposium on Ubiquitous Healthcare 2018",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "What's Going On?: A Disaster in Disaster Communication Between Medical Teams at Hospitals",
+    "publisher": "Toshiki Kawai, Hiroki Chino, Kohei Matsumura, Haruo Noma, Osamu Sugiyama, Manabu Shimoto, Shigeru Ohtsuru, and Tomohiro Kuroda",
+    "conferenceName": "Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW '18)",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3272973.3274071"
+  },
+  {
+    "form": "査読なし発表",
+    "title": "深層学習を用いた医療機器に表示される数値の認識モデルの提案",
+    "publisher": "大槻涼, 杉山治, 松村耕平, 多田昌裕, 野間春生, 黒田知宏",
+    "conferenceName": "第5回「JAMI医用知能情報学研究会-JSAI医用人工知能研究会」合同研究会",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "健康推進イベント運用のための歩数計読み取りシステム開発の試み",
+    "publisher": "大槻涼, 杉山治, 松村耕平, 多田昌裕, 野間春生, 黒田知宏",
+    "conferenceName": "情報処理学会 第80回全国大会",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "深層学習を用いた医療機器に表示される数値の認識モデルの提案",
+    "publisher": "大槻涼, 杉山治, 松村耕平, 多田昌裕, 野間春生 and 黒田知宏",
+    "conferenceName": "人工知能学会研究会資料",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "野球素振りにおける仮想環境を用いた打者のイメージづくりと2次元画像を用いた視覚フィードバックによる正確性向上の検証",
+    "publisher": "内山 元晴, Zou Liyuan, 樋口 貴俊, Roberto Lopez-Gulliver, 松村耕平, 野間春生 and 伊坂忠夫",
+    "conferenceName": "インタラクション2018論文集",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "PoChotto: Quotes Searching System for Supporting Anime Music Video Creation",
+    "publisher": "Koji Yamato, Kohei Matsumura, Roberto Lopez-Gulliver, and Haruo Noma.",
+    "conferenceName": "Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp '18)",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3267305.3267606"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Doff the Wearable Devices: A Case Study of Ephemeral Experience While Charging Wireless Earbuds",
+    "publisher": "Kazushi Okada, Kohei Matsumura, Roberto Lopez-Gulliver, and Haruo Noma",
+    "conferenceName": "Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp '18)",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3267305.3267589"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "YUGE: Collecting and Evaluating Gestures in a Playful Way",
+    "publisher": "Kazu Tamura, Kohei Matsumura, Roberto Lopez-Gulliver, and Haruo Noma",
+    "conferenceName": "Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp '18)",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3267305.3267591"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Trapunta Attori: AMV Creation Support System Focusing on Characters in a Video",
+    "publisher": "Masahiro Narahara, Kohei Matsumura, Roberto Lopez-Gulliver, and Haruo Noma",
+    "conferenceName": "Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp '18)",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3267305.3267590"
+  },
+  {
+    "form": "査読なし発表",
+    "title": "新生児蘇生シミュレーションに用いる聴診器装着型心音再生モジュールの提案",
+    "publisher": "村田賢弥, 西本騰, 松村耕平, 足立隆弘, 野間春生, 岩永甲午郎 and 黒田知宏",
+    "conferenceName": "インタラクション2018論文集",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "災害派遣医療チーム内におけるSNSベースの情報管理システムの提案と開発",
+    "publisher": "河合俊樹, 茅野宏紀, 神原春香, 松村耕平, 杉山治, 下戸学, 大鶴繁, 野間春生, 黒田知宏",
+    "conferenceName": "インタラクション2018論文集",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "健康促進イベント運用のための歩数計読み取りシステム開発の試み",
+    "publisher": "大槻涼, 杉山治, 松村耕平, 多田昌裕, 野間春生 and 黒田知宏 ",
+    "conferenceName": "情報処理学会 第80回全国大会講演論文集",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "臨床およびシミュレーション教育用に応用可能な新生児蘇生における遠隔支援システムの開発",
+    "publisher": "岩永甲午郎, 花岡信太朗, 友滝清一, 野間春生, 松村耕平 and 西本騰",
+    "conferenceName": "第63回日本新生児成育医学会学術集会",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "臨床への応用が可能な, 新生児蘇生における遠隔支援のためのシミュレーション教育用ツールおよびシステム開発",
+    "publisher": "岩永甲午郎, 花岡信太朗, 友滝清一, 野間春生, 松村耕平 and 西本騰",
+    "conferenceName": "第22回遠隔医療学会学術大会",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ウォーキングイベントでの歩行記録を用いた参加者の歩数遷移解析",
+    "publisher": "大槻涼, 杉山治, 松村耕平, 矢野修治, 多田昌裕, 野間春生 and 黒田知宏",
+    "conferenceName": "超異分野学会大阪フォーラム2018",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ぽちょっと: MAD動画作成のためのシーン検索システム",
+    "publisher": "大和幸司, 松村耕平, and 野間春生",
+    "conferenceName": "第26回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2018)",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ワイヤレスイヤフォンの充電時間をどのように過ごすか",
+    "publisher": "岡田一志, 松村耕平, and 野間春生",
+    "conferenceName": "第26回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2018)",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Simulation-based educational tool and system development for remote support of neonatal resuscitation that can be applied to clinical practice",
+    "publisher": "Kogoro Iwanaga, Shintaro Hanaoka, Seiichi Tomotaki, Haruo Noma, Kohei Matsumura and Noboru Nishimoto",
+    "conferenceName": "20th Congress of the Federation of Asian and Oceania Perinatal Societies 2018 (FAOPS 2018)",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Reduction of Communication Cost for Edge-Heavy Sensor Using Divided CNN",
+    "publisher": "Yoshihiro Ikeda, Yutaka Yanagisawa, Yasue Kishino, Shin Mizutani, Yoshinari Shirai, Takayuki Suyama, Kohei Matsumura and Haruo Noma",
+    "conferenceName": "The 24th IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA2018)",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1109/RTCSA.2018.00042"
+  },
+  {
+    "form": "査読なし発表",
+    "title": "YUGE: 手振りコーパスのための手振りと評価を楽しく収集する方法の提案",
+    "publisher": "田村香都, 松村耕平, and  野間春生",
+    "conferenceName": "第26回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2018)",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "恒常法に基づく仮想環境を用いた鏡像の知覚距離認識",
+    "publisher": "岡田侑真, 野間春生, 松村耕平 and 東山篤規",
+    "conferenceName": "第23回日本バーチャルリアリティ学会大会論文集",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "クラスタ方式空気砲の設計と評価クラスタ方式空気砲の設計と評価",
+    "publisher": "園田祐馬, 大井翔, 松村耕平, 柳田康幸 and 野間春生",
+    "conferenceName": "第23回日本バーチャルリアリティ学会大会論文集",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "顔アイコンを用いた子ども向け感情調査手法の提案",
+    "publisher": "伊賀尚美, 松村耕平, 大井翔, Roberto Lopez-Gulliver and 野間春生",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション（HCI）",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "新生児蘇生講習のためのシミュレータの開発とその効果検証",
+    "publisher": "西本騰, 野間春生, 松村耕平, 岩永 甲午郎, 花岡伸太朗 and 友滝清一",
+    "conferenceName": "第6回日本シミュレーション医療教育学会学術大会",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "人はカーウィンドウを通してどのように風景と関わり合うのか：インタラクティブカーウィンドウの設計と評価",
+    "publisher": "松村耕平 and David S. Kirk",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション（HCI）",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "登壇発表におけるライブ中継のためのスイッチング支援システムの改良とその評価",
+    "publisher": "遠藤 史央里, 竹川 佳成, 松村 耕平, 平田 圭二, and 五十嵐 健夫",
+    "conferenceName": "研究報告エンタテインメントコンピューティング（EC）",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ポケレポGO++=ポケレポGO+コメンテータ機能",
+    "publisher": "竹川 佳成, 宇井 さつき, 松村 耕平, and 真鍋 宏幸 ",
+    "conferenceName": "研究報告エンタテインメントコンピューティング（EC）",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "論文",
+    "title": "On Active Passengering: Supporting In-Car Experiences",
+    "publisher": "Kohei Matsumura and David Kirk",
+    "conferenceName": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3161176"
+  },
+  {
+    "form": "論文",
+    "title": "ポケレポGO: ワンマンライブレポートシステム",
+    "publisher": "竹川佳成 and 松村耕平",
+    "conferenceName": "コンピュータソフトウェア",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.11309/jssst.35.2_95"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "登壇発表におけるライブ中継のためのスイッチング支援システムの構築",
+    "publisher": "竹川佳成, 松村耕平, 船木綾香, 遠藤史央里, 平田圭二, and 五十嵐健夫",
+    "conferenceName": "第26回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2018)",
+    "year": 2018,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "新生児蘇生講習シミュレータの VR 感覚の応用と効果",
+    "publisher": "野間春生, 大井翔, 松村耕平, 岩永甲午郎, 花岡信太郎 and 友滝清一",
+    "conferenceName": "第63回システム制御情報学会研究発表講演会 (SCI’19)",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "健康促進イベントにおける歩行量可視化アプリへのアクセスとユーザの歩行量の関係解析の試み",
+    "publisher": "矢野修治, 大槻涼, 杉山治, 松村耕平, 多田昌裕, 野間春生 and 黒田知宏",
+    "conferenceName": "第63回システム制御情報学会研究発表講演会 (SCI’19)",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "新生児蘇生における遠隔支援システムの開発と運用実験",
+    "publisher": "花岡信太朗, 岩永甲午郎, 花岡信太朗, 友滝清一, 野間春生, 大井翔 and 松村耕平",
+    "conferenceName": "第122回日本小児科学会学術集会",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "IT技術を活用した, 新生児蘇生シミュレーション教育用ツールおよび遠隔支援システム開発",
+    "publisher": "岩永甲午郎, 花岡信太朗, 友滝清一, 野間春生, 松村耕平 and 西本騰",
+    "conferenceName": "日本医療教授システム学会学術集会",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "カメラで撮影された医療健康機器から数値を理解する Digital Symbol Understanding System(DSUS)開発の試み",
+    "publisher": "大槻涼, 杉山治, 矢野修治, 松村耕平, 多田昌裕, 野間春生 and 黒田知宏",
+    "conferenceName": "第7回日本医療情報学会「医用知能情報学研究会」人工知能学会「医用人工知能研究会」(SIG-AIMED)合同研究会",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Simulation-based educational tools and system development for remote support in neonatal resuscitation which is applicable to clinical practice",
+    "publisher": "Shintaro Hanaoka, Kogoro Iwanaga, Seiichi Tomotaki, Masahiko Kawai, Haruo Noma, Kohei Matsumura and Sho Ooi",
+    "conferenceName": "The Pediatric Academic Societies (PAS) 2019 Meeting",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "FraXer: Fragrance Mixer using Cluster Digital Vortex Air Cannon",
+    "publisher": "Yuma Sonoda, Koji Ohara, Sho Ooi, Kohei Matsumura, Yasuyuki Yanagida and Haruo Noma",
+    "conferenceName": "IEEE Virtual Reality 2019",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Evaluation of a Virtual Reality-based Baseball Batting Training System using Instantaneous Bat Swing Information",
+    "publisher": "Liyuan Zou, Takatoshi Higuchi, Roberto Lopez-Gulliver, Tadao Isaka and Haruo Noma",
+    "conferenceName": "IEEE Virtual Reality 2019",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ゲーミフィケーションに基づく体操支援システムの提案",
+    "publisher": "姚舜禹, 大井翔, 松村耕平 and 野間春生",
+    "conferenceName": "インタラクション2019論文集",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "講演会の中継における自動カメラスイッチングのための聴衆の注視オブジェクト推定システム",
+    "publisher": "村上雄亮, 松村耕平 and 野間春生",
+    "conferenceName": "インタラクション2019論文集",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Long-Term Value of Social Robots through the Eyes of Expert Users",
+    "publisher": "Dmitry Dereshev, David Kirk, Kohei Matsumura, and Toshiyuki Maeda",
+    "conferenceName": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI ’19)",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3290605.3300896"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "PokeRepo Go++: One-man Live Reporting System with a Commentator Function",
+    "publisher": "Yoshinari Takegawa, Kohei Matsumura, and Hiroyuki Manabe",
+    "conferenceName": "Proceedings of the 2019 ACM International Conference on Interactive Experiences for TV and Online Video (TVX ’19)",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3317697.3325126"
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ペングリップ型デバイスを用いた個人認証の提案",
+    "publisher": "岡田一志, 大井翔, 松村耕平 and 野間春生",
+    "conferenceName": "インタラクション2019論文集",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "博物館におけるテレプレゼンスロボットのデザインに基づいた遠隔訪問システムの開発",
+    "publisher": "老田葵, 松村耕平 and 野間春生",
+    "conferenceName": "インタラクション2019論文集",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "クラスタ方式空気砲を用いた香りブレンディングマシンの開発",
+    "publisher": "小原光二, 園田祐馬, 大井翔, 松村耕平, 柳田康幸 and 野間春生",
+    "conferenceName": "インタラクション2019論文集",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "野球打撃練習を考慮した仮想空間における危険投球回避練習方法の提案と検証",
+    "publisher": "山岡仁, Zou Liyuan, 樋口貴俊, Roberto Lopez-Gulliver, 大井翔, 松村耕平, 野間春生 and 伊坂忠夫",
+    "conferenceName": "インタラクション2019論文集",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "eSense Veers: A Case Study of Acoustical Manipulation in Walking without Sight both on Subtle and Overt Conditions",
+    "publisher": "Kohei Matsumura and Kazushi Okada",
+    "conferenceName": "Proceedings of the 1st International Workshop on Earable Computing (EarComp’19)",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3345615.3361135"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "AroundSense: An Input Method for Gestures around a Smartphone",
+    "publisher": "Kaho Kato, Kohei Matsumura, and Yuta Sugiura",
+    "conferenceName": "Proceedings of the 26th International Display Workshops (IDW '19)",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "スマートフォンの周辺におけるジェスチャ入力手法",
+    "publisher": "加藤花歩, 松村耕平, and 杉浦裕太 ",
+    "conferenceName": "エンタテインメントコンピューティングシンポジウム2019論文集",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "イヤフォン形状を活かしたアンビエントディスプレイの提案",
+    "publisher": "岡田一志, 松村耕平, and 野間春生",
+    "conferenceName": "第27回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2019)",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "論文",
+    "title": "デジタル宝探しゲームはショッピングモールにおける親子の買い物行動にどのような影響を与えるか？",
+    "publisher": "伊賀尚美, 松村耕平, 若尾あすか, Roberto Lopez-Gulliver and 野間春生",
+    "conferenceName": "ヒューマンインタフェース学会論文誌",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.11184/his.21.1_31"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "自動監視システムのためのCNNの分散処理による送信データ量削減手法",
+    "publisher": "池田佳弘, 柳沢豊, 岸野泰恵, 水谷伸, 白井良成, 須山敬之, 松村耕平, and 野間 春生",
+    "conferenceName": "マルチメディア,分散協調とモバイルシンポジウム2019論文集",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "スマートフォンの周辺におけるジェスチャ入力手法",
+    "publisher": "加藤花歩, 松村耕平, and 杉浦裕太",
+    "conferenceName": "エンタテインメントコンピューティングシンポジウム2019論文集",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "Face VAS：顔アイコンを用いた子どもへの感情調査手法",
+    "publisher": "川上雄大, 伊賀尚美, 松村耕平, and 野間春生",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション（HCI）",
+    "year": 2019,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Self-Skill Training System for Chest Compressions in Neonatal Resuscitation Workshop",
+    "publisher": "Noboru Nishimoto, Reiji Watanabe, Haruo Noma, Kohei Matsumura, Sho Ooi, Kogoro Iwanaga, and Shintaro Hanaoka",
+    "conferenceName": "Innovation in Medicine and Healthcare",
+    "year": 2020,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1007/978-981-15-5852-8_8"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "A Smiley Face Icon Creator for Evaluating Emotion with Children",
+    "publisher": "Yudai Kawakami, Kohei Matsumura, Naomi Iga, and Haruo Noma",
+    "conferenceName": "Proceedings of the 2020 Symposium on Emerging Research from Asia and on Asian Contexts and Cultures (AsianCHI ’20)",
+    "year": 2020,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3391203.3391228"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "ヒトを模した人工触覚の触り動作における素材識別率を向上させる学習モデルの研究  ",
+    "publisher": "岡田一志, 下江輝, 大井翔, 松村耕平, 寒川雅之, 杉山治, and 野間春生",
+    "conferenceName": "インタラクション2020論文集",
+    "year": 2020,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "新生児蘇生法における胸骨圧迫に着目した個人手技訓練システムの研究  ",
+    "publisher": "渡邊嶺児, 西本騰, 大井翔, 松村耕平, 野間春生, 花岡信太朗, and 岩永甲午郎",
+    "conferenceName": "インタラクション2020論文集",
+    "year": 2020,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "講演会のライブ中継の自動化に向けた聴衆の注視対象推定システム",
+    "publisher": "村上雄亮, 松村耕平, 大井翔, and 野間春生",
+    "conferenceName": "インタラクション2020論文集",
+    "year": 2020,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "模擬授業訓練システムのための教員行動可視化に関する研究",
+    "publisher": "Wang Yuchen, 大井翔, 松村耕平, and 野間春生",
+    "conferenceName": "インタラクション2020論文集",
+    "year": 2020,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "NCPR講習会のデブリーフィングにおける振り返り点自動抽出の試み",
+    "publisher": "田村香都, 大井翔, 松村耕平, 野間春生, 花岡信太朗, and 岩永甲午郎",
+    "conferenceName": "インタラクション2020論文集",
+    "year": 2020,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "包丁手技訓練を目的とした把持力信号の自動ストローク切り出し手法の検討",
+    "publisher": "川田智晴, 岡田一志, 大井翔, 松村耕平, 寒川雅之, and 野間春生",
+    "conferenceName": "インタラクション2020論文集",
+    "year": 2020,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "アニメと漫画の相互視聴がもらたす体験の調査",
+    "publisher": "大和幸司, 松村耕平, 大井翔, and 野間春生",
+    "conferenceName": "インタラクション2020論文集",
+    "year": 2020,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "遠隔トレーニングにおける表情の重要性：自重トレーニングワークショップの質的分析による課題抽出とトレーナー支援の提案",
+    "publisher": "西村拓海, 松村耕平, and 野間春生",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション（HCI）",
+    "year": 2020,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ポケレポJoin:仮想的な同行体験を支援するワンマンレポートシステムの提案",
+    "publisher": "西村南海, 竹川佳成, 松村耕平, and 平田圭二",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション（HCI）",
+    "year": 2020,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "論文",
+    "title": "Construction of a Switching Support System for Live Broadcast of Oral Presentation",
+    "publisher": "Shiori Endo, Yoshinari Takegawa, Kohei Matsumura, Keiji Hirata and Takeo Igarashi",
+    "conferenceName": "Journal of Information Processing",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "クラスタデジタル方式空気砲の時間制御による速度向上",
+    "publisher": "小川牧葉, 待田航太朗, 大井翔, 松村耕平, 柳田康幸, and 野間春生",
+    "conferenceName": "インタラクション2021論文集",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "MEMS触覚センサによる運動時の靴底にかかる力の計測",
+    "publisher": "河内彪博, 岡田一志, 大井翔, 松村耕平, 寒川雅之, and 野間春生 ",
+    "conferenceName": "インタラクション2021論文集",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "歩行速度に合わせた速度を提示するアクティブトレッドミルの開発",
+    "publisher": "久保村尚樹, Denielsen Paulus, 大井翔, 松村耕平, and 野間春生",
+    "conferenceName": "インタラクション2021論文集",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "漫画画像を索引としたアニメのシーン探索システムの開発",
+    "publisher": "加藤祐樹, 大和幸司, 松村耕平, 大井翔, and 野間春生",
+    "conferenceName": "インタラクション2021論文集",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "新任教員の授業力向上のための授業振り返りシステムに関する研究",
+    "publisher": "Wang Yuchen, 大井翔, 松村耕平, and 野間春生",
+    "conferenceName": "インタラクション2021論文集",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "多視点カメラ映像の選好を収集するための視聴行為を阻害しない映像提示方法の検討",
+    "publisher": "遠藤史央里, 竹川佳成, 松村耕平, 平田圭二, and 五十嵐健夫",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション（HCI）",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "端子部への負荷を軽減する FPC を用いた MEMS 触覚センサの実装",
+    "publisher": "岡田一志, 川田智晴, 河内彪博, 大井翔, 松村耕平, 寒川雅之, and 野間春生",
+    "conferenceName": "ロボティクス・メカトロニクス講演会講演概要集 2020",
+    "year": 2020,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "認知処理の違いが食品安全知識に与える影響の検討",
+    "publisher": "田村昌彦, 稲津康弘, 野中朋美, 松村耕平, サトウタツヤ, 永井聖剛, 江渡浩一郎, 堀口逸子, 天野祥吾, 松原和也, and 和田有史",
+    "conferenceName": "電子情報通信学会技術研究報告; 信学技報",
+    "year": 2020,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "登壇発表を対象としたライブ中継のためのマルチカメラ自動スイッチングシステムの提案",
+    "publisher": "比佐翔太, 竹川佳成, 松村耕平, 平田圭二, and 五十嵐健夫",
+    "conferenceName": "研究報告エンタテインメントコンピューティング (EC)",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "仮想同行体験システムの構築に向けて人間関係性を考慮したユーザインタフェースの提案",
+    "publisher": "豊田翔護, 西村南海,  竹川佳成,  松村耕平, and 平田圭二",
+    "conferenceName": "研究報告 音楽情報科学 (MUS)",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ラッセルの円環モデル上に描画された自由曲線に対応する顔アイコンの推薦手法の調査と提案",
+    "publisher": "渡邊将太,  川上雄大, and 松村耕平",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション (HCI)",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "サファリパークオンラインツアーシステムの実運用",
+    "publisher": "綱谷優,  中村颯流, 竹川佳成,  松村耕平, and 平田圭二",
+    "conferenceName": "エンタテインメントコンピューティングシンポジウム 2021 論文集",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "Face AVAS: 時系列を伴う感情の表現が可能な顔アイコン作成システムの提案",
+    "publisher": "川上雄大, 松村耕平, and 野間春生",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション (HCI)",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "オンラインツアーにおける状況と人間関係性がツアー参加者の視聴要求に与える影響の調査",
+    "publisher": "豊田翔護, 西村南海, 竹川佳成, 松村耕平, and 平田圭二",
+    "conferenceName": "研究報告エンタテインメントコンピューティング (EC)",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "インタラクションゲームを用いた自動運転中におけるドライバの周辺環境の注意力の向上",
+    "publisher": "藤本遼太, 岡藤勇希, 松村耕平",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション (HCI)",
+    "year": 2022,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "サムネイル画像を漫画に置き換えたアニメのシーン探索手法の改善と評価",
+    "publisher": "加藤祐樹, 松村耕平, and 岡藤勇希",
+    "conferenceName": "エンタテインメントコンピューティングシンポジウム 2022 論文集",
+    "year": 2022,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "予定までの時間的余裕を考慮したナビゲーションインターフェイスの提案",
+    "publisher": "河野隼一郎, 松村耕平,  and 岡藤勇希",
+    "conferenceName": "研究報告エンタテインメントコンピューティング (EC)",
+    "year": 2022,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "論文",
+    "title": "新生児蘇生訓練のための新生児人形を用いたシミュレータの開発",
+    "publisher": "西本騰, 大井翔, 野間春生, 松村耕平, 岩永甲午郎, 花岡信太朗, and 友滝清一",
+    "conferenceName": "情報処理学会論文誌デジタルプラクティス（TDP）",
+    "year": 2022,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "論文",
+    "title": "ダンス動画の模倣は視聴する動画のコンテンツ認識に影響を与えるのか？：被写体と背景への注目度の分析から",
+    "publisher": "山西良典, and 松村耕平",
+    "conferenceName": "情報処理学会論文誌",
+    "year": 2022,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.20729/00222134"
+  },
+  {
+    "form": "論文",
+    "title": "Investigating the crowd-drawing effect, on passersby, of pseudo-crowds using multiple robots",
+    "publisher": "Joichiro Amada, Yuki Okafuji, Kohei Matsumura, Jun Baba, and Junya Nakanishi",
+    "conferenceName": "Advanced Robotics",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1080/01691864.2022.2143242"
+  },
+  {
+    "form": "論文",
+    "title": "公共空間のロボット利用時における恥ずかしさの発生要因とロボット利用への影響の調査",
+    "publisher": "岡藤勇希, 牧田昌大, 松村耕平, 馬場惇, and 中西惇也",
+    "conferenceName": "情報処理学会論文誌",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.20729/00224249"
+  },
+  {
+    "form": "論文",
+    "title": "ディスプレイ中の顔画像の方向推定における表示人数や立ち位置の影響に関する調査",
+    "publisher": "岸本和大, 松村耕平, 川口一画, and 岡藤 勇希",
+    "conferenceName": "情報処理学会論文誌",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.20729/00224246"
+  },
+  {
+    "form": "査読なし発表",
+    "title": "サファリパークオンラインツアーシステムの開発と富士サファリパークでの実運用",
+    "publisher": "綱谷優, 竹川佳成, 松村耕平, and 平田圭二",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション (HCI)",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "英会話はハートがすべてなんで!? キャンユースピークイングリッシュ?",
+    "publisher": "山西良典, and 松村耕平",
+    "conferenceName": "エンタテインメントコンピューティングシンポジウム 2023 論文集",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "「はぁ」 データセットの構築と音声特徴の基礎分析",
+    "publisher": "清野陽平, 山西良典, 辻野雄大, and 松村耕平",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション (EC)",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "論文",
+    "title": "ポケレポSafari：富士サファリパーク職員との共創によるサファリパークオンラインツアーシステムの開発とその実運用",
+    "publisher": "綱谷優, 竹川佳成, 松村耕平, and 平田圭二",
+    "conferenceName": "情報処理学会論文誌",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.20729/00229301"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Pokerepo Join: Construction of a Virtual Companion Experience System",
+    "publisher": "Minami Nishimura, Yoshinari Takegawa, Kohei Matsumura, and Keiji Hirata",
+    "conferenceName": "Lecture Notes in Computer Science",
+    "year": 2021,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1007/978-3-030-78468-3_43"
+  },
+  {
+    "form": "査読なし発表",
+    "title": "環境音付与による音楽印象操作の効果検証",
+    "publisher": "藤本直樹, 山西良典, and 松村耕平",
+    "conferenceName": "研究報告ヒューマンコンピュータインタラクション (HCI)",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "初心者マークを取り付けたロボットの失敗がユーザの許容度や再利用意欲に与える影響の調査",
+    "publisher": "田中舜也, 松村耕平, and 高橋治輝",
+    "conferenceName": "研究報告エンタテインメントコンピューティング (EC)",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "主観的ランドマークの提示によるデバイスへの注視を防ぐ歩行用ナビゲーションシステムの研究",
+    "publisher": "山下大貴, 松村耕平, and 高橋治輝",
+    "conferenceName": "研究報告エンタテインメントコンピューティング (EC)",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "論文",
+    "title": "Pseudo-eating behavior of service robot to improve the trustworthiness of product recommendations",
+    "publisher": "Yuki Okafuji, Takumi Ishikawa, Kohei Matsumura, Jun Baba, and Junya Nakanishi",
+    "conferenceName": "Advanced Robotics",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1080/01691864.2024.2321191"
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ガブレコ: ジャングルバスのためのオンラインツアーシステムの設計と実装",
+    "publisher": "森皐太, 竹川佳成, 松村耕平, 渡邉拓貴, and 平田圭二",
+    "conferenceName": "エンタテインメントコンピューティングシンポジウム 2024 論文集",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読なし発表",
+    "title": "ゆるやかなファシリテーションをする小型ロボットのインタラクションデザイン",
+    "publisher": "牧野倫太郎, 岡藤勇希, 高橋治輝, and 松村耕平",
+    "conferenceName": "エンタテインメントコンピューティングシンポジウム 2024 論文集",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "ボタンひとつで3Dプリントが体験できるシステムの提案と運用",
+    "publisher": "高橋治輝, 臼井義人, and 松村耕平",
+    "conferenceName": "日本ソフトウェア科学会 第32回インタラクティブシステムとソフトウェアに関するワークショップ（WISS2024）",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "HMDを利用したVR環境において通知の重要度に応じて通知領域を動的に変更する手法の検討",
+    "publisher": "川久保空真, 高橋治輝, and 松村耕平",
+    "conferenceName": "日本ソフトウェア科学会 第32回インタラクティブシステムとソフトウェアに関するワークショップ（WISS2024）",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Emo-pathy：寄り添いインタラクションによる心理的健康促進システム",
+    "publisher": "末永悠之介, 高橋治輝, and 松村耕平",
+    "conferenceName": "日本ソフトウェア科学会 第32回インタラクティブシステムとソフトウェアに関するワークショップ（WISS2024）",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "査読付き発表",
+    "title": "3Dプリンタ未経験者の理解と利用意欲を高めるためのLithophane造形システム",
+    "publisher": "臼井義人, 高橋治輝, and 松村耕平",
+    "conferenceName": "日本ソフトウェア科学会 第32回インタラクティブシステムとソフトウェアに関するワークショップ（WISS2024）",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "論文",
+    "title": "オンライントレーニングにおいて匿名性を保ったまま集団を意識づける手法の提案",
+    "publisher": "岸田裕大, 松村耕平, 西村拓海, and 岡藤勇希",
+    "conferenceName": "情報処理学会論文誌",
+    "year": 2025,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.20729/0002000030"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Changes in Embarrassment Through Repeated Interactions with Robots in Public Spaces",
+    "publisher": "Yuki Okafuji, Yuya Mitsui, Kohei Matsumura, Jun Baba, and Junya Nakanishi",
+    "conferenceName": "32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1109/RO-MAN57019.2023.10309409"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Investigating the Influence of Task-dependent and Task-independent Robot Behavior on the Impression of Robots and the User Experience",
+    "publisher": "Yuki Chamoto, Yuki Okafuji, Kohei Matsumura, Jun Baba, and Junya Nakanishi",
+    "conferenceName": "32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1109/RO-MAN57019.2023.10309453"
+  },
+  {
+    "form": "査読なし発表",
+    "title": "女性アスリートの Well-being に資するシステム開発事例: 6 カ年の取り組み",
+    "publisher": "杉山敬, 寺田昌史, 下澤結花, 栗原俊之, 上田憲嗣, 草川祐生, 堀美幸, 田中貴大, 松村耕平, 西原陽子, 野間春生, and 伊坂忠夫",
+    "conferenceName": "立命館大学スポーツ健康科学総合研究所紀要",
+    "year": 2024,
+    "abstract": "",
+    "imageURL": "",
+    "document": ""
+  },
+  {
+    "form": "論文",
+    "title": "Cat and Dog Behavior Recognition Method Using Deep Learning Approach Based on Inertial Measurement Unit Sensor Data",
+    "publisher": "Guanyu Chen, Yoshinari Takegawa, Kohei Matsumura, Hiroki Watanabe, and Keiji Hirata",
+    "conferenceName": "Sensors & Materials",
+    "year": 2025,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.18494/SAM5359"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Ice-kun: A Virtual Pet on a Low Energy Display Controlled by a Large Language Model",
+    "publisher": "Febri Abdullah, Augustin Roussely, Benjamin Dayres, Tristan Riehs, Xiaoxu Li, Rintaro Makino, Kohei Matsumura, Haruo Noma, Hideyuki Takada, and Ruck Thawonmas",
+    "conferenceName": "IEEE International Conference on Consumer Electronics (ICCE2025)",
+    "year": 2025,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1109/ICCE63647.2025.10930195"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Investigation on Enhancement of the Sense of Life in Safari Park Online Tours with Animal Breathing Reproduction System",
+    "publisher": "Minori Tsuji, Yoshinari Takegawa, Kohei Matsumura, and Keiji Hirata",
+    "conferenceName": "Proceedings of the Ninth International Conference on Animal-Computer Interaction (ACI '22)",
+    "year": 2023,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1145/3565995.3566024"
+  },
+  {
+    "form": "論文",
+    "title": "Canine-centric interactive systems: Wavelet-based IMU motion recognition in edge AI scenarios",
+    "publisher": "Guanyu Chen, Hiroki Watanabe, Kohei Matsumura, and Yoshinari Takegawa",
+    "conferenceName": "Entertainment Computing",
+    "year": 2025,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1016/j.entcom.2025.100971"
+  },
+  {
+    "form": "論文",
+    "title": "A Playful Experience Sampling Method to Measure Emotions Using Smartwatches and Emojis",
+    "publisher": "Shota Watanabe, Gaku Kutsuzawa, Yoshiyuki Kobayashi, and Kohei Matsumura",
+    "conferenceName": "Entertainment Computing",
+    "year": 2025,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1016/j.entcom.2025.100984"
+  },
+  {
+    "form": "論文",
+    "title": "Dynamic Notification Placement Based on Gaze Concentration in HMD-VR",
+    "publisher": "Kuma Kawakubo, Haruki Takahashi, and Kohei Matsumura",
+    "conferenceName": "Entertainment Computing",
+    "year": 2025,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://doi.org/10.1016/j.entcom.2025.100993"
+  },
+  {
+    "form": "論文",
+    "title": "The impact of audience avatar movements on presence in virtual live events",
+    "publisher": "Yang Guang, Sho Sakurai, Kohei Matsumura, and Yuki Okafuji",
+    "conferenceName": "Frontiers in Virtual Reality 6",
+    "year": 2025,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://dx.doi.org/10.3389/frvir.2025.1655545"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Purikura-Fab：3Dプリンタ未経験者の造形プロセス理解と利用意欲を促進する体験型システムの開発",
+    "publisher": "臼井 義人, 高橋 治輝 and 松村 耕平",
+    "conferenceName": "日本ソフトウェア科学会 第33回インタラクティブシステムとソフトウェアに関するワークショップ（WISS2025）",
+    "year": 2025,
+    "abstract": "Purikura-Fabɿ3D生成システムは、プリクラ撮影後の写真を元に、3Dプリント可能な3Dモデルを自動生成するシステムである。従来の3Dプリントは、3Dモデルの作成に専門的な知識が必要であり、一般ユーザーにとってハードルが高い。本システムでは、Web上で写真をアップロードするだけで、AIを用いて3Dモデルを生成し、3Dプリンタで出力可能な形式に変換する。これにより、誰でも手軽に自分だけの3Dプリクラを作成できる体験を提供する。",
+    "imageURL": "",
+    "document": "https://www.wiss.org/WISS2025Proceedings/data/paper/11.pdf"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Paper Gallery: 論文要約スライドをコミュニティの資産に",
+    "publisher": "牧野 倫太郎, 高橋 治輝 and 松村 耕平",
+    "conferenceName": "日本ソフトウェア科学会 第33回インタラクティブシステムとソフトウェアに関するワークショップ（WISS2025）",
+    "year": 2025,
+    "abstract": "",
+    "imageURL": "",
+    "document": "https://www.wiss.org/WISS2025Proceedings/data/paper/13.pdf"
+  },
+  {
+    "form": "査読付き発表",
+    "title": "Multiple Robots Enable Moderate Facilitation Through Approaching Movements in Group Discussions",
+    "publisher": "Rintaro Makino, Yuki Okafuji, Haruki Takahashi, and Kohei Matsumura",
+    "conferenceName": "Entertainment Computing",
+    "year": 2025,
+    "abstract": "In group discussions, facilitation is often employed to encourage equal participation among members. However, excessively directive methods disrupt the natural flow of discussion, whereas excessively passive methods fail to ensure equal participation. In this paper,...",
+    "imageURL": "",
+    "document": "https://doi.org/10.1007/978-3-032-02555-5_53"
+  }
+]

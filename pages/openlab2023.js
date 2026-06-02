@@ -78,7 +78,7 @@ export function Lablife() {
               {person.name}
                 </p>
                 <p className="sm:text-xs md:text-sm text-gray-500 truncate">
-                  {person.master? ("ある修士学生の場合"):("ある学部学生の場合")}
+                  {person.degree === 'doctoral' ? 'ある博士学生の場合' : person.degree === 'master' ? 'ある修士学生の場合' : 'ある学部学生の場合'}
                 </p>
               </a>
             </div>
